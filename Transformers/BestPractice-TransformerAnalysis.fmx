@@ -1,0 +1,226 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <TRANSFORMER
+# TRANSFORMER_BEGIN BestPractice-TransformerAnalysis,1,BestPractices,315bc9e2-3193-486e-b7e2-f8c20da4a3b0,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# <p>This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it.</p>
+# 
+# TRANSFORMER_END
+#!   CATEGORY="BestPractices"
+#!   TITLE="BestPractice-TransformerAnalysis"
+#!   FMX_INSERT_MODE="Linked by Default"
+#!   LAST_SAVE_DATE="2017-04-03T15:45:14"
+#!   MARKDOWN_USAGE=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   XFORM_DEPRECATED="No"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   FME_LINKED_TRANSFORMER_VERSION="1"
+#!   FME_SERVER_SERVICES=""
+#!   DOC_TOP_LEFT="-2365.65 -184.377"
+#!   PYTHON_COMPATIBILITY="27"
+#!   SHOW_INFO_NODES="true"
+#!   DOC_EXTENTS="4368.79 913.26"
+#!   ZOOM_SCALE="100"
+#!   FME_BUILD_NUM="17259"
+#!   PASSWORD=""
+#!   MARKDOWN_DESCRIPTION="This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it."
+#!   SHOW_ANNOTATIONS="true"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   USAGE=""
+#!   BLOCKED_LOOPING="No"
+#!   USE_MARKDOWN="YES"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
+#!   ITERATION_COUNT_ATTR=""
+#!   FME_PROCESS_GROUP_BY=""
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_DOCUMENT_GUID="315bc9e2-3193-486e-b7e2-f8c20da4a3b0"
+#!   WORKSPACE_VERSION="1"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   DESCRIPTION="&lt;p&gt;This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it.&lt;/p&gt;&#10;"
+#!   MAX_LOOP_ITERATIONS=""
+#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   VIEW_POSITION="-2718.78 903.134"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! <COMMENT
+#!   IDENTIFIER="8"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;TransformerParameters&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1232.19 48.1233"
+#!   TOP_LEFT="-1232.19 48.1233"
+#!   BOTTOM_RIGHT="-1233.19 49.1233"
+#!   BOUNDING_RECT="-1232.19 48.1233 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="9"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Transformers&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-1219.69 586.633"
+#!   TOP_LEFT="-1219.69 586.633"
+#!   BOTTOM_RIGHT="-1220.69 587.633"
+#!   BOUNDING_RECT="-1219.69 586.633 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="2"
+#! />
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="10"
+#!   NAME="7: Transformer Analysis"
+#!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   TOP_LEFT="-2365.65 728.883"
+#!   BOTTOM_RIGHT="2003.14 -184.377"
+#!   BOUNDING_RECT="-2365.65 728.883 4368.79 913.26"
+#!   STICKY="true"
+#!   COLOUR="0.666667,1,0"
+#!   CONTENTS="8 11 12 9 3 16 14 2 13 15 "
+#! />
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Junction"
+#!   VERSION="0"
+#!   POSITION="-1154.13 445.383"
+#!   BOUNDING_RECT="-1154.13 445.383 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16674"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_24"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="Junction"
+#!   VERSION="0"
+#!   POSITION="-1154.13 138.133"
+#!   BOUNDING_RECT="-1154.13 138.133 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="false"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="16674"
+#! >
+#!     <OUTPUT_FEAT NAME="Output"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_26"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <SUBDOCUMENT_IOS>
+#! <SUBDOCUMENT_IO
+#!   IDENTIFIER="11"
+#!   NAME="Input:Transformers"
+#!   POSITION="-2244.64 445.383"
+#!   BOUNDING_RECT="-2244.64 445.383 522.016 71"
+#!   COLLAPSED="true"
+#!   PUBLISHED="true"
+#!   IS_SOURCE="true"
+#!   ATTR_MODE="0"
+#! >
+#! </SUBDOCUMENT_IO>
+#! <SUBDOCUMENT_IO
+#!   IDENTIFIER="13"
+#!   NAME="Input:TransformerParameters"
+#!   POSITION="-2232.14 169.133"
+#!   BOUNDING_RECT="-2232.14 169.133 703.016 71"
+#!   COLLAPSED="true"
+#!   PUBLISHED="true"
+#!   IS_SOURCE="true"
+#!   ATTR_MODE="0"
+#! >
+#! </SUBDOCUMENT_IO>
+#! <SUBDOCUMENT_IO
+#!   IDENTIFIER="15"
+#!   NAME="Output:Summary"
+#!   POSITION="1370.89 499.013"
+#!   BOUNDING_RECT="1370.89 499.013 482.016 71"
+#!   COLLAPSED="true"
+#!   IS_SOURCE="false"
+#!   ATTR_MODE="0"
+#! >
+#! </SUBDOCUMENT_IO>
+#! <SUBDOCUMENT_IO
+#!   IDENTIFIER="16"
+#!   NAME="Output:Report"
+#!   POSITION="1370.89 149.263"
+#!   BOUNDING_RECT="1370.89 149.263 482.016 71"
+#!   COLLAPSED="true"
+#!   IS_SOURCE="false"
+#!   ATTR_MODE="0"
+#! >
+#! </SUBDOCUMENT_IO>
+#! </SUBDOCUMENT_IOS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="12"
+#!   SOURCE_NODE="11"
+#!   TARGET_NODE="2"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="14"
+#!   SOURCE_NODE="13"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="0"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </TRANSFORMER>
+#! START_HEADER
+#! END_HEADER
+
+LOG_TIMINGS YES
+LOG_FILTER_MASK -1
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+DEFAULT_MACRO BestPractice-TransformerAnalysis_WORKSPACE_NAME ""
+INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-TransformerAnalysis_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)}]
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers1491252314 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters1491252314 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters"
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_26    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters"
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_24    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers"
+INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-TransformerAnalysis_WORKSPACE_NAME))}]
