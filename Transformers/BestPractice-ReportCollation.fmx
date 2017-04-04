@@ -1,45 +1,45 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN BestPractice-ReportCollation,1,BestPractices,81010d15-5caf-419f-8752-9e7ff5b79a86,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# TRANSFORMER_BEGIN BestPractice-ReportCollation,1,BestPractices,5fc6dc8d-d93a-4503-8172-5efb4347d4b0,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
 # <p>This transformer takes Best Practice reports that have been summarized and creates a final HTML report from them.</p>
 # 
 # TRANSFORMER_END
-#!   DESCRIPTION="&lt;p&gt;This transformer takes Best Practice reports that have been summarized and creates a final HTML report from them.&lt;/p&gt;&#10;"
-#!   DOC_TOP_LEFT="-1009.9 -756.261"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   FME_PROCESS_GROUP_BY=""
-#!   DOC_EXTENTS="2306.91 1391.87"
+#!   FME_DOCUMENT_PRIORGUID="770b1e20-fff3-4e52-bf4c-195d83788e28,81010d15-5caf-419f-8752-9e7ff5b79a86"
 #!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
-#!   FME_SERVER_SERVICES=""
-#!   FME_DOCUMENT_PRIORGUID="770b1e20-fff3-4e52-bf4c-195d83788e28"
-#!   BLOCKED_LOOPING="No"
-#!   CATEGORY="BestPractices"
 #!   ITERATION_COUNT_ATTR=""
-#!   XFORM_DEPRECATED="No"
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   FMX_INSERT_MODE="Linked by Default"
-#!   ZOOM_SCALE="100"
-#!   FME_DOCUMENT_GUID="81010d15-5caf-419f-8752-9e7ff5b79a86"
-#!   VIEW_POSITION="-1487.51 646.881"
-#!   PASSWORD=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   USAGE=""
-#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
-#!   LAST_SAVE_DATE="2017-04-03T15:17:37"
-#!   WORKSPACE_VERSION="1"
-#!   SHOW_ANNOTATIONS="true"
-#!   MARKDOWN_DESCRIPTION="This transformer takes Best Practice reports that have been summarized and creates a final HTML report from them."
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   USE_MARKDOWN="YES"
-#!   FME_LINKED_TRANSFORMER_VERSION="1"
-#!   MARKDOWN_USAGE=""
-#!   FME_BUILD_NUM="17259"
-#!   TITLE="BestPractice-ReportCollation"
-#!   SHOW_INFO_NODES="true"
 #!   MAX_LOOP_ITERATIONS=""
+#!   FME_SERVER_SERVICES=""
+#!   BLOCKED_LOOPING="No"
+#!   SHOW_ANNOTATIONS="true"
+#!   DESCRIPTION="&lt;p&gt;This transformer takes Best Practice reports that have been summarized and creates a final HTML report from them.&lt;/p&gt;&#10;"
+#!   WORKSPACE_VERSION="1"
+#!   FMX_INSERT_MODE="Linked by Default"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SHOW_INFO_NODES="true"
+#!   FME_LINKED_TRANSFORMER_VERSION="1"
+#!   PYTHON_COMPATIBILITY="27"
+#!   MARKDOWN_USAGE=""
+#!   PASSWORD=""
+#!   FME_BUILD_NUM="17259"
+#!   LAST_SAVE_DATE="2017-04-04T16:38:21"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   CATEGORY="BestPractices"
+#!   VIEW_POSITION="-1950.02 900.009"
+#!   FME_DOCUMENT_GUID="5fc6dc8d-d93a-4503-8172-5efb4347d4b0"
+#!   ZOOM_SCALE="100"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   DOC_TOP_LEFT="-872.399 -496.88"
+#!   USAGE=""
+#!   FME_PROCESS_GROUP_BY=""
+#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   MARKDOWN_DESCRIPTION="This transformer takes Best Practice reports that have been summarized and creates a final HTML report from them."
+#!   DOC_EXTENTS="2822.41 1243.76"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   XFORM_DEPRECATED="No"
+#!   TITLE="BestPractice-ReportCollation"
+#!   USE_MARKDOWN="YES"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -66,7 +66,7 @@
 #! <COMMENTS>
 #! <COMMENT
 #!   IDENTIFIER="19"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;StringReplacers to clean up WWJD encoding and replace with true HTML tags&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;StringReplacers clean up WWJD encoding and replace it all with true HTML tags&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   POSITION="408.798 486.989"
 #!   TOP_LEFT="408.798 486.989"
 #!   BOTTOM_RIGHT="991.048 300.737"
@@ -80,19 +80,49 @@
 #!   ANCHORED_NODE="0"
 #! />
 #! <COMMENT
-#!   IDENTIFIER="21"
-#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;remove empty list tags&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="562.898 -430.081"
-#!   TOP_LEFT="562.898 -430.081"
-#!   BOTTOM_RIGHT="561.898 -429.081"
-#!   BOUNDING_RECT="562.898 -430.081 -1 -1"
+#!   IDENTIFIER="23"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This part might no longer be necessary in 2017 - but we need to first change all of the prior HTMLReportGenerators to use &amp;quot;Custom HTML&amp;quot; instead of &amp;quot;Header&amp;quot; types&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="1200.01 521.88"
+#!   TOP_LEFT="1200.01 521.88"
+#!   BOTTOM_RIGHT="1950.01 471.88"
+#!   BOUNDING_RECT="1200.01 521.88 750 50"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.192157"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="0"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="24"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Final layout of reports&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="501.144 -334.52"
+#!   TOP_LEFT="501.144 -334.52"
+#!   BOTTOM_RIGHT="500.144 -333.52"
+#!   BOUNDING_RECT="501.144 -334.52 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
-#!   ANCHORED_NODE="8"
+#!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="28"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Sort incoming reports into the requested order&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-162.202 621.99"
+#!   TOP_LEFT="-162.202 621.99"
+#!   BOTTOM_RIGHT="-163.202 622.99"
+#!   BOUNDING_RECT="-162.202 621.99 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="2"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -102,12 +132,12 @@
 #!   IDENTIFIER="22"
 #!   NAME="Collate and Output Report"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-253.128 635.609"
-#!   BOTTOM_RIGHT="1097.11 -756.261"
-#!   BOUNDING_RECT="-253.128 635.609 1350.24 1391.87"
+#!   TOP_LEFT="-253.128 746.882"
+#!   BOTTOM_RIGHT="1097.11 -496.88"
+#!   BOUNDING_RECT="-253.128 746.882 1350.24 1243.76"
 #!   STICKY="true"
 #!   COLOUR="0.611765,0.27451,0.564706"
-#!   CONTENTS="21 14 2 7 3 13 11 17 16 8 5 9 6 15 10 19 18 "
+#!   CONTENTS="15 24 10 11 28 13 14 5 19 3 18 7 6 2 32 9 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -118,7 +148,7 @@
 #!   POSITION="-88.2017 486.989"
 #!   BOUNDING_RECT="-88.2017 486.989 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -126,19 +156,19 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
-#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="ReportOrder NUMERIC ASCENDING"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="ReportOrder NUMERIC ASCENDING"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="3"
 #!   TYPE="HTMLLayouter"
 #!   VERSION="0"
-#!   POSITION="30.4983 -532.021"
-#!   BOUNDING_RECT="30.4983 -532.021 -1 -1"
+#!   POSITION="514.898 -169.517"
+#!   BOUNDING_RECT="514.898 -169.517 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -146,16 +176,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLLayouter"/>
-#!     <XFORM_PARM PARM_NAME="STYLE_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="GRID_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DIV_STYLE" PARM_VALUE="VERTICAL"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LAYOUT" PARM_VALUE="VERTICAL"/>
-#!     <XFORM_PARM PARM_NAME="COLUMN" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COLUMN" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DIV_STYLE" PARM_VALUE="VERTICAL"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLLayouter"/>
+#!     <XFORM_PARM PARM_NAME="LAYOUT" PARM_VALUE="VERTICAL"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="5"
@@ -164,59 +194,59 @@
 #!   POSITION="-88.2017 138.479"
 #!   BOUNDING_RECT="-88.2017 138.479 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;&lt;solidus&gt;strong&lt;amp&gt;gt&lt;semicolon&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="html_content"/>
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_2"/>
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;&lt;solidus&gt;strong&lt;amp&gt;gt&lt;semicolon&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="6"
 #!   TYPE="StringReplacer"
 #!   VERSION="4"
-#!   POSITION="-69.5017 316.609"
-#!   BOUNDING_RECT="-69.5017 316.609 -1 -1"
+#!   POSITION="-88.2017 316.609"
+#!   BOUNDING_RECT="-88.2017 316.609 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_2"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;strong&lt;amp&gt;gt&lt;semicolon&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;strong&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="html_content"/>
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;strong&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer"/>
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;strong&lt;amp&gt;gt&lt;semicolon&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="7"
 #!   TYPE="StringReplacer"
 #!   VERSION="4"
-#!   POSITION="-69.5017 -19.5213"
-#!   BOUNDING_RECT="-69.5017 -19.5213 -1 -1"
+#!   POSITION="-88.2017 -19.5213"
+#!   BOUNDING_RECT="-88.2017 -19.5213 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -224,42 +254,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_3"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="html_content"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;br&lt;amp&gt;gt&lt;semicolon&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
 #!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;br&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="html_content"/>
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_3"/>
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="8"
-#!   TYPE="StringReplacer"
-#!   VERSION="4"
-#!   POSITION="514.898 -169.701"
-#!   BOUNDING_RECT="514.898 -169.701 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_4"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;br&lt;amp&gt;gt&lt;semicolon&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;lt&gt;li&lt;space&gt;&lt;gt&gt;None&lt;lt&gt;&lt;solidus&gt;li&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="html_content"/>
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="9"
@@ -268,7 +272,7 @@
 #!   POSITION="514.898 260.899"
 #!   BOUNDING_RECT="514.898 260.899 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -276,16 +280,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_5"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;i&lt;amp&gt;gt&lt;semicolon&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;i&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="html_content"/>
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;i&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_4"/>
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;i&lt;amp&gt;gt&lt;semicolon&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="10"
@@ -294,7 +298,7 @@
 #!   POSITION="514.898 48.3887"
 #!   BOUNDING_RECT="514.898 48.3887 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -302,24 +306,24 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_6"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;&lt;solidus&gt;i&lt;amp&gt;gt&lt;semicolon&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SRC_ATTRS" PARM_VALUE="html_content"/>
-#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH" PARM_VALUE="_FME_NO_OP_"/>
+#!     <XFORM_PARM PARM_NAME="REPLACE_TEXT" PARM_VALUE="&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StringReplacer_5"/>
 #!     <XFORM_PARM PARM_NAME="CASE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="FIND_TEXT" PARM_VALUE="&lt;amp&gt;lt&lt;semicolon&gt;&lt;solidus&gt;i&lt;amp&gt;gt&lt;semicolon&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REGEXP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NO_MATCH_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
 #! <SUBDOCUMENT_IO
 #!   IDENTIFIER="25"
 #!   NAME="Output"
-#!   POSITION="1297.01 -592.021"
-#!   BOUNDING_RECT="1297.01 -592.021 -1 -1"
+#!   POSITION="1290.76 -229.517"
+#!   BOUNDING_RECT="1290.76 -229.517 -1 -1"
 #!   COLLAPSED="true"
 #!   IS_SOURCE="false"
 #!   ATTR_MODE="0"
@@ -328,8 +332,8 @@
 #! <SUBDOCUMENT_IO
 #!   IDENTIFIER="27"
 #!   NAME="Input:Report"
-#!   POSITION="-1009.9 486.989"
-#!   BOUNDING_RECT="-1009.9 486.989 -1 -1"
+#!   POSITION="-872.399 486.989"
+#!   BOUNDING_RECT="-872.399 486.989 -1 -1"
 #!   COLLAPSED="true"
 #!   PUBLISHED="true"
 #!   IS_SOURCE="true"
@@ -407,17 +411,6 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="16"
-#!   SOURCE_NODE="8"
-#!   TARGET_NODE="3"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
 #!   IDENTIFIER="18"
 #!   SOURCE_NODE="9"
 #!   TARGET_NODE="10"
@@ -429,9 +422,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="17"
+#!   IDENTIFIER="32"
 #!   SOURCE_NODE="10"
-#!   TARGET_NODE="8"
+#!   TARGET_NODE="3"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -459,7 +452,7 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-ReportCollation_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-ReportCollation_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-ReportCollation_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Input:Report1491250657 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Input:Report"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Input:Report" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,html_content,$($(BestPractice-ReportCollation_WORKSPACE_NAME)_HTML_CONTENT),ReportOrder,$($(BestPractice-ReportCollation_WORKSPACE_NAME)_REPORTORDER), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Input:Report1491341901 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Input:Report"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Input:Report" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,html_content,$($(BestPractice-ReportCollation_WORKSPACE_NAME)_HTML_CONTENT),ReportOrder,$($(BestPractice-ReportCollation_WORKSPACE_NAME)_REPORTORDER), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_Sorter    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Input:Report"    SORT_BY ReportOrder NUMERIC ASCENDING    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Sorter_SORTED"
@@ -468,50 +461,43 @@ FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPA
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_b92fd834_2c46_4e5d_bdfb_7004d40739b21_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Sorter_SORTED"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_b92fd834_2c46_4e5d_bdfb_7004d40739b21_replacer {<amp>lt<semicolon>strong<amp>gt<semicolon>} {<lt>strong<gt>} {_FME_NO_OP_}")
+Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_99bd30e5_0412_454c_9a1e_923a9d4bbfff9_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Sorter_SORTED"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_99bd30e5_0412_454c_9a1e_923a9d4bbfff9_replacer {<amp>lt<semicolon>strong<amp>gt<semicolon>} {<lt>strong<gt>} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_fdf72ac7_6760_4ec9_a0ef_0faa27b68cc41_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_fdf72ac7_6760_4ec9_a0ef_0faa27b68cc41_replacer {<amp>lt<semicolon><solidus>strong<amp>gt<semicolon>} {<lt><solidus>strong<gt>} {_FME_NO_OP_}")
+Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_af753dde_1bf2_4388_abd6_a3cfd566efe99_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_af753dde_1bf2_4388_abd6_a3cfd566efe99_replacer {<amp>lt<semicolon><solidus>strong<amp>gt<semicolon>} {<lt><solidus>strong<gt>} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_dfec6a8a_e920_4450_9926_42a198a3ac661_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_dfec6a8a_e920_4450_9926_42a198a3ac661_replacer {<amp>lt<semicolon>br<amp>gt<semicolon>} {<lt>br<gt>} {_FME_NO_OP_}")
+Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_ce906ab0_f188_4878_937b_56e24cd17db09_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_2_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_ce906ab0_f188_4878_937b_56e24cd17db09_replacer {<amp>lt<semicolon>br<amp>gt<semicolon>} {<lt>br<gt>} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_54ede801_6ae8_4125_a844_b276058be9821_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_54ede801_6ae8_4125_a844_b276058be9821_replacer {<amp>lt<semicolon>i<amp>gt<semicolon>} {<lt>i<gt>} {_FME_NO_OP_}")
+Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_154b1673_502e_419e_be27_308681b425ed9_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_3_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_154b1673_502e_419e_be27_308681b425ed9_replacer {<amp>lt<semicolon>i<amp>gt<semicolon>} {<lt>i<gt>} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_6_fa41855e_c54f_41fc_9af4_d2213a9cbe581_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_6    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_6_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_6_fa41855e_c54f_41fc_9af4_d2213a9cbe581_replacer {<amp>lt<semicolon><solidus>i<amp>gt<semicolon>} {<lt><solidus>i<gt>} {_FME_NO_OP_}")
+Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_5e1205a9_3d97_4526_8153_b992bcb34acc9_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_5e1205a9_3d97_4526_8153_b992bcb34acc9_replacer {<amp>lt<semicolon><solidus>i<amp>gt<semicolon>} {<lt><solidus>i<gt>} {_FME_NO_OP_}")
 
 # -------------------------------------------------------------------------
 
-MACRO casemac
-INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_993991ab_9874_4c18_a423_597c4b09386d1_replacer { findText replaceText invalidValue} {     set attrs [split \"html_content\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_6_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_OUTPUT"         @Tcl2("$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_993991ab_9874_4c18_a423_597c4b09386d1_replacer {<lt>li<space><gt>None<lt><solidus>li<gt>} {} {_FME_NO_OP_}")
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_4_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-ReportCollation_WORKSPACE_NAME)_HTMLLayouter_PROCESSED       fme_html5_layout "VERTICAL"       fme_html5_column "<Unused>"       fme_html5_row "<Unused>"       fme_html5_title ""       fme_html5_div_style "VERTICAL"
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_StringReplacer_5_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-ReportCollation_WORKSPACE_NAME)_HTMLLayouter_PROCESSED       fme_html5_layout "VERTICAL"       fme_html5_column "<Unused>"       fme_html5_row "<Unused>"       fme_html5_title ""       fme_html5_div_style "VERTICAL"
 
 
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportCollation_WORKSPACE_NAME)_HTMLLayouter    INPUT FEATURE_TYPE $(BestPractice-ReportCollation_WORKSPACE_NAME)_HTMLLayouter_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5layouter.HTML5Layouter    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_HTMLLayouter_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Output1491250657 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_HTMLLayouter_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Output"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Output1491341901 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_HTMLLayouter_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportCollation_WORKSPACE_NAME)_Output"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-ReportCollation_WORKSPACE_NAME))}]
