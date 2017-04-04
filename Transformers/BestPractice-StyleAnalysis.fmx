@@ -1,44 +1,45 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN BestPractice-StyleAnalysis,1,BestPractices,cf3fa94b-0c5a-4fed-84e6-a82212995fdd,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# TRANSFORMER_BEGIN BestPractice-StyleAnalysis,1,BestPractices,61e5e12b-29d5-46c9-a450-66f0d95c8b0b,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
 # <p>This transformer takes input from the Statistics feature type of an FMW reader and creates a Best Practice report from it.</p>
+# 
 # TRANSFORMER_END
-#!   TITLE="BestPractice-StyleAnalysis"
+#!   DESCRIPTION="&lt;p&gt;This transformer takes input from the Statistics feature type of an FMW reader and creates a Best Practice report from it.&lt;/p&gt;&#10;"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   FME_BUILD_NUM="17259"
 #!   PASSWORD=""
-#!   FME_PROCESS_GROUP_BY=""
-#!   XFORM_DEPRECATED="No"
+#!   FMX_INSERT_MODE="Linked by Default"
+#!   DOC_EXTENTS="5595.55 2165.6"
+#!   FME_DOCUMENT_PRIORGUID="699d7e8a-9ff9-4357-a4ac-dd5740354d9c,cf3fa94b-0c5a-4fed-84e6-a82212995fdd"
 #!   BLOCKED_LOOPING="No"
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="17259"
-#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   CATEGORY="BestPractices"
-#!   MARKDOWN_DESCRIPTION="This transformer takes input from the Statistics feature type of an FMW reader and creates a Best Practice report from it."
-#!   USAGE=""
-#!   FMX_INSERT_MODE="Linked by Default"
-#!   FME_DOCUMENT_PRIORGUID="699d7e8a-9ff9-4357-a4ac-dd5740354d9c"
-#!   PYTHON_COMPATIBILITY="27"
-#!   SHOW_ANNOTATIONS="true"
-#!   ITERATION_COUNT_ATTR=""
-#!   LAST_SAVE_DATE="2017-04-03T16:20:39"
-#!   DOC_TOP_LEFT="-2648.65 -1082.8"
-#!   FME_LINKED_TRANSFORMER_VERSION="1"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   VIEW_POSITION="-2321.9 1284.39"
 #!   USE_MARKDOWN="YES"
-#!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   DOC_EXTENTS="5136.18 2165.6"
-#!   ZOOM_SCALE="100"
-#!   FME_SERVER_SERVICES=""
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   DESCRIPTION="&lt;p&gt;This transformer takes input from the Statistics feature type of an FMW reader and creates a Best Practice report from it.&lt;/p&gt;"
-#!   MARKDOWN_USAGE=""
-#!   SHOW_INFO_NODES="true"
-#!   FME_DOCUMENT_GUID="cf3fa94b-0c5a-4fed-84e6-a82212995fdd"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   MAX_LOOP_ITERATIONS=""
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   SHOW_ANNOTATIONS="true"
+#!   PYTHON_COMPATIBILITY="27"
 #!   WORKSPACE_VERSION="1"
+#!   MARKDOWN_DESCRIPTION="This transformer takes input from the Statistics feature type of an FMW reader and creates a Best Practice report from it."
+#!   TITLE="BestPractice-StyleAnalysis"
+#!   LAST_SAVE_DATE="2017-04-04T12:21:46"
+#!   MAX_LOOP_ITERATIONS=""
+#!   FME_PROCESS_GROUP_BY=""
+#!   USAGE=""
+#!   ZOOM_SCALE="100"
+#!   XFORM_DEPRECATED="No"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   SHOW_INFO_NODES="true"
+#!   FME_DOCUMENT_GUID="61e5e12b-29d5-46c9-a450-66f0d95c8b0b"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_LINKED_TRANSFORMER_VERSION="1"
+#!   MARKDOWN_USAGE=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   VIEW_POSITION="-1853.14 1284.39"
+#!   CATEGORY="BestPractices"
+#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
+#!   ITERATION_COUNT_ATTR=""
+#!   DOC_TOP_LEFT="-2648.65 -1082.8"
+#!   FME_SERVER_SERVICES=""
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -208,6 +209,51 @@
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="67"
 #! />
+#! <COMMENT
+#!   IDENTIFIER="65"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set Order in Style Analysis&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="166.005 410.911"
+#!   TOP_LEFT="166.005 410.911"
+#!   BOTTOM_RIGHT="165.005 411.911"
+#!   BOUNDING_RECT="166.005 410.911 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="19"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="66"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set Order in Style Analysis&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="109.335 -376.377"
+#!   TOP_LEFT="109.335 -376.377"
+#!   BOTTOM_RIGHT="108.335 -375.377"
+#!   BOUNDING_RECT="109.335 -376.377 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="20"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="68"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set Order in HTML Report&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="2367.81 -188.848"
+#!   TOP_LEFT="2367.81 -188.848"
+#!   BOTTOM_RIGHT="2366.81 -187.848"
+#!   BOUNDING_RECT="2367.81 -188.848 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="23"
+#! />
 #! </COMMENTS>
 #! <CONSTANTS>
 #! </CONSTANTS>
@@ -221,7 +267,7 @@
 #!   BOUNDING_RECT="-1697.12 992.8 2477.11 921.598"
 #!   STICKY="true"
 #!   COLOUR="0,0,1"
-#!   CONTENTS="28 26 40 51 9 19 49 4 17 32 7 29 53 6 30 27 3 2 "
+#!   CONTENTS="29 53 32 51 3 2 26 27 4 6 19 65 9 7 49 40 17 28 30 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="59"
@@ -232,18 +278,18 @@
 #!   BOUNDING_RECT="-1697.12 5.84005 2450.64 1009.1"
 #!   STICKY="true"
 #!   COLOUR="0,0,1"
-#!   CONTENTS="36 18 54 50 37 35 10 55 34 12 33 20 11 13 14 16 41 39 "
+#!   CONTENTS="13 55 33 12 41 18 34 35 14 54 36 37 10 11 20 66 39 50 16 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="60"
 #!   NAME="3: Style Analysis"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-1747.12 1082.8"
-#!   BOTTOM_RIGHT="2487.53 -1082.8"
-#!   BOUNDING_RECT="-1747.12 1082.8 4234.65 2165.6"
+#!   BOTTOM_RIGHT="2946.9 -1082.8"
+#!   BOUNDING_RECT="-1747.12 1082.8 4694.02 2165.6"
 #!   STICKY="true"
 #!   COLOUR="0,0.666667,1"
-#!   CONTENTS="22 23 39 56 28 48 64 6 4 27 3 37 14 47 59 45 36 26 13 34 12 2 57 62 16 17 18 58 35 11 10 55 33 42 49 32 61 20 53 30 41 21 19 7 40 67 50 9 63 29 54 51 "
+#!   CONTENTS="17 12 20 34 32 57 10 18 2 56 22 39 11 64 53 47 16 26 23 65 49 58 50 30 33 59 29 37 67 45 54 42 63 28 9 35 36 13 21 51 40 3 6 62 61 41 14 68 66 48 55 19 27 4 7 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -274,16 +320,16 @@
 #!     <XFORM_ATTR ATTR_NAME="num_out_of_date_transformers" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BookmarkTransformerRatio" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP  BookmarkTransformerRatio &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;round&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;num_transformers&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;num_bookmarks&lt;closeparen&gt;&lt;closeparen&gt;*10&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;10&lt;closeparen&gt; SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP  BookmarkTransformerRatio &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;round&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;num_transformers&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;num_bookmarks&lt;closeparen&gt;&lt;closeparen&gt;*10&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;10&lt;closeparen&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="3"
@@ -292,22 +338,22 @@
 #!   POSITION="-704.765 246.3"
 #!   BOUNDING_RECT="-704.765 246.3 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="WarnMsg"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER LIST LIST HEADER"/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Style&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Bookmark&lt;space&gt;Ratio:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt;&lt;space&gt;transformers&lt;space&gt;for&lt;space&gt;each&lt;space&gt;bookmark;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0&lt;comma&gt;255&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;at&gt;Value&lt;openparen&gt;HTMLBadRec&lt;closeparen&gt;;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HTML HEADER LIST LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Style&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HTML{{HTML;&lt;lt&gt;h3&lt;gt&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;https:&lt;solidus&gt;&lt;solidus&gt;docs.safe.com&lt;solidus&gt;fme&lt;solidus&gt;html&lt;solidus&gt;FME_Desktop_Documentation&lt;solidus&gt;FME_Workbench&lt;solidus&gt;Workbench&lt;solidus&gt;bookmarks_using.htm&lt;quote&gt;&lt;gt&gt;Bookmarks&lt;lt&gt;&lt;solidus&gt;a&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;h3&lt;gt&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Custom&lt;space&gt;HTML.fme}}HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Bookmark&lt;space&gt;Ratio:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt;&lt;space&gt;transformers&lt;space&gt;for&lt;space&gt;each&lt;space&gt;bookmark;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0&lt;comma&gt;255&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;at&gt;Value&lt;openparen&gt;HTMLBadRec&lt;closeparen&gt;;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_2"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="4"
@@ -316,7 +362,7 @@
 #!   POSITION="-704.765 428.68"
 #!   BOUNDING_RECT="-704.765 428.68 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -340,16 +386,16 @@
 #!     <XFORM_ATTR ATTR_NAME="HTMLBadContent" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBadRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP BookmarkTransformerRatio BookmarkTransformerRatio  NO_OP  HTMLGoodContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt;= 10;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt;= 5&apos;&lt;lt&gt;strong&lt;gt&gt;PASS:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;an&lt;space&gt;appropriate&lt;space&gt;number&lt;space&gt;of&lt;space&gt;bookmarks&lt;space&gt;for&lt;space&gt;your&lt;space&gt;workspace&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLBadContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt; 10&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;higher&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;bookmarks.&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;bookmarks&lt;comma&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;lower&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;an&lt;space&gt;excess&lt;space&gt;of&lt;space&gt;bookmarks.&lt;space&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;fewer&lt;comma&gt;&lt;space&gt;larger&lt;space&gt;bookmarks.&apos;FME_NUM_CONDITIONS3___&quot; SET_TO  WarnMsg &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt; 10;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt; 5&apos;1&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLBadRec &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt; 10&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;bookmarks&lt;comma&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;fewer&lt;comma&gt;&lt;space&gt;more&lt;space&gt;targeted&lt;comma&gt;&lt;space&gt;bookmarks&lt;semicolon&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.&apos;FME_NUM_CONDITIONS3___&quot; SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_3"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP BookmarkTransformerRatio BookmarkTransformerRatio  NO_OP  HTMLGoodContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt;= 10;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt;= 5&apos;&lt;lt&gt;strong&lt;gt&gt;PASS:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;an&lt;space&gt;appropriate&lt;space&gt;number&lt;space&gt;of&lt;space&gt;bookmarks&lt;space&gt;for&lt;space&gt;your&lt;space&gt;workspace&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLBadContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt; 10&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;higher&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;bookmarks.&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;bookmarks&lt;comma&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;lower&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;an&lt;space&gt;excess&lt;space&gt;of&lt;space&gt;bookmarks.&lt;space&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;fewer&lt;comma&gt;&lt;space&gt;larger&lt;space&gt;bookmarks.&apos;FME_NUM_CONDITIONS3___&quot; SET_TO  WarnMsg &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt; 10;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt; 5&apos;1&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLBadRec &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &gt; 10&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;bookmarks&lt;comma&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;BookmarkTransformerRatio&lt;closeparen&gt; &lt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;fewer&lt;comma&gt;&lt;space&gt;more&lt;space&gt;targeted&lt;comma&gt;&lt;space&gt;bookmarks&lt;semicolon&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.&apos;FME_NUM_CONDITIONS3___&quot; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="6"
@@ -358,21 +404,21 @@
 #!   POSITION="-348.515 870.17"
 #!   BOUNDING_RECT="-348.515 870.17 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER LIST HEADER"/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Style&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Bookmark&lt;space&gt;Ratio:&lt;space&gt;N&lt;solidus&gt;A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;BookmarkText;STYLE;NONE;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;bookmarks&lt;comma&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HTML HEADER LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Style&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HTML{{HTML;&lt;lt&gt;h3&lt;gt&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;https:&lt;solidus&gt;&lt;solidus&gt;docs.safe.com&lt;solidus&gt;fme&lt;solidus&gt;html&lt;solidus&gt;FME_Desktop_Documentation&lt;solidus&gt;FME_Workbench&lt;solidus&gt;Workbench&lt;solidus&gt;bookmarks_using.htm&lt;quote&gt;&lt;gt&gt;Bookmarks&lt;lt&gt;&lt;solidus&gt;a&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;h3&lt;gt&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Custom&lt;space&gt;HTML.fme}}HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Bookmark&lt;space&gt;Ratio:&lt;space&gt;N&lt;solidus&gt;A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;BookmarkText;STYLE;NONE;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;bookmarks&lt;comma&gt;&lt;space&gt;one&lt;space&gt;bookmark&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;5-10&lt;space&gt;transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_3"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="7"
@@ -417,13 +463,13 @@
 #!     <XFORM_ATTR ATTR_NAME="num_out_of_date_transformers" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="BookmarkTransformerRatio" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;num_bookmarks&lt;closeparen&gt; = 0"/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;num_bookmarks&lt;closeparen&gt; = 0"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="9"
@@ -432,7 +478,7 @@
 #!   POSITION="-348.515 679.49"
 #!   BOUNDING_RECT="-348.515 679.49 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -440,16 +486,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ErrorMsg 1 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_4"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ErrorMsg 1 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="10"
@@ -478,16 +524,16 @@
 #!     <XFORM_ATTR ATTR_NAME="num_out_of_date_transformers" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AnnotationTransformerRatio" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP  AnnotationTransformerRatio &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;round&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;num_transformers&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;num_annotations&lt;closeparen&gt;&lt;closeparen&gt;*10&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;10&lt;closeparen&gt; SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_10"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP  AnnotationTransformerRatio &lt;at&gt;Evaluate&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;round&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;num_transformers&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;num_annotations&lt;closeparen&gt;&lt;closeparen&gt;*10&lt;closeparen&gt;&lt;closeparen&gt;&lt;solidus&gt;10&lt;closeparen&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="11"
@@ -496,22 +542,22 @@
 #!   POSITION="-704.765 -857.26"
 #!   BOUNDING_RECT="-704.765 -857.26 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="WarnMsg"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER LIST LIST HEADER"/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Annotation&lt;space&gt;Ratio:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt;&lt;space&gt;transformers&lt;space&gt;for&lt;space&gt;each&lt;space&gt;annotation;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0&lt;comma&gt;255&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;at&gt;Value&lt;openparen&gt;HTMLRecommendation&lt;closeparen&gt;;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HTML HEADER LIST LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HTML{{HTML;&lt;lt&gt;h3&lt;gt&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;https:&lt;solidus&gt;&lt;solidus&gt;docs.safe.com&lt;solidus&gt;fme&lt;solidus&gt;html&lt;solidus&gt;FME_Desktop_Documentation&lt;solidus&gt;FME_Workbench&lt;solidus&gt;Workbench&lt;solidus&gt;using-annotations.htm&lt;quote&gt;&lt;gt&gt;Annotation&lt;lt&gt;&lt;solidus&gt;a&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;h3&lt;gt&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Custom&lt;space&gt;HTML.fme}}HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Annotation&lt;space&gt;Ratio:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt;&lt;space&gt;transformers&lt;space&gt;for&lt;space&gt;each&lt;space&gt;annotation;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0&lt;comma&gt;255&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;at&gt;Value&lt;openparen&gt;HTMLRecommendation&lt;closeparen&gt;;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_7"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="12"
@@ -544,16 +590,16 @@
 #!     <XFORM_ATTR ATTR_NAME="HTMLBadContent" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLRecommendation" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP AnnotationTransformerRatio AnnotationTransformerRatio  NO_OP  HTMLGoodContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt;= 5;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt;= 3&apos;&lt;lt&gt;strong&lt;gt&gt;GOOD:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;an&lt;space&gt;appropriate&lt;space&gt;number&lt;space&gt;of&lt;space&gt;annotations&lt;space&gt;for&lt;space&gt;your&lt;space&gt;workspace&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLBadContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;higher&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;annotation.&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt; 3&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;lower&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;an&lt;space&gt;excess&lt;space&gt;of&lt;space&gt;annotations.&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&apos;FME_NUM_CONDITIONS3___&quot; SET_TO  WarnMsg &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt; 5;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt; 3&apos;1&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLRecommendation &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;annotations&lt;comma&gt;&lt;space&gt;one&lt;space&gt;annotation&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;3-5&lt;space&gt;transformers.&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt; 3&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;It&lt;apos&gt;s&lt;space&gt;not&lt;space&gt;necessary&lt;space&gt;to&lt;space&gt;add&lt;space&gt;annotations&lt;space&gt;to&lt;space&gt;every&lt;space&gt;transformer.&lt;space&gt;Use&lt;space&gt;fewer&lt;comma&gt;&lt;space&gt;more&lt;space&gt;targeted&lt;space&gt;annotations.&apos;FME_NUM_CONDITIONS3___&quot; SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_11"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP AnnotationTransformerRatio AnnotationTransformerRatio  NO_OP  HTMLGoodContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&apos;BOOL_OP;AND;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt;= 5;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt;= 3&apos;&lt;lt&gt;strong&lt;gt&gt;GOOD:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;an&lt;space&gt;appropriate&lt;space&gt;number&lt;space&gt;of&lt;space&gt;annotations&lt;space&gt;for&lt;space&gt;your&lt;space&gt;workspace&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLBadContent &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;higher&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;annotation.&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt; 3&apos;&lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;value&lt;space&gt;is&lt;space&gt;lower&lt;space&gt;than&lt;space&gt;desirable&lt;comma&gt;&lt;space&gt;indicating&lt;space&gt;an&lt;space&gt;excess&lt;space&gt;of&lt;space&gt;annotations.&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;&apos;FME_NUM_CONDITIONS3___&quot; SET_TO  WarnMsg &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;0&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt; 5;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt; 3&apos;1&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  HTMLRecommendation &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &gt; 5&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;annotations&lt;comma&gt;&lt;space&gt;one&lt;space&gt;annotation&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;3-5&lt;space&gt;transformers.&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;AnnotationTransformerRatio&lt;closeparen&gt; &lt; 3&apos;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;It&lt;apos&gt;s&lt;space&gt;not&lt;space&gt;necessary&lt;space&gt;to&lt;space&gt;add&lt;space&gt;annotations&lt;space&gt;to&lt;space&gt;every&lt;space&gt;transformer.&lt;space&gt;Use&lt;space&gt;fewer&lt;comma&gt;&lt;space&gt;more&lt;space&gt;targeted&lt;space&gt;annotations.&apos;FME_NUM_CONDITIONS3___&quot; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="13"
@@ -562,21 +608,21 @@
 #!   POSITION="-704.765 -299.03"
 #!   BOUNDING_RECT="-704.765 -299.03 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER LIST HEADER"/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Annotation&lt;space&gt;Ratio:&lt;space&gt;N&lt;solidus&gt;A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;AnnotationText;STYLE;NONE;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;annotations&lt;comma&gt;&lt;space&gt;one&lt;space&gt;annotation&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;3-5&lt;space&gt;transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HTML HEADER LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HTML{{HTML;&lt;lt&gt;h3&lt;gt&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;https:&lt;solidus&gt;&lt;solidus&gt;docs.safe.com&lt;solidus&gt;fme&lt;solidus&gt;html&lt;solidus&gt;FME_Desktop_Documentation&lt;solidus&gt;FME_Workbench&lt;solidus&gt;Workbench&lt;solidus&gt;using-annotations.htm&lt;quote&gt;&lt;gt&gt;Annotation&lt;lt&gt;&lt;solidus&gt;a&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;h3&lt;gt&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Custom&lt;space&gt;HTML.fme}}HEADER{{TEXT;Transformer&lt;space&gt;to&lt;space&gt;Annotation&lt;space&gt;Ratio:&lt;space&gt;N&lt;solidus&gt;A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;AnnotationText;STYLE;NONE;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendation:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;Use&lt;space&gt;more&lt;space&gt;annotations&lt;comma&gt;&lt;space&gt;one&lt;space&gt;annotation&lt;space&gt;for&lt;space&gt;approximately&lt;space&gt;every&lt;space&gt;3-5&lt;space&gt;transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_8"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="14"
@@ -621,13 +667,13 @@
 #!     <XFORM_ATTR ATTR_NAME="num_out_of_date_transformers" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AnnotationTransformerRatio" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;num_annotations&lt;closeparen&gt; = 0"/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;num_annotations&lt;closeparen&gt; = 0"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_3"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="16"
@@ -644,16 +690,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ErrorMsg 1 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_12"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ErrorMsg 1 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="17"
@@ -683,16 +729,16 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BookmarkTransformerRatio" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="BookmarkText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP BookmarkTransformerRatio BookmarkTransformerRatio  NO_OP  BookmarkText &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;zero&lt;space&gt;bookmarks.&lt;space&gt;This&lt;space&gt;indicates&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;best&lt;space&gt;practice!&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_18"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP BookmarkTransformerRatio BookmarkTransformerRatio  NO_OP  BookmarkText &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;zero&lt;space&gt;bookmarks.&lt;space&gt;This&lt;space&gt;indicates&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;best&lt;space&gt;practice!&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="18"
@@ -722,16 +768,16 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AnnotationTransformerRatio" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AnnotationText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP AnnotationTransformerRatio AnnotationTransformerRatio  NO_OP  AnnotationText &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;zero&lt;space&gt;annotations.&lt;space&gt;This&lt;space&gt;indicates&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;best&lt;space&gt;practice!&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_19"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP num_published_parameters num_published_parameters  NO_OP num_annotations num_annotations  NO_OP num_bookmarks num_bookmarks  NO_OP num_breakpoints num_breakpoints  NO_OP num_readers num_readers  NO_OP num_reader_feature_types num_reader_feature_types  NO_OP num_writers num_writers  NO_OP num_writer_feature_types num_writer_feature_types  NO_OP num_transformers num_transformers  NO_OP num_custom_transformers num_custom_transformers  NO_OP num_out_of_date_transformers num_out_of_date_transformers  NO_OP fme_dataset fme_dataset  NO_OP AnnotationTransformerRatio AnnotationTransformerRatio  NO_OP  AnnotationText &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;zero&lt;space&gt;annotations.&lt;space&gt;This&lt;space&gt;indicates&lt;space&gt;a&lt;space&gt;lack&lt;space&gt;of&lt;space&gt;best&lt;space&gt;practice!&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="19"
@@ -740,7 +786,7 @@
 #!   POSITION="233.755 282.16"
 #!   BOUNDING_RECT="233.755 282.16 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -750,16 +796,16 @@
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP ErrorMsg ErrorMsg  NO_OP WarnMsg WarnMsg  NO_OP  SubOrder 1 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_32"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP ErrorMsg ErrorMsg  NO_OP WarnMsg WarnMsg  NO_OP  SubOrder 1 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="20"
@@ -778,16 +824,16 @@
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="WarnMsg WarnMsg  NO_OP html_content html_content  NO_OP ErrorMsg ErrorMsg  NO_OP  SubOrder 2 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_33"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="WarnMsg WarnMsg  NO_OP html_content html_content  NO_OP ErrorMsg ErrorMsg  NO_OP  SubOrder 2 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="21"
@@ -806,8 +852,8 @@
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="SubOrder NUMERIC ASCENDING"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter_4"/>
 #! </TRANSFORMER>
@@ -828,16 +874,16 @@
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="LAYOUT" PARM_VALUE="VERTICAL"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GRID_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COLUMN" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="STYLE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DIV_STYLE" PARM_VALUE="NONE"/>
-#!     <XFORM_PARM PARM_NAME="ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLLayouter_4"/>
+#!     <XFORM_PARM PARM_NAME="LAYOUT" PARM_VALUE="VERTICAL"/>
+#!     <XFORM_PARM PARM_NAME="ROW" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GRID_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DIV_STYLE" PARM_VALUE="NONE"/>
+#!     <XFORM_PARM PARM_NAME="COLUMN" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="23"
@@ -846,7 +892,7 @@
 #!   POSITION="1854.3 -188.848"
 #!   BOUNDING_RECT="1854.3 -188.848 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -857,16 +903,16 @@
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP ErrorMsg ErrorMsg  NO_OP WarnMsg WarnMsg  NO_OP SubOrder SubOrder  NO_OP  ReportOrder 3 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_6"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP ErrorMsg ErrorMsg  NO_OP WarnMsg WarnMsg  NO_OP SubOrder SubOrder  NO_OP  ReportOrder 3 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
@@ -1222,7 +1268,7 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-StyleAnalysis_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-StyleAnalysis_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-StyleAnalysis_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics1491254439 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics"   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics_0_KxlCQuFrYw0=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,fme_dataset,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_FME_DATASET),num_reader_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READER_FEATURE_TYPES),num_writers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITERS),workspace_id,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_WORKSPACE_ID),num_breakpoints,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BREAKPOINTS),num_out_of_date_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_OUT_OF_DATE_TRANSFORMERS),num_writer_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITER_FEATURE_TYPES),num_custom_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_CUSTOM_TRANSFORMERS),num_readers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READERS),num_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_TRANSFORMERS),num_published_parameters,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_PUBLISHED_PARAMETERS),num_annotations,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_ANNOTATIONS),num_bookmarks,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BOOKMARKS), FEATURE_TYPE)"   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics_1_4tPL3GuqTzk=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,fme_dataset,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_FME_DATASET),num_reader_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READER_FEATURE_TYPES),num_writers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITERS),workspace_id,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_WORKSPACE_ID),num_breakpoints,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BREAKPOINTS),num_out_of_date_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_OUT_OF_DATE_TRANSFORMERS),num_writer_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITER_FEATURE_TYPES),num_custom_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_CUSTOM_TRANSFORMERS),num_readers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READERS),num_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_TRANSFORMERS),num_published_parameters,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_PUBLISHED_PARAMETERS),num_annotations,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_ANNOTATIONS),num_bookmarks,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BOOKMARKS), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics1491326506 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics"   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics_0_KxlCQuFrYw0=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,fme_dataset,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_FME_DATASET),num_reader_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READER_FEATURE_TYPES),num_writers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITERS),workspace_id,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_WORKSPACE_ID),num_breakpoints,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BREAKPOINTS),num_out_of_date_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_OUT_OF_DATE_TRANSFORMERS),num_writer_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITER_FEATURE_TYPES),num_custom_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_CUSTOM_TRANSFORMERS),num_readers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READERS),num_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_TRANSFORMERS),num_published_parameters,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_PUBLISHED_PARAMETERS),num_annotations,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_ANNOTATIONS),num_bookmarks,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BOOKMARKS), FEATURE_TYPE)"   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Input:Statistics_1_4tPL3GuqTzk=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,fme_dataset,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_FME_DATASET),num_reader_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READER_FEATURE_TYPES),num_writers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITERS),workspace_id,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_WORKSPACE_ID),num_breakpoints,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BREAKPOINTS),num_out_of_date_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_OUT_OF_DATE_TRANSFORMERS),num_writer_feature_types,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_WRITER_FEATURE_TYPES),num_custom_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_CUSTOM_TRANSFORMERS),num_readers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_READERS),num_transformers,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_TRANSFORMERS),num_published_parameters,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_PUBLISHED_PARAMETERS),num_annotations,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_ANNOTATIONS),num_bookmarks,$($(BestPractice-StyleAnalysis_WORKSPACE_NAME)_NUM_BOOKMARKS), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 
 
@@ -1238,7 +1284,7 @@ FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSP
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_11_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,Transformer<space>to<space>Annotation<space>Ratio:<space><at>Value<openparen>AnnotationTransformerRatio<closeparen><space>transformers<space>for<space>each<space>annotation,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7);HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0<comma>255<comma>0;BADGE;}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255<comma>170<comma>0;BADGE;}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>HTMLRecommendation<closeparen>,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7);HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by "WarnMsg"       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7"
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_11_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7_PROCESSED       fme_html5_title ""       fme_html5_config "HTML{{HTML;<lt>h3<gt><lt>a<space>href=<quote>https:<solidus><solidus>docs.safe.com<solidus>fme<solidus>html<solidus>FME_Desktop_Documentation<solidus>FME_Workbench<solidus>Workbench<solidus>using-annotations.htm<quote><gt>Annotation<lt><solidus>a<gt><lt><solidus>h3<gt>}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,Transformer<space>to<space>Annotation<space>Ratio:<space><at>Value<openparen>AnnotationTransformerRatio<closeparen><space>transformers<space>for<space>each<space>annotation,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7);HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0<comma>255<comma>0;BADGE;}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255<comma>170<comma>0;BADGE;}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>HTMLRecommendation<closeparen>,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7);HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by "WarnMsg"       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7"
 
 
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7    INPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_7_OUTPUT"
@@ -1253,7 +1299,7 @@ FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSP
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_19_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_8_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Transformer<space>to<space>Annotation<space>Ratio:<space>N<solidus>A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;AnnotationText;STYLE;NONE;COLOR;255<comma>0<comma>0;BADGE;}}HEADER{{TEXT;<lt>strong<gt>Recommendation:<lt><solidus>strong<gt><space>Use<space>more<space>annotations<comma><space>one<space>annotation<space>for<space>approximately<space>every<space>3-5<space>transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_8"
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_19_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_8_PROCESSED       fme_html5_title ""       fme_html5_config "HTML{{HTML;<lt>h3<gt><lt>a<space>href=<quote>https:<solidus><solidus>docs.safe.com<solidus>fme<solidus>html<solidus>FME_Desktop_Documentation<solidus>FME_Workbench<solidus>Workbench<solidus>using-annotations.htm<quote><gt>Annotation<lt><solidus>a<gt><lt><solidus>h3<gt>}}HEADER{{TEXT;Transformer<space>to<space>Annotation<space>Ratio:<space>N<solidus>A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;AnnotationText;STYLE;NONE;COLOR;255<comma>0<comma>0;BADGE;}}HEADER{{TEXT;<lt>strong<gt>Recommendation:<lt><solidus>strong<gt><space>Use<space>more<space>annotations<comma><space>one<space>annotation<space>for<space>approximately<space>every<space>3-5<space>transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_8"
 
 
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_8    INPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_8_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_8_OUTPUT"
@@ -1287,7 +1333,7 @@ FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSP
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_3_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Style<space>Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,Transformer<space>to<space>Bookmark<space>Ratio:<space><at>Value<openparen>BookmarkTransformerRatio<closeparen><space>transformers<space>for<space>each<space>bookmark,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2);HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0<comma>255<comma>0;BADGE;}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255<comma>170<comma>0;BADGE;}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>HTMLBadRec<closeparen>,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2);HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by "WarnMsg"       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2"
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_3_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Style<space>Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HTML{{HTML;<lt>h3<gt><lt>a<space>href=<quote>https:<solidus><solidus>docs.safe.com<solidus>fme<solidus>html<solidus>FME_Desktop_Documentation<solidus>FME_Workbench<solidus>Workbench<solidus>bookmarks_using.htm<quote><gt>Bookmarks<lt><solidus>a<gt><lt><solidus>h3<gt>}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,Transformer<space>to<space>Bookmark<space>Ratio:<space><at>Value<openparen>BookmarkTransformerRatio<closeparen><space>transformers<space>for<space>each<space>bookmark,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2);HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;HTMLGoodContent;STYLE;NONE;COLOR;0<comma>255<comma>0;BADGE;}}LIST{{ATTR;HTMLBadContent;STYLE;NONE;COLOR;255<comma>170<comma>0;BADGE;}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>HTMLBadRec<closeparen>,$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2);HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by "WarnMsg"       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2"
 
 
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2    INPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2_OUTPUT"
@@ -1302,7 +1348,7 @@ FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSP
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_18_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_3_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Style<space>Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;Transformer<space>to<space>Bookmark<space>Ratio:<space>N<solidus>A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;BookmarkText;STYLE;NONE;COLOR;255<comma>0<comma>0;BADGE;}}HEADER{{TEXT;<lt>strong<gt>Recommendations:<lt><solidus>strong<gt><space>Use<space>more<space>bookmarks<comma><space>one<space>bookmark<space>for<space>approximately<space>every<space>5-10<space>transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_3"
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_18_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_3_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Style<space>Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HTML{{HTML;<lt>h3<gt><lt>a<space>href=<quote>https:<solidus><solidus>docs.safe.com<solidus>fme<solidus>html<solidus>FME_Desktop_Documentation<solidus>FME_Workbench<solidus>Workbench<solidus>bookmarks_using.htm<quote><gt>Bookmarks<lt><solidus>a<gt><lt><solidus>h3<gt>}}HEADER{{TEXT;Transformer<space>to<space>Bookmark<space>Ratio:<space>N<solidus>A;HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;BookmarkText;STYLE;NONE;COLOR;255<comma>0<comma>0;BADGE;}}HEADER{{TEXT;<lt>strong<gt>Recommendations:<lt><solidus>strong<gt><space>Use<space>more<space>bookmarks<comma><space>one<space>bookmark<space>for<space>approximately<space>every<space>5-10<space>transformers.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_3"
 
 
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_3    INPUT FEATURE_TYPE $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_3_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_3_OUTPUT"
@@ -1337,6 +1383,6 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSPA
 
 FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_6    INPUT  FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_HTMLLayouter_4_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "3" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_6_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Report1491254439 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_6_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Report"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Summary1491254439 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_32_OUTPUT_1_XBgbNjgONnw="   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_33_OUTPUT_1_cOZrgI1XKEs="   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Summary"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Report1491326506 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_6_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Report"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Summary1491326506 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_32_OUTPUT_1_XBgbNjgONnw="   INPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_AttributeManager_33_OUTPUT_1_cOZrgI1XKEs="   OUTPUT FEATURE_TYPE "$(BestPractice-StyleAnalysis_WORKSPACE_NAME)_Output:Summary"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-StyleAnalysis_WORKSPACE_NAME))}]
