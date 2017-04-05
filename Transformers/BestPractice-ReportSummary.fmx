@@ -1,44 +1,45 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN BestPractice-ReportSummary,1,BestPractices,e2ba039c-d5fc-4444-9d80-74712e818ae4,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# TRANSFORMER_BEGIN BestPractice-ReportSummary,1,BestPractices,25b46e31-e80b-4907-a718-12fd3685365b,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
 # <p>This transformer takes Best Practice report summaries and turns them into a report.</p>
+# 
 # TRANSFORMER_END
-#!   DESCRIPTION="&lt;p&gt;This transformer takes Best Practice report summaries and turns them into a report.&lt;/p&gt;"
-#!   BLOCKED_LOOPING="No"
-#!   DOC_EXTENTS="3377.1 874.613"
-#!   USE_MARKDOWN="YES"
-#!   PASSWORD=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
-#!   ITERATION_COUNT_ATTR=""
-#!   VIEW_POSITION="-2178.15 515.63"
-#!   FME_LINKED_TRANSFORMER_VERSION="1"
-#!   USAGE=""
-#!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   SHOW_INFO_NODES="true"
-#!   TITLE="BestPractice-ReportSummary"
-#!   WORKSPACE_VERSION="1"
-#!   FME_DOCUMENT_PRIORGUID="18792636-1923-428c-80de-b935610429ca"
-#!   MAX_LOOP_ITERATIONS=""
-#!   FME_DOCUMENT_GUID="e2ba039c-d5fc-4444-9d80-74712e818ae4"
-#!   ZOOM_SCALE="100"
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   MARKDOWN_DESCRIPTION="This transformer takes Best Practice report summaries and turns them into a report."
-#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
-#!   PYTHON_COMPATIBILITY="27"
-#!   DOC_TOP_LEFT="-1511.87 -493.556"
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   CATEGORY="BestPractices"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   SHOW_ANNOTATIONS="true"
-#!   LAST_SAVE_DATE="2017-04-03T15:19:35"
-#!   MARKDOWN_USAGE=""
-#!   FMX_INSERT_MODE="Linked by Default"
-#!   FME_PROCESS_GROUP_BY=""
-#!   FME_SERVER_SERVICES=""
-#!   FME_BUILD_NUM="17259"
+#!   DOC_EXTENTS="3489.6 1081.26"
 #!   XFORM_DEPRECATED="No"
+#!   FME_SERVER_SERVICES=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   DESCRIPTION="&lt;p&gt;This transformer takes Best Practice report summaries and turns them into a report.&lt;/p&gt;&#10;"
+#!   MAX_LOOP_ITERATIONS=""
+#!   WORKSPACE_VERSION="1"
+#!   FMX_INSERT_MODE="Linked by Default"
+#!   USAGE=""
+#!   MARKDOWN_USAGE=""
+#!   FME_BUILD_NUM="17259"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   SHOW_INFO_NODES="true"
+#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
+#!   PASSWORD=""
+#!   FME_DOCUMENT_GUID="25b46e31-e80b-4907-a718-12fd3685365b"
+#!   ZOOM_SCALE="100"
+#!   BLOCKED_LOOPING="No"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   ITERATION_COUNT_ATTR=""
+#!   TITLE="BestPractice-ReportSummary"
+#!   VIEW_POSITION="-2175.02 593.756"
+#!   DOC_TOP_LEFT="-1624.37 -675.007"
+#!   FME_DOCUMENT_PRIORGUID="18792636-1923-428c-80de-b935610429ca,e2ba039c-d5fc-4444-9d80-74712e818ae4"
+#!   FME_PROCESS_GROUP_BY=""
+#!   CATEGORY="BestPractices"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   USE_MARKDOWN="YES"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   SHOW_ANNOTATIONS="true"
+#!   FME_LINKED_TRANSFORMER_VERSION="1"
+#!   MARKDOWN_DESCRIPTION="This transformer takes Best Practice report summaries and turns them into a report."
+#!   LAST_SAVE_DATE="2017-04-05T15:24:12"
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -231,10 +232,10 @@
 #! <COMMENT
 #!   IDENTIFIER="19"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set up Error/Warning syntax&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="642.175 235.419"
-#!   TOP_LEFT="642.175 235.419"
-#!   BOTTOM_RIGHT="641.175 236.419"
-#!   BOUNDING_RECT="642.175 235.419 -1 -1"
+#!   POSITION="698.426 235.419"
+#!   TOP_LEFT="698.426 235.419"
+#!   BOTTOM_RIGHT="697.426 236.419"
+#!   BOUNDING_RECT="698.426 235.419 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -246,17 +247,77 @@
 #! <COMMENT
 #!   IDENTIFIER="22"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Send to ReportCollation Transformer&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="1433.23 -156.085"
-#!   TOP_LEFT="1433.23 -156.085"
-#!   BOTTOM_RIGHT="1432.23 -155.085"
-#!   BOUNDING_RECT="1433.23 -156.085 -1 -1"
+#!   POSITION="1433.23 -181.085"
+#!   TOP_LEFT="1433.23 -181.085"
+#!   BOTTOM_RIGHT="1432.23 -180.085"
+#!   BOUNDING_RECT="1433.23 -181.085 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.192157"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="23"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="24"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get total ERRORs&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-957.826 235.419"
+#!   TOP_LEFT="-957.826 235.419"
+#!   BOTTOM_RIGHT="-958.826 236.419"
+#!   BOUNDING_RECT="-957.826 235.419 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   COLOUR="1,1,0.784314,0.196078"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
-#!   ANCHORED_NODE="23"
+#!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="27"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get total WARNINGs&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-404.726 -189.586"
+#!   TOP_LEFT="-404.726 -189.586"
+#!   BOTTOM_RIGHT="-405.726 -188.586"
+#!   BOUNDING_RECT="-404.726 -189.586 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="4"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="28"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Filter one feature to act as report trigger&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="154.725 279.169"
+#!   TOP_LEFT="154.725 279.169"
+#!   BOTTOM_RIGHT="615.631 136.668"
+#!   BOUNDING_RECT="154.725 279.169 460.906 142.501"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="5"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="29"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set up Report Order (so that it is always the last component)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="751.749 -434.84"
+#!   TOP_LEFT="751.749 -434.84"
+#!   BOTTOM_RIGHT="1256.46 -621.091"
+#!   BOUNDING_RECT="751.749 -434.84 504.712 186.252"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="10"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="6"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -266,12 +327,12 @@
 #!   IDENTIFIER="20"
 #!   NAME="Report Summary"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-896.884 381.057"
-#!   BOTTOM_RIGHT="1257.83 -493.556"
-#!   BOUNDING_RECT="-896.884 381.057 2154.71 874.613"
+#!   TOP_LEFT="-1034.39 406.254"
+#!   BOTTOM_RIGHT="1334.39 -675.007"
+#!   BOUNDING_RECT="-1034.39 406.254 2368.77 1081.26"
 #!   STICKY="true"
 #!   COLOUR="0.00392157,0.831373,0.227451"
-#!   CONTENTS="5 6 9 14 11 2 15 10 19 4 16 3 "
+#!   CONTENTS="5 19 4 11 9 27 2 16 6 14 29 28 10 15 3 24 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -279,33 +340,33 @@
 #!   IDENTIFIER="2"
 #!   TYPE="HTMLReportGenerator"
 #!   VERSION="0"
-#!   POSITION="716.175 -79.2104"
-#!   BOUNDING_RECT="716.175 -79.2104 -1 -1"
+#!   POSITION="772.426 -79.2104"
+#!   BOUNDING_RECT="772.426 -79.2104 484.016 71"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_4"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER HEADER"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Summary;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;There&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;ErrorVerb&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;ErrorTotal&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;ErrorNoun&lt;closeparen&gt;;HEADER;H4;ALIGNMENT;LEFT;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;There&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;WarnVerb&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;WarnTotal&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;WarnNoun&lt;closeparen&gt;;HEADER;H4;ALIGNMENT;LEFT;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
-#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
 #!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER HEADER"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="3"
 #!   TYPE="StatisticsCalculator"
 #!   VERSION="7"
-#!   POSITION="-796.325 105.167"
-#!   BOUNDING_RECT="-796.325 105.167 -1 -1"
+#!   POSITION="-933.826 106.668"
+#!   BOUNDING_RECT="-933.826 106.668 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -388,37 +449,37 @@
 #!     <XFORM_ATTR ATTR_NAME="requirements_flag" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="reader_feature_type_qualifier" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorTotal" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="ErrorMsg"/>
+#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE="ErrorTotal"/>
 #!     <XFORM_PARM PARM_NAME="STDEVP_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE="ErrorTotal"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
-#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUMERIC_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="4"
 #!   TYPE="StatisticsCalculator"
 #!   VERSION="7"
-#!   POSITION="-293.225 105.167"
-#!   BOUNDING_RECT="-293.225 105.167 -1 -1"
+#!   POSITION="-368.226 106.668"
+#!   BOUNDING_RECT="-368.226 106.668 460.016 71"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -503,37 +564,37 @@
 #!     <XFORM_ATTR ATTR_NAME="reader_feature_type_qualifier" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorTotal" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="WarnTotal" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="WarnMsg"/>
+#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator_2"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE="WarnTotal"/>
 #!     <XFORM_PARM PARM_NAME="STDEVP_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE="WarnTotal"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
-#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUMERIC_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="5"
 #!   TYPE="Sampler"
 #!   VERSION="2"
-#!   POSITION="209.975 105.167"
-#!   BOUNDING_RECT="209.975 105.167 -1 -1"
+#!   POSITION="191.225 106.668"
+#!   BOUNDING_RECT="191.225 106.668 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="16674"
 #! >
@@ -615,50 +676,50 @@
 #!     <XFORM_ATTR ATTR_NAME="reader_feature_type_qualifier" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorTotal" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="WarnTotal" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sampler"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SAMPLE_TYPE_LONG" PARM_VALUE="First N Features"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="RATE" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="SAMPLE_TYPE_LONG" PARM_VALUE="First N Features"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sampler"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SAMPLE_MODE" PARM_VALUE="No"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="6"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="716.175 -244.837"
-#!   BOUNDING_RECT="716.175 -244.837 -1 -1"
+#!   POSITION="772.426 -263.587"
+#!   BOUNDING_RECT="772.426 -263.587 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_5"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ReportOrder 9999 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="9"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="716.175 106.668"
-#!   BOUNDING_RECT="716.175 106.668 -1 -1"
+#!   POSITION="772.426 106.668"
+#!   BOUNDING_RECT="772.426 106.668 -1 -1"
 #!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="16674"
+#!   LAST_PARM_EDIT="17259"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -703,24 +764,24 @@
 #!     <XFORM_ATTR ATTR_NAME="DanglingReaders" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="DanglingReaderText" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WkspPropertiesText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_14"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP ErrorMsg ErrorMsg  NO_OP WarnMsg WarnMsg  NO_OP ErrorTotal ErrorTotal  NO_OP WarnTotal WarnTotal  NO_OP  WarnVerb &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;were&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;WarnTotal&lt;closeparen&gt; = 1&apos;was&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  ErrorVerb &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;were&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;ErrorTotal&lt;closeparen&gt; = 1&apos;was&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  WarnNoun &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;warnings&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;WarnTotal&lt;closeparen&gt; = 1&apos;warning&apos;FME_NUM_CONDITIONS2___&quot; SET_TO  ErrorNoun &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;errors&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;ErrorTotal&lt;closeparen&gt; = 1&apos;error&apos;FME_NUM_CONDITIONS2___&quot; SET_TO SubOrder SubOrder  NO_OP workspace_id workspace_id  NO_OP reader_id reader_id  NO_OP reader_name reader_name  NO_OP reader_keyword reader_keyword  NO_OP reader_type reader_type  NO_OP source_dataset source_dataset  NO_OP reader_enabled reader_enabled  NO_OP reader_generate_build_number reader_generate_build_number  NO_OP fme_dataset fme_dataset  NO_OP feature_type_id feature_type_id  NO_OP reader_feature_type_qualifier reader_feature_type_qualifier  NO_OP reader_feature_type_name reader_feature_type_name  NO_OP reader_feature_type_possible_geometries reader_feature_type_possible_geometries  NO_OP reader_feature_type_enabled reader_feature_type_enabled  NO_OP NumFeatureTypes NumFeatureTypes  NO_OP ExcessFTText ExcessFTText  NO_OP workspace_name workspace_name  NO_OP modified_build_number modified_build_number  NO_OP category category  NO_OP usage usage  NO_OP history history  NO_OP requirement requirement  NO_OP requirements_flag requirements_flag  NO_OP FMEBuildNum FMEBuildNum  NO_OP ModBuildLength ModBuildLength  NO_OP MajorBuildID MajorBuildID  NO_OP CurrentMajorBuild CurrentMajorBuild  NO_OP MajorBuildText MajorBuildText  NO_OP DanglingReaders DanglingReaders  NO_OP DanglingReaderText DanglingReaderText  NO_OP WkspPropertiesText WkspPropertiesText  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
 #! <SUBDOCUMENT_IO
 #!   IDENTIFIER="21"
 #!   NAME="Input:Summary"
-#!   POSITION="-1511.87 105.167"
-#!   BOUNDING_RECT="-1511.87 105.167 456.016 71"
+#!   POSITION="-1624.37 106.668"
+#!   BOUNDING_RECT="-1624.37 106.668 456.016 71"
 #!   COLLAPSED="true"
 #!   PUBLISHED="true"
 #!   IS_SOURCE="true"
@@ -765,8 +826,8 @@
 #! <SUBDOCUMENT_IO
 #!   IDENTIFIER="23"
 #!   NAME="Output:Report"
-#!   POSITION="1433.23 -304.837"
-#!   BOUNDING_RECT="1433.23 -304.837 432 71"
+#!   POSITION="1433.23 -329.837"
+#!   BOUNDING_RECT="1433.23 -329.837 432 71"
 #!   COLLAPSED="true"
 #!   IS_SOURCE="false"
 #!   ATTR_MODE="0"
@@ -904,14 +965,14 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-ReportSummary_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-ReportSummary_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-ReportSummary_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Input:Summary1491250775 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Input:Summary"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Input:Summary" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,requirement,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_REQUIREMENT),reader_enabled,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_ENABLED),reader_name,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_NAME),feature_type_id,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_FEATURE_TYPE_ID),CurrentMajorBuild,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_CURRENTMAJORBUILD),workspace_name,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WORKSPACE_NAME_2),MajorBuildText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MAJORBUILDTEXT),reader_generate_build_number,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_GENERATE_BUILD_NUMBER),MajorBuildID,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MAJORBUILDID),workspace_id,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WORKSPACE_ID),NumFeatureTypes,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_NUMFEATURETYPES),history,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_HISTORY),reader_type,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_TYPE),reader_feature_type_enabled,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_ENABLED),ErrorMsg,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_ERRORMSG),fme_dataset,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_FME_DATASET),source_dataset,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_SOURCE_DATASET),reader_keyword,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_KEYWORD),modified_build_number,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MODIFIED_BUILD_NUMBER),DanglingReaderText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_DANGLINGREADERTEXT),DanglingReaders,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_DANGLINGREADERS),WarnMsg,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WARNMSG),reader_feature_type_possible_geometries,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_POSSIBLE_GEOMETRIES),ModBuildLength,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MODBUILDLENGTH),reader_id,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_ID),SubOrder,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_SUBORDER),reader_feature_type_name,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_NAME),ExcessFTText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_EXCESSFTTEXT),WkspPropertiesText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WKSPPROPERTIESTEXT),category,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_CATEGORY),FMEBuildNum,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_FMEBUILDNUM),html_content,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_HTML_CONTENT),usage,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_USAGE),requirements_flag,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_REQUIREMENTS_FLAG),reader_feature_type_qualifier,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_QUALIFIER), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Input:Summary1491423852 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Input:Summary"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Input:Summary" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,requirement,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_REQUIREMENT),reader_enabled,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_ENABLED),reader_name,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_NAME),feature_type_id,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_FEATURE_TYPE_ID),CurrentMajorBuild,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_CURRENTMAJORBUILD),workspace_name,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WORKSPACE_NAME_2),MajorBuildText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MAJORBUILDTEXT),reader_generate_build_number,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_GENERATE_BUILD_NUMBER),MajorBuildID,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MAJORBUILDID),workspace_id,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WORKSPACE_ID),NumFeatureTypes,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_NUMFEATURETYPES),history,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_HISTORY),reader_type,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_TYPE),reader_feature_type_enabled,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_ENABLED),ErrorMsg,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_ERRORMSG),fme_dataset,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_FME_DATASET),source_dataset,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_SOURCE_DATASET),reader_keyword,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_KEYWORD),modified_build_number,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MODIFIED_BUILD_NUMBER),DanglingReaderText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_DANGLINGREADERTEXT),DanglingReaders,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_DANGLINGREADERS),WarnMsg,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WARNMSG),reader_feature_type_possible_geometries,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_POSSIBLE_GEOMETRIES),ModBuildLength,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_MODBUILDLENGTH),reader_id,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_ID),SubOrder,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_SUBORDER),reader_feature_type_name,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_NAME),ExcessFTText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_EXCESSFTTEXT),WkspPropertiesText,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_WKSPPROPERTIESTEXT),category,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_CATEGORY),FMEBuildNum,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_FMEBUILDNUM),html_content,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_HTML_CONTENT),usage,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_USAGE),requirements_flag,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_REQUIREMENTS_FLAG),reader_feature_type_qualifier,$($(BestPractice-ReportSummary_WORKSPACE_NAME)_READER_FEATURE_TYPE_QUALIFIER), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_71ea0253_e129_406d_a3b4_a2eab10d0cce2_GROUP_BY
+DEFAULT_MACRO __$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_fb0fe5ea_469f_4000_a2a6_e6e81fe210560_GROUP_BY
 
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_71ea0253_e129_406d_a3b4_a2eab10d0cce2_GROUP_BY',     'STATS_ATTRS':'ErrorMsg',     'SUM_ATTR':'ErrorTotal',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_fb0fe5ea_469f_4000_a2a6_e6e81fe210560_GROUP_BY',     'STATS_ATTRS':'ErrorMsg',     'SUM_ATTR':'ErrorTotal',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Input:Summary"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator,__ORIGINAL__)
@@ -920,11 +981,11 @@ FACTORY_DEF * ElementFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSP
 
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_de2ec06a_f302_4430_b8d1_d711dbc96b1e2_GROUP_BY
+DEFAULT_MACRO __$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_0b284f3c_cbbe_4e49_a6e1_f15d9b4ad7c80_GROUP_BY
 
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_de2ec06a_f302_4430_b8d1_d711dbc96b1e2_GROUP_BY',     'STATS_ATTRS':'WarnMsg',     'SUM_ATTR':'WarnTotal',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_0b284f3c_cbbe_4e49_a6e1_f15d9b4ad7c80_GROUP_BY',     'STATS_ATTRS':'WarnMsg',     'SUM_ATTR':'WarnTotal',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_InputProcessor    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(BestPractice-ReportSummary_WORKSPACE_NAME)_StatisticsCalculator_2,__ORIGINAL__)
@@ -944,14 +1005,14 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_
 # -------------------------------------------------------------------------
 
 
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_14    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Sampler_SAMPLED"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "WarnVerb" "FME_CONDITIONAL:DEFAULT_VALUE'were'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>WarnTotal<closeparen> = 1'was'FME_NUM_CONDITIONS2___" "SET_TO"     ATTR_ACTION "" "ErrorVerb" "FME_CONDITIONAL:DEFAULT_VALUE'were'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>ErrorTotal<closeparen> = 1'was'FME_NUM_CONDITIONS2___" "SET_TO"     ATTR_ACTION "" "WarnNoun" "FME_CONDITIONAL:DEFAULT_VALUE'warnings'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>WarnTotal<closeparen> = 1'warning'FME_NUM_CONDITIONS2___" "SET_TO"     ATTR_ACTION "" "ErrorNoun" "FME_CONDITIONAL:DEFAULT_VALUE'errors'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>ErrorTotal<closeparen> = 1'error'FME_NUM_CONDITIONS2___" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_14_OUTPUT"
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_2    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Sampler_SAMPLED"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "WarnVerb" "FME_CONDITIONAL:DEFAULT_VALUE'were'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>WarnTotal<closeparen> = 1'was'FME_NUM_CONDITIONS2___" "SET_TO"     ATTR_ACTION "" "ErrorVerb" "FME_CONDITIONAL:DEFAULT_VALUE'were'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>ErrorTotal<closeparen> = 1'was'FME_NUM_CONDITIONS2___" "SET_TO"     ATTR_ACTION "" "WarnNoun" "FME_CONDITIONAL:DEFAULT_VALUE'warnings'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>WarnTotal<closeparen> = 1'warning'FME_NUM_CONDITIONS2___" "SET_TO"     ATTR_ACTION "" "ErrorNoun" "FME_CONDITIONAL:DEFAULT_VALUE'errors'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>ErrorTotal<closeparen> = 1'error'FME_NUM_CONDITIONS2___" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_14_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Summary;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,There<space><at>Value<openparen>ErrorVerb<closeparen><space><at>Value<openparen>ErrorTotal<closeparen><space><at>Value<openparen>ErrorNoun<closeparen>,$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4);HEADER;H4;ALIGNMENT;LEFT;COLOR;255<comma>0<comma>0}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,There<space><at>Value<openparen>WarnVerb<closeparen><space><at>Value<openparen>WarnTotal<closeparen><space><at>Value<openparen>WarnNoun<closeparen>,$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4);HEADER;H4;ALIGNMENT;LEFT;COLOR;255<comma>170<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4"
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Summary;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,There<space><at>Value<openparen>ErrorVerb<closeparen><space><at>Value<openparen>ErrorTotal<closeparen><space><at>Value<openparen>ErrorNoun<closeparen>,$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator);HEADER;H4;ALIGNMENT;LEFT;COLOR;255<comma>0<comma>0}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,There<space><at>Value<openparen>WarnVerb<closeparen><space><at>Value<openparen>WarnTotal<closeparen><space><at>Value<openparen>WarnNoun<closeparen>,$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator);HEADER;H4;ALIGNMENT;LEFT;COLOR;255<comma>170<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator"
 
 
-FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4    INPUT FEATURE_TYPE $(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4_OUTPUT"
+FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator    INPUT FEATURE_TYPE $(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"
 
 
 
@@ -959,7 +1020,7 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPA
 # -------------------------------------------------------------------------
 
 
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_5    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_4_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "9999" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_5_OUTPUT"
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager    INPUT  FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "9999" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Output:Report1491250775 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_5_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Output:Report"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Output:Report1491423852 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportSummary_WORKSPACE_NAME)_Output:Report"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-ReportSummary_WORKSPACE_NAME))}]
