@@ -1,45 +1,45 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN BestPractice-TransformerAnalysis,1,BestPractices,3189b37f-ddbc-4f3c-9441-9187ee15d818,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# TRANSFORMER_BEGIN BestPractice-TransformerAnalysis,1,BestPractices,a44e0829-98a3-4a26-bb7d-e5611b1d0c94,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
 # <p>This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it.</p>
 # 
 # TRANSFORMER_END
 #!   TITLE="BestPractice-TransformerAnalysis"
-#!   PASSWORD=""
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   FME_PROCESS_GROUP_BY=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   MARKDOWN_USAGE=""
-#!   FME_BUILD_NUM="17259"
-#!   USE_MARKDOWN="YES"
-#!   LAST_SAVE_DATE="2017-04-11T16:58:32"
+#!   USAGE=""
+#!   FME_DOCUMENT_GUID="a44e0829-98a3-4a26-bb7d-e5611b1d0c94"
 #!   BLOCKED_LOOPING="No"
+#!   XFORM_DEPRECATED="No"
+#!   MARKDOWN_USAGE=""
+#!   MARKDOWN_DESCRIPTION="This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it."
 #!   SHOW_ANNOTATIONS="true"
-#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
-#!   DESCRIPTION="&lt;p&gt;This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it.&lt;/p&gt;&#10;"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   DOC_TOP_LEFT="-2284.4 -2671.9"
+#!   DOC_EXTENTS="7337.57 5071.92"
+#!   USE_MARKDOWN="YES"
+#!   FME_PROCESS_GROUP_BY=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
+#!   PASSWORD=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FMX_INSERT_MODE="Linked by Default"
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   ITERATION_COUNT_ATTR=""
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   LAST_SAVE_DATE="2017-04-12T11:09:23"
+#!   PYTHON_COMPATIBILITY="27"
+#!   FME_DOCUMENT_PRIORGUID="315bc9e2-3193-486e-b7e2-f8c20da4a3b0,7780221a-cfcb-4375-9ba8-f4bb9097d250,7a51739f-7de4-4de3-a6c6-81ac523c1fb6,a874f969-cb39-479b-a0a5-14579b8e20cb,111a8ba4-7328-4900-a485-1e9b143b10b5,3189b37f-ddbc-4f3c-9441-9187ee15d818"
+#!   DESCRIPTION="&lt;p&gt;This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it.&lt;/p&gt;&#10;"
+#!   ZOOM_SCALE="100"
+#!   FME_SERVER_SERVICES=""
+#!   CATEGORY="BestPractices"
+#!   WORKSPACE_VERSION="1"
+#!   FME_BUILD_NUM="17259"
 #!   SHOW_INFO_NODES="true"
 #!   MAX_LOOP_ITERATIONS=""
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   FME_SERVER_SERVICES=""
-#!   FME_DOCUMENT_GUID="3189b37f-ddbc-4f3c-9441-9187ee15d818"
 #!   FME_LINKED_TRANSFORMER_VERSION="1"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   VIEW_POSITION="-1459.39 -440.629"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
-#!   XFORM_DEPRECATED="No"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   ZOOM_SCALE="100"
-#!   DOC_EXTENTS="7337.57 5071.92"
-#!   CATEGORY="BestPractices"
-#!   DOC_TOP_LEFT="-2284.4 -2671.9"
-#!   WORKSPACE_VERSION="1"
-#!   ITERATION_COUNT_ATTR=""
-#!   USAGE=""
-#!   FME_DOCUMENT_PRIORGUID="315bc9e2-3193-486e-b7e2-f8c20da4a3b0,7780221a-cfcb-4375-9ba8-f4bb9097d250,7a51739f-7de4-4de3-a6c6-81ac523c1fb6,a874f969-cb39-479b-a0a5-14579b8e20cb,111a8ba4-7328-4900-a485-1e9b143b10b5"
-#!   MARKDOWN_DESCRIPTION="This transformer takes input from the Transformers and TransformerParameters feature types of an FMW reader and creates a Best Practice report from it."
+#!   VIEW_POSITION="315.628 2400.02"
+#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -85,11 +85,6 @@
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR TRANSFORMER_NAME Transformer Name:"
 #!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR TRANSFORMER_IID Transformer Iid:"
-#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_iid&lt;closeparen&gt;"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -374,7 +369,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="114"
@@ -389,7 +384,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="117"
@@ -404,7 +399,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="121"
@@ -419,7 +414,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="125"
@@ -434,7 +429,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="129"
@@ -464,7 +459,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="133"
@@ -494,7 +489,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="154"
@@ -509,7 +504,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="8"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="157"
@@ -524,7 +519,7 @@
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
-#!   COLOUR="1,1,0.784314,0.196078"
+#!   COLOUR="1,1,0.784314,0.192157"
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="140"
@@ -542,7 +537,7 @@
 #!   BOUNDING_RECT="-2284.4 2400.02 7337.57 5071.92"
 #!   STICKY="true"
 #!   COLOUR="0.329412,0.666667,0.494118"
-#!   CONTENTS="110 93 44 155 142 17 79 63 54 133 100 27 64 118 144 60 25 146 86 145 124 61 56 129 75 13 105 24 76 83 18 65 143 52 128 84 39 34 115 104 11 134 151 141 119 132 28 21 62 71 130 81 120 31 38 125 78 114 51 90 36 99 50 107 29 70 89 148 33 67 135 121 102 106 98 122 158 126 101 108 35 43 150 147 74 109 59 58 41 68 15 149 127 20 91 47 112 137 80 153 42 131 152 113 69 96 160 97 159 26 103 16 66 72 46 138 40 55 140 111 117 57 116 77 157 123 87 95 154 32 139 94 92 82 48 136 19 73 49 53 "
+#!   CONTENTS="108 70 68 130 146 135 38 34 100 112 71 31 81 97 141 143 96 62 36 17 79 39 55 121 115 65 140 76 103 24 75 131 156 78 124 105 40 63 161 56 132 145 32 64 111 163 90 11 125 126 16 147 54 136 127 18 129 142 106 73 95 128 94 93 13 44 49 160 33 122 148 15 48 58 19 119 159 92 43 82 77 25 116 150 151 114 137 109 67 60 152 72 133 99 26 118 27 80 154 53 66 134 98 20 87 47 86 42 46 91 104 139 107 155 162 117 28 74 59 144 21 123 110 158 84 89 120 164 102 157 69 35 51 52 57 101 50 61 113 138 149 29 83 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="100"
@@ -553,7 +548,7 @@
 #!   BOUNDING_RECT="573.12 2293.77 2970.67 1106.26"
 #!   STICKY="true"
 #!   COLOUR="0.666667,1,0.494118"
-#!   CONTENTS="40 19 18 56 128 39 35 36 41 125 126 28 43 57 42 38 21 17 29 "
+#!   CONTENTS="43 161 125 39 29 36 163 28 128 38 35 19 17 56 21 40 162 126 18 57 42 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="101"
@@ -564,40 +559,40 @@
 #!   BOUNDING_RECT="-455.103 1156.28 3855.14 658.779"
 #!   STICKY="true"
 #!   COLOUR="0.666667,1,0.494118"
-#!   CONTENTS="52 50 97 47 132 91 105 53 96 51 87 89 92 98 54 103 129 86 49 90 55 130 94 93 104 "
+#!   CONTENTS="55 97 105 98 89 50 93 103 86 87 49 91 90 130 52 132 94 129 51 96 47 53 54 104 92 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="102"
 #!   NAME="7.4 Inspector/Logger Transformers"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="103.126 462.505"
-#!   BOTTOM_RIGHT="1975.02 -562.506"
+#!   BOTTOM_RIGHT="1975.02 -562.505"
 #!   BOUNDING_RECT="103.126 462.505 1871.89 1025.01"
 #!   STICKY="true"
 #!   COLOUR="0.666667,1,0.494118"
-#!   CONTENTS="81 79 82 74 124 76 122 68 62 66 73 64 121 67 84 83 77 70 69 78 75 "
+#!   CONTENTS="83 124 69 74 75 62 121 78 79 67 82 77 73 64 68 66 84 70 81 122 76 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="112"
 #!   NAME="7.5 FMEFunctionCaller Transformers"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="103.123 -581.256"
-#!   BOTTOM_RIGHT="1962.52 -1421.89"
-#!   BOUNDING_RECT="103.123 -581.256 1859.4 840.633"
+#!   BOTTOM_RIGHT="1962.52 -1393.76"
+#!   BOUNDING_RECT="103.123 -581.256 1859.4 812.508"
 #!   STICKY="true"
 #!   COLOUR="0.666667,1,0.494118"
-#!   CONTENTS="111 109 117 118 116 120 95 110 107 108 114 115 "
+#!   CONTENTS="118 107 115 111 114 108 116 109 117 120 95 110 "
 #! />
 #! <BOOKMARK
 #!   IDENTIFIER="143"
 #!   NAME="7.6 Matching Parameter Values"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-623.356 -1439.76"
-#!   BOTTOM_RIGHT="2284.4 -2484.4"
-#!   BOUNDING_RECT="-623.356 -1439.76 2907.75 1044.64"
+#!   TOP_LEFT="-623.356 -1418.76"
+#!   BOTTOM_RIGHT="2284.39 -2484.4"
+#!   BOUNDING_RECT="-623.356 -1418.76 2907.75 1065.64"
 #!   STICKY="true"
 #!   COLOUR="0.666667,1,0.494118"
-#!   CONTENTS="147 146 141 151 149 160 144 138 133 150 154 157 140 152 142 153 148 139 134 158 155 145 "
+#!   CONTENTS="158 151 139 142 157 164 133 145 166 141 146 148 155 160 152 147 138 154 144 134 165 150 140 149 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -620,14 +615,14 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PercentOfWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
 #!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter"/>
 #!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="transformer_count NUMERIC DESCENDING"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -645,13 +640,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;This&lt;space&gt;section&lt;space&gt;lists&lt;space&gt;the&lt;space&gt;number&lt;space&gt;of&lt;space&gt;times&lt;space&gt;each&lt;space&gt;transformer&lt;space&gt;is&lt;space&gt;used&lt;space&gt;within&lt;space&gt;your&lt;space&gt;workspace.&lt;space&gt;A&lt;space&gt;high&lt;space&gt;number&lt;space&gt;of&lt;space&gt;uses&lt;space&gt;of&lt;space&gt;one&lt;space&gt;or&lt;space&gt;more&lt;space&gt;transformers&lt;space&gt;&lt;lt&gt;strong&lt;gt&gt;may&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;indicate&lt;space&gt;that&lt;space&gt;an&lt;space&gt;improvement&lt;comma&gt;&lt;space&gt;such&lt;space&gt;as&lt;space&gt;a&lt;space&gt;custom&lt;space&gt;transformer&lt;comma&gt;&lt;space&gt;is&lt;space&gt;possible.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}TABLE{{STYLE;DEFAULT;TABLE;transformer_type|Transformer&lt;space&gt;name/transformer_count|#&lt;space&gt;used;TABLE_GROUP;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Table.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE="Transformer&lt;space&gt;count"/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;This&lt;space&gt;section&lt;space&gt;lists&lt;space&gt;the&lt;space&gt;number&lt;space&gt;of&lt;space&gt;times&lt;space&gt;each&lt;space&gt;transformer&lt;space&gt;is&lt;space&gt;used&lt;space&gt;within&lt;space&gt;your&lt;space&gt;workspace.&lt;space&gt;A&lt;space&gt;high&lt;space&gt;number&lt;space&gt;of&lt;space&gt;uses&lt;space&gt;of&lt;space&gt;one&lt;space&gt;or&lt;space&gt;more&lt;space&gt;transformers&lt;space&gt;&lt;lt&gt;strong&lt;gt&gt;may&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;indicate&lt;space&gt;that&lt;space&gt;an&lt;space&gt;improvement&lt;comma&gt;&lt;space&gt;such&lt;space&gt;as&lt;space&gt;a&lt;space&gt;custom&lt;space&gt;transformer&lt;comma&gt;&lt;space&gt;is&lt;space&gt;possible.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}TABLE{{STYLE;DEFAULT;TABLE;transformer_type|Transformer/transformer_count|Number&lt;space&gt;Used/PercentOfWorkspace|Percent;TABLE_GROUP;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Table.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER TABLE"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="20"
@@ -669,16 +664,16 @@
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ReportOrder 7 SET_TO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ReportOrder 7 SET_TO"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="31"
@@ -696,8 +691,8 @@
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter_2"/>
 #!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter_2"/>
 #!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="SubOrder NUMERIC ASCENDING"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -715,16 +710,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LAYOUT" PARM_VALUE="VERTICAL"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DIV_STYLE" PARM_VALUE="NONE"/>
 #!     <XFORM_PARM PARM_NAME="COLUMN" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="STYLE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="GRID_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLLayouter"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="DIV_STYLE" PARM_VALUE="NONE"/>
+#!     <XFORM_PARM PARM_NAME="LAYOUT" PARM_VALUE="VERTICAL"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLLayouter"/>
+#!     <XFORM_PARM PARM_NAME="STYLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ROW" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="35"
@@ -741,16 +736,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 1"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 1"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="39"
@@ -774,7 +769,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -787,33 +781,32 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE="NumTransformers"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="transformer_count"/>
-#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUMERIC_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
 #!     <XFORM_PARM PARM_NAME="STDEVP_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator"/>
+#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="transformer_count"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
+#!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE="NumTransformers"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="44"
@@ -837,7 +830,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -850,33 +842,32 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="transformer_type"/>
-#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator_2"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUMERIC_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE="NumTransformers"/>
-#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
 #!     <XFORM_PARM PARM_NAME="STDEVP_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator_2"/>
+#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="transformer_type"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE="NumTransformers"/>
+#!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
+#!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="47"
@@ -897,7 +888,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -910,18 +900,17 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt; &lt; &lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt; &lt; &lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="50"
@@ -942,7 +931,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -968,7 +956,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -994,7 +981,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1020,7 +1006,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1033,7 +1018,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1046,7 +1030,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1059,7 +1042,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1072,7 +1054,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -1085,13 +1066,12 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="5" />
-#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE="BOOL_OP&lt;comma&gt;AND&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_type&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;Inspector&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_enabled&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;Yes&lt;quote&gt;,Inspector-Enabled,BOOL_OP&lt;comma&gt;AND&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_type&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;Logger&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_enabled&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;Yes&lt;quote&gt;,Logger-Enabled,BOOL_OP&lt;comma&gt;AND&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_type&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;Inspector&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_enabled&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;No&lt;quote&gt;,Inspector-Disabled,BOOL_OP&lt;comma&gt;AND&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_type&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;Logger&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_enabled&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;No&lt;quote&gt;,Logger-Disabled,BOOL_OP&lt;comma&gt;OR&lt;comma&gt;COMPOSITE_TEST&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;TEST_CLAUSE&lt;comma&gt;&lt;quote&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_type&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;FMEFunctionCaller&lt;lf&gt;TEST&lt;space&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;transformer_type&lt;lt&gt;closeparen&lt;gt&gt;&lt;space&gt;=&lt;space&gt;FunctionCaller&lt;quote&gt;,FMEFunctionCaller"/>
+#!     <XFORM_PARM PARM_NAME="DEFAULT_VALUE" PARM_VALUE="&lt;lt&gt;UNFILTERED&lt;gt&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TestFilter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1116,20 +1096,19 @@
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLLogInspError" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  ErrorMsg 1 SET_TO  HTMLLogInspError &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;active&lt;space&gt;Inspector&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  ErrorMsg 1 SET_TO  HTMLLogInspError &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;active&lt;space&gt;Inspector&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="64"
@@ -1153,20 +1132,19 @@
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLLogInspError" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  ErrorMsg 1 SET_TO  HTMLLogInspError &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;active&lt;space&gt;Logger&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_3"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_3"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  ErrorMsg 1 SET_TO  HTMLLogInspError &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;active&lt;space&gt;Logger&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="66"
@@ -1183,13 +1161,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_2"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Debugging&lt;space&gt;Transformers;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLLogInspError;STYLE;NONE;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}LIST{{ATTR;HTMLLogInspWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;remove&lt;space&gt;these&lt;space&gt;transformer&lt;openparen&gt;s&lt;closeparen&gt;.&lt;space&gt;Loggers&lt;space&gt;and&lt;space&gt;Inspectors&lt;space&gt;should&lt;space&gt;be&lt;space&gt;used&lt;space&gt;solely&lt;space&gt;for&lt;space&gt;debugging&lt;space&gt;and&lt;space&gt;removed&lt;space&gt;before&lt;space&gt;putting&lt;space&gt;a&lt;space&gt;workspace&lt;space&gt;into&lt;space&gt;production.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Debugging&lt;space&gt;Transformers;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLLogInspError;STYLE;NONE;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}LIST{{ATTR;HTMLLogInspWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;remove&lt;space&gt;these&lt;space&gt;transformer&lt;openparen&gt;s&lt;closeparen&gt;.&lt;space&gt;Loggers&lt;space&gt;and&lt;space&gt;Inspectors&lt;space&gt;should&lt;space&gt;be&lt;space&gt;used&lt;space&gt;solely&lt;space&gt;for&lt;space&gt;debugging&lt;space&gt;and&lt;space&gt;removed&lt;space&gt;before&lt;space&gt;putting&lt;space&gt;a&lt;space&gt;workspace&lt;space&gt;into&lt;space&gt;production.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER LIST LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_2"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="69"
@@ -1213,20 +1191,19 @@
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLLogInspWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLLogInspWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;disabled&lt;space&gt;Inspector&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_4"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_4"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLLogInspWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;disabled&lt;space&gt;Inspector&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="70"
@@ -1250,20 +1227,19 @@
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLLogInspWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLLogInspWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;disabled&lt;space&gt;Logger&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_5"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_5"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLLogInspWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;disabled&lt;space&gt;Logger&lt;space&gt;transformer:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="75"
@@ -1287,7 +1263,6 @@
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLLogInspError" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1310,16 +1285,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 4"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_2"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 4"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="86"
@@ -1342,14 +1317,13 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-NoFeaturesTester"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="90"
@@ -1366,13 +1340,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_3"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;Versions;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLTransfVersionGood;STYLE;NONE;COLOR;0&lt;comma&gt;255&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;Versions;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLTransfVersionGood;STYLE;NONE;COLOR;0&lt;comma&gt;255&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER LIST"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_3"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="92"
@@ -1389,16 +1363,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 2"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_3"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="89"
@@ -1422,20 +1396,19 @@
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLTransVersionWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLTransVersionWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;transformer&lt;space&gt;&lt;lt&gt;i&lt;gt&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;space&gt;that&lt;space&gt;is&lt;space&gt;out&lt;space&gt;of&lt;space&gt;date.&lt;space&gt;Its&lt;space&gt;version&lt;space&gt;is&lt;space&gt;&lt;lt&gt;strong&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;but&lt;space&gt;the&lt;space&gt;most&lt;space&gt;recent&lt;space&gt;version&lt;space&gt;is&lt;space&gt;&lt;lt&gt;strong&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_6"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_6"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLTransVersionWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;transformer&lt;space&gt;&lt;lt&gt;i&lt;gt&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;space&gt;that&lt;space&gt;is&lt;space&gt;out&lt;space&gt;of&lt;space&gt;date.&lt;space&gt;Its&lt;space&gt;version&lt;space&gt;is&lt;space&gt;&lt;lt&gt;strong&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;but&lt;space&gt;the&lt;space&gt;most&lt;space&gt;recent&lt;space&gt;version&lt;space&gt;is&lt;space&gt;&lt;lt&gt;strong&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="96"
@@ -1452,13 +1425,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_4"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;Versions;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLTransVersionWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;upgrade&lt;space&gt;these&lt;space&gt;transformer&lt;openparen&gt;s&lt;closeparen&gt;.&lt;space&gt;Although&lt;space&gt;this&lt;space&gt;is&lt;space&gt;not&lt;space&gt;compulsory&lt;comma&gt;&lt;space&gt;newer&lt;space&gt;transformers&lt;space&gt;are&lt;space&gt;generally&lt;space&gt;better&lt;space&gt;performing&lt;comma&gt;&lt;space&gt;with&lt;space&gt;fewer&lt;space&gt;errors&lt;space&gt;and&lt;space&gt;more&lt;space&gt;options.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Transformer&lt;space&gt;Versions;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLTransVersionWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;upgrade&lt;space&gt;these&lt;space&gt;transformer&lt;openparen&gt;s&lt;closeparen&gt;.&lt;space&gt;Although&lt;space&gt;this&lt;space&gt;is&lt;space&gt;not&lt;space&gt;compulsory&lt;comma&gt;&lt;space&gt;newer&lt;space&gt;transformers&lt;space&gt;are&lt;space&gt;generally&lt;space&gt;better&lt;space&gt;performing&lt;comma&gt;&lt;space&gt;with&lt;space&gt;fewer&lt;space&gt;errors&lt;space&gt;and&lt;space&gt;more&lt;space&gt;options.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_4"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="103"
@@ -1474,16 +1447,16 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="HTMLTransfVersionGood" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; HTMLTransfVersionGood SET_TO &lt;lt&gt;strong&lt;gt&gt;PASS:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;There&lt;space&gt;are&lt;space&gt;no&lt;space&gt;out-of-date&lt;space&gt;transformers&lt;space&gt;in&lt;space&gt;this&lt;space&gt;workspace.&lt;lt&gt;br&lt;gt&gt;&lt;space&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_4"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; HTMLTransfVersionGood SET_TO &lt;lt&gt;strong&lt;gt&gt;PASS:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;There&lt;space&gt;are&lt;space&gt;no&lt;space&gt;out-of-date&lt;space&gt;transformers&lt;space&gt;in&lt;space&gt;this&lt;space&gt;workspace.&lt;lt&gt;br&lt;gt&gt;&lt;space&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="95"
@@ -1507,20 +1480,19 @@
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLFunctionCallerWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLFunctionCallerWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;FMEFunctionCaller&lt;space&gt;transformer:&lt;space&gt;&lt;lt&gt;i&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_7"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_7"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP NumTransformers NumTransformers  NO_OP  WarnMsg 1 SET_TO  HTMLFunctionCallerWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;FMEFunctionCaller&lt;space&gt;transformer:&lt;space&gt;&lt;lt&gt;i&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO transformer_name transformer_name  NO_OP"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="107"
@@ -1537,13 +1509,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_5"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;FMEFunctionCaller&lt;space&gt;Transformers;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLFunctionCallerWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;remove&lt;space&gt;these&lt;space&gt;transformer&lt;openparen&gt;s&lt;closeparen&gt;.&lt;space&gt;FMEFunctionCaller&lt;space&gt;transformers&lt;space&gt;indicate&lt;space&gt;low-level&lt;space&gt;functionality&lt;space&gt;that&lt;space&gt;is&lt;space&gt;rarely&lt;space&gt;required&lt;space&gt;in&lt;space&gt;an&lt;space&gt;FME&lt;space&gt;workspace.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;FMEFunctionCaller&lt;space&gt;Transformers;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLFunctionCallerWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;remove&lt;space&gt;these&lt;space&gt;transformer&lt;openparen&gt;s&lt;closeparen&gt;.&lt;space&gt;FMEFunctionCaller&lt;space&gt;transformers&lt;space&gt;indicate&lt;space&gt;low-level&lt;space&gt;functionality&lt;space&gt;that&lt;space&gt;is&lt;space&gt;rarely&lt;space&gt;required&lt;space&gt;in&lt;space&gt;an&lt;space&gt;FME&lt;space&gt;workspace.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_5"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="108"
@@ -1560,16 +1532,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 5"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_5"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 5"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="114"
@@ -1610,7 +1582,6 @@
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLFunctionCallerWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1687,7 +1658,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1699,7 +1669,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1711,7 +1680,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1724,7 +1692,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1736,33 +1703,32 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
-#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
 #!     <XFORM_PARM PARM_NAME="PROCESS_DUPS" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Supplier"/>
-#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="JOIN_KEYS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_id&lt;closeparen&gt; &lt;at&gt;Value&lt;openparen&gt;transformer_id&lt;closeparen&gt; AUTO"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Requestor"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JOIN_ATTRIBUTES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIERS_FIRST" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_TYPE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REJECT_NULL_MISSING_KEYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureMerger"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="IGNORE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="SUPPLIER_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_COUNT_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="CONNECT_Z_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_TYPE" PARM_VALUE="Attributes Only"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="138"
@@ -1785,37 +1751,36 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="ASSEMBLE_ONE_LEVEL_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
-#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Use Attributes From One Feature"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="Homogeneous Collection (If Possible)"/>
+#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="PARENT_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Aggregator"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PRESERVE_ID" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="transformer_type transformer_parameter_name transformer_parameter_value"/>
+#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="CONCAT_ATTRS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ACCUM_ATTRS_NAME" PARM_VALUE="Use Attributes From One Feature"/>
+#!     <XFORM_PARM PARM_NAME="SEP" PARM_VALUE="&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="AV" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Geometry - Assemble One Level"/>
 #!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE="NumberOfMatches"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TO_TRAIT" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="Geometry - Assemble One Level"/>
-#!     <XFORM_PARM PARM_NAME="ORDERED" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="GENERATE_LIST_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="transformer_type transformer_parameter_name transformer_parameter_value"/>
-#!     <XFORM_PARM PARM_NAME="ID_SELECTION" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="LIST_ATTRS_TO_INCLUDE_MODE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="CHILD_ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WEIGHT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ASSEMBLE_HIERARCHY_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOM_NAME_FIELD" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="AGGREGATE_TYPE" PARM_VALUE="Homogeneous Collection (If Possible)"/>
+#!     <XFORM_PARM PARM_NAME="ID_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="LIST_NAME" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="140"
@@ -1838,7 +1803,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
@@ -1851,16 +1815,15 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;NumberOfMatches&lt;closeparen&gt; &gt; 1&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt; != &lt;lt&gt;Unused&lt;gt&gt;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt; != FME_PROCESS_COUNTDISP&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt; != FME_PROCESS_GROUPS_ORDERED&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt; != XFORMER_NAME"/>
-#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="AND"/>
+#!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
+#!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;NumberOfMatches&lt;closeparen&gt; &gt; 1&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt; != &lt;lt&gt;Unused&lt;gt&gt;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt; ATTRIBUTE_HAS_VALUE &quot;&quot;&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt; != FME_PROCESS_COUNTDISP&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt; != FME_PROCESS_GROUPS_ORDERED&#10;TEST &lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt; != XFORMER_NAME"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester_2"/>
+#!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
+#!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="144"
@@ -1885,19 +1848,18 @@
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP  WarnMsg 1 SET_TO  HTMLMatchingParamWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;NumberOfMatches&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_type&lt;closeparen&gt;&lt;space&gt;transformers&lt;space&gt;have&lt;space&gt;at&lt;space&gt;least&lt;space&gt;one&lt;space&gt;common&lt;space&gt;parameter&lt;space&gt;with&lt;space&gt;the&lt;space&gt;same&lt;space&gt;value.&lt;lt&gt;br&lt;gt&gt; SET_TO transformer_name transformer_name  NO_OP transformer_parameter_name transformer_parameter_name  NO_OP transformer_parameter_value transformer_parameter_value  NO_OP transformer_iid transformer_iid  NO_OP transformer_id transformer_id  NO_OP NumberOfMatches NumberOfMatches  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_8"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_8"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP  WarnMsg 1 SET_TO  HTMLMatchingParamWarn &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;NumberOfMatches&lt;closeparen&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_type&lt;closeparen&gt;&lt;space&gt;transformers&lt;space&gt;have&lt;space&gt;at&lt;space&gt;least&lt;space&gt;one&lt;space&gt;common&lt;space&gt;parameter&lt;space&gt;with&lt;space&gt;the&lt;space&gt;same&lt;space&gt;value.&lt;lt&gt;br&lt;gt&gt; SET_TO transformer_name transformer_name  NO_OP transformer_parameter_name transformer_parameter_name  NO_OP transformer_parameter_value transformer_parameter_value  NO_OP transformer_id transformer_id  NO_OP NumberOfMatches NumberOfMatches  NO_OP"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="146"
@@ -1914,13 +1876,13 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_6"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Matching&lt;space&gt;Transformer&lt;space&gt;Parameters;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLMatchingParamWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;create&lt;space&gt;a&lt;space&gt;user&lt;space&gt;parameter&lt;space&gt;to&lt;space&gt;handle&lt;space&gt;each&lt;space&gt;matching&lt;space&gt;parameter&lt;comma&gt;&lt;space&gt;so&lt;space&gt;that&lt;space&gt;the&lt;space&gt;value&lt;space&gt;for&lt;space&gt;all&lt;space&gt;transformers&lt;space&gt;can&lt;space&gt;be&lt;space&gt;managed&lt;space&gt;in&lt;space&gt;a&lt;space&gt;single&lt;space&gt;location.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Matching&lt;space&gt;Transformer&lt;space&gt;Parameters;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLMatchingParamWarn;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;create&lt;space&gt;a&lt;space&gt;user&lt;space&gt;parameter&lt;space&gt;to&lt;space&gt;handle&lt;space&gt;each&lt;space&gt;matching&lt;space&gt;parameter&lt;comma&gt;&lt;space&gt;so&lt;space&gt;that&lt;space&gt;the&lt;space&gt;value&lt;space&gt;for&lt;space&gt;all&lt;space&gt;transformers&lt;space&gt;can&lt;space&gt;be&lt;space&gt;managed&lt;space&gt;in&lt;space&gt;a&lt;space&gt;single&lt;space&gt;location.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER LIST HEADER"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_6"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="147"
@@ -1937,23 +1899,23 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 6"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeCreator_6"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; SubOrder SET_TO 6"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="151"
 #!   TYPE="DuplicateFilter"
 #!   VERSION="5"
-#!   POSITION="547.535 -1700.02"
-#!   BOUNDING_RECT="547.535 -1700.02 -1 -1"
+#!   POSITION="547.535 -1531.27"
+#!   BOUNDING_RECT="547.535 -1531.27 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1969,7 +1931,6 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="DUPLICATE"/>
@@ -1982,14 +1943,13 @@
 #!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="KEYATTR" PARM_VALUE="transformer_id"/>
 #!     <XFORM_PARM PARM_NAME="INPUT_ORDERED_CHOICE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="KEYATTR" PARM_VALUE="transformer_id"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DuplicateFilter"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="154"
@@ -2014,7 +1974,6 @@
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_10"/>
@@ -2036,6 +1995,69 @@
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_11"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="161"
+#!   TYPE="AttributeManager"
+#!   VERSION="1"
+#!   POSITION="1543.42 1759.39"
+#!   BOUNDING_RECT="1543.42 1759.39 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17259"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="transformer_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="current_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PercentOfWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_9"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="transformer_count transformer_count  NO_OP transformer_type transformer_type  NO_OP current_transformer_version current_transformer_version  NO_OP max_transformer_version max_transformer_version  NO_OP transformer_enabled transformer_enabled  NO_OP transformer_name transformer_name  NO_OP transformer_parameter_name transformer_parameter_name  NO_OP transformer_parameter_value transformer_parameter_value  NO_OP transformer_id transformer_id  NO_OP NumTransformers NumTransformers  NO_OP  PercentOfWorkspace &lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;round&lt;openparen&gt;&lt;openparen&gt;&lt;at&gt;Value&lt;openparen&gt;transformer_count&lt;closeparen&gt;&lt;solidus&gt;&lt;at&gt;Value&lt;openparen&gt;NumTransformers&lt;closeparen&gt;&lt;closeparen&gt;*100&lt;closeparen&gt;&lt;closeparen&gt; SET_TO"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="164"
+#!   TYPE="Sorter"
+#!   VERSION="2"
+#!   POSITION="547.535 -1756.27"
+#!   BOUNDING_RECT="547.535 -1756.27 -1 -1"
+#!   ORDER="5e+14"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="17259"
+#! >
+#!     <OUTPUT_FEAT NAME="SORTED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="transformer_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="current_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SORT_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Sorter_3"/>
+#!     <XFORM_PARM PARM_NAME="SORT_PARM" PARM_VALUE="NumberOfMatches NUMERIC DESCENDING"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
 #! <SUBDOCUMENT_IO
@@ -2055,7 +2077,6 @@
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" ATTR_VALUE="$(TRANSFORMER_ENABLED)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_type" ATTR_VALUE="$(TRANSFORMER_TYPE_2)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" ATTR_VALUE="$(TRANSFORMER_NAME)" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" ATTR_VALUE="$(TRANSFORMER_IID)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" ATTR_VALUE="$(TRANSFORMER_PARAMETER_NAME)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" ATTR_VALUE="$(TRANSFORMER_PARAMETER_VALUE)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" ATTR_VALUE="$(TRANSFORMER_ID)" />
@@ -2077,7 +2098,6 @@
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" ATTR_VALUE="$(TRANSFORMER_ENABLED)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_type" ATTR_VALUE="$(TRANSFORMER_TYPE_2)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" ATTR_VALUE="$(TRANSFORMER_NAME)" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" ATTR_VALUE="$(TRANSFORMER_IID)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" ATTR_VALUE="$(TRANSFORMER_PARAMETER_NAME)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" ATTR_VALUE="$(TRANSFORMER_PARAMETER_VALUE)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" ATTR_VALUE="$(TRANSFORMER_ID)" />
@@ -2119,7 +2139,6 @@
 #!     <XFORM_ATTR ATTR_NAME="transformer_enabled" ATTR_VALUE="$(TRANSFORMER_ENABLED)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_type" ATTR_VALUE="$(TRANSFORMER_TYPE_2)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" ATTR_VALUE="$(TRANSFORMER_NAME)" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_iid" ATTR_VALUE="$(TRANSFORMER_IID)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" ATTR_VALUE="$(TRANSFORMER_PARAMETER_NAME)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" ATTR_VALUE="$(TRANSFORMER_PARAMETER_VALUE)" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" ATTR_VALUE="$(TRANSFORMER_ID)" />
@@ -2644,9 +2663,9 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="153"
+#!   IDENTIFIER="165"
 #!   SOURCE_NODE="151"
-#!   TARGET_NODE="144"
+#!   TARGET_NODE="164"
 #!   SOURCE_PORT_DESC="fo 0 UNIQUE"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -2677,9 +2696,31 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="41"
-#!   SOURCE_NODE="39"
+#!   IDENTIFIER="163"
+#!   SOURCE_NODE="161"
 #!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="166"
+#!   SOURCE_NODE="164"
+#!   TARGET_NODE="144"
+#!   SOURCE_PORT_DESC="fo 0 SORTED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="162"
+#!   SOURCE_NODE="39"
+#!   TARGET_NODE="161"
 #!   SOURCE_PORT_DESC="fo 1 COMPLETE"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -2803,7 +2844,6 @@ DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER
 DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED <at>Value<openparen>transformer_enabled<closeparen>
 DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2 <at>Value<openparen>transformer_type<closeparen>
 DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME <at>Value<openparen>transformer_name<closeparen>
-DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_IID <at>Value<openparen>transformer_iid<closeparen>
 DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME <at>Value<openparen>transformer_parameter_name<closeparen>
 DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE <at>Value<openparen>transformer_parameter_value<closeparen>
 DEFAULT_MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID <at>Value<openparen>transformer_id<closeparen>
@@ -2815,16 +2855,16 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-TransformerAnalysis_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-TransformerAnalysis_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers1491947912 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers_0_TK6+QxhMOwk=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_iid,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_IID),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers_1_NzpkAsE7Mt4=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_iid,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_IID),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters1491947912 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_iid,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_IID),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerHistogram1491947912 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerHistogram"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerHistogram" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_iid,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_IID),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers1492013363 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers_0_TK6+QxhMOwk=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers_1_NzpkAsE7Mt4=" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters1492013363 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerParameters" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerHistogram1492013363 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerHistogram"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerHistogram" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,transformer_count,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE),current_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION),max_transformer_version,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION),transformer_enabled,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED),transformer_type,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2),transformer_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME),transformer_parameter_name,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME),transformer_parameter_value,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE),transformer_id,$($(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_968ae097_ee6e_4e18_851d_f9c7ec7105109_GROUP_BY
+DEFAULT_MACRO __$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_b8ee07c0_f4c3_44ed_82e8_bbb1cb635fa33_GROUP_BY
 
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_968ae097_ee6e_4e18_851d_f9c7ec7105109_GROUP_BY',     'STATS_ATTRS':'transformer_count',     'SUM_ATTR':'NumTransformers',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_b8ee07c0_f4c3_44ed_82e8_bbb1cb635fa33_GROUP_BY',     'STATS_ATTRS':'transformer_count',     'SUM_ATTR':'NumTransformers',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:TransformerHistogram"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator,__ORIGINAL__)
@@ -2834,11 +2874,16 @@ FACTORY_DEF * ElementFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator COMPLETE Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE_0_uCfy7Lm5tvc="   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE_1_40PX4CTXBOs="
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE_0_uCfy7Lm5tvc="    SORT_BY transformer_count NUMERIC DESCENDING    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter_SORTED"
+
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_9    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE_0_uCfy7Lm5tvc="    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "PercentOfWorkspace" "<at>Evaluate<openparen><at>round<openparen><openparen><at>Value<openparen>transformer_count<closeparen><solidus><at>Value<openparen>NumTransformers<closeparen><closeparen>*100<closeparen><closeparen>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_9_OUTPUT"
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter_SORTED"    OUTPUT FEATURE_TYPE $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED       fme_html5_title "Transformer<space>count"       fme_html5_config "HEADER{{TEXT;Transformer<space>Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;This<space>section<space>lists<space>the<space>number<space>of<space>times<space>each<space>transformer<space>is<space>used<space>within<space>your<space>workspace.<space>A<space>high<space>number<space>of<space>uses<space>of<space>one<space>or<space>more<space>transformers<space><lt>strong<gt>may<lt><solidus>strong<gt><space>indicate<space>that<space>an<space>improvement<comma><space>such<space>as<space>a<space>custom<space>transformer<comma><space>is<space>possible.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}TABLE{{STYLE;DEFAULT;TABLE;transformer_type|Transformer<space>name/transformer_count|#<space>used;TABLE_GROUP;"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator"
+FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_9_OUTPUT"    SORT_BY transformer_count NUMERIC DESCENDING    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter_SORTED"
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter_SORTED"    OUTPUT FEATURE_TYPE $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED       fme_html5_title "Transformer<space>count"       fme_html5_config "HEADER{{TEXT;Transformer<space>Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;This<space>section<space>lists<space>the<space>number<space>of<space>times<space>each<space>transformer<space>is<space>used<space>within<space>your<space>workspace.<space>A<space>high<space>number<space>of<space>uses<space>of<space>one<space>or<space>more<space>transformers<space><lt>strong<gt>may<lt><solidus>strong<gt><space>indicate<space>that<space>an<space>improvement<comma><space>such<space>as<space>a<space>custom<space>transformer<comma><space>is<space>possible.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}TABLE{{STYLE;DEFAULT;TABLE;transformer_type|Transformer/transformer_count|Number<space>Used/PercentOfWorkspace|Percent;TABLE_GROUP;"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator"
 
 
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator    INPUT FEATURE_TYPE $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"
@@ -2857,11 +2902,11 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORK
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_3    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE_1_40PX4CTXBOs="
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_ea65b66f_60b2_49e9_858b_149781aec2c89_GROUP_BY
+DEFAULT_MACRO __$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_d9cdbfc3_bad9_4dfc_8098_51d0e0ea7cec3_GROUP_BY
 
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_ea65b66f_60b2_49e9_858b_149781aec2c89_GROUP_BY',     'STATS_ATTRS':'transformer_type',     'COUNT_ATTR':'NumTransformers',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2',{     'GROUP_BY_MACRO':'__$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_d9cdbfc3_bad9_4dfc_8098_51d0e0ea7cec3_GROUP_BY',     'STATS_ATTRS':'transformer_type',     'COUNT_ATTR':'NumTransformers',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_InputProcessor    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Input:Transformers_0_TK6+QxhMOwk="    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_StatisticsCalculator_2,__ORIGINAL__)
@@ -3023,10 +3068,16 @@ FACTORY_DEF * DuplicateRemoverFactory    FACTORY_NAME $(BestPractice-Transformer
 
 # -------------------------------------------------------------------------
 
+FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter_3    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_DuplicateFilter_UNIQUE"    SORT_BY NumberOfMatches NUMERIC DESCENDING    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter_3_SORTED"
 
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_DuplicateFilter_UNIQUE"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "WarnMsg" "1" "SET_TO"     ATTR_ACTION "" "HTMLMatchingParamWarn" "<lt>strong<gt>WARNING:<lt><solidus>strong<gt><space><at>Value<openparen>NumberOfMatches<closeparen><space><at>Value<openparen>transformer_type<closeparen><space>transformers<space>have<space>at<space>least<space>one<space>common<space>parameter<space>with<space>the<space>same<space>value.<lt>br<gt>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT"
+# -------------------------------------------------------------------------
+
+
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Sorter_3_SORTED"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "WarnMsg" "1" "SET_TO"     ATTR_ACTION "" "HTMLMatchingParamWarn" "<lt>strong<gt>WARNING:<lt><solidus>strong<gt><space><at>Value<openparen>NumberOfMatches<closeparen><space><at>Value<openparen>transformer_type<closeparen><space>transformers<space>have<space>at<space>least<space>one<space>common<space>parameter<space>with<space>the<space>same<space>value.<lt>br<gt>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT"
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8 OUTPUT Splitter"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT_0_d91DUclwz8I="   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT_1_xIaikH05/ns="
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_10    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT_1_xIaikH05/ns="    OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_10_Output"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT_0_d91DUclwz8I="    OUTPUT FEATURE_TYPE $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_6_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;Matching<space>Transformer<space>Parameters;HEADER;H4;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}LIST{{ATTR;HTMLMatchingParamWarn;STYLE;NONE;COLOR;255<comma>170<comma>0;BADGE;}}HEADER{{TEXT;<lt>strong<gt>Recommendations:<lt><solidus>strong<gt><space>You<space>may<space>wish<space>to<space>create<space>a<space>user<space>parameter<space>to<space>handle<space>each<space>matching<space>parameter<comma><space>so<space>that<space>the<space>value<space>for<space>all<space>transformers<space>can<space>be<space>managed<space>in<space>a<space>single<space>location.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_6"
@@ -3060,8 +3111,6 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_W
 
 FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_HTMLLayouter_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "7" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_OUTPUT"
 
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_10    INPUT  FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_8_OUTPUT_1_xIaikH05/ns="    OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_10_Output"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Summary1491947912 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_4_Output"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_6_OUTPUT_1_O7h88Jj65Z8="   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_6_Output"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_10_Output"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Summary"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Report1491947912 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Report"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Summary1492013363 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_4_Output"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_6_OUTPUT_1_O7h88Jj65Z8="   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_6_Output"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Junction_10_Output"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Summary"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Report1492013363 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_Output:Report"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-TransformerAnalysis_WORKSPACE_NAME))}]
