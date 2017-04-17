@@ -1,45 +1,45 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN BestPractice-ReportHeader,1,BestPractices,0fe5be46-e0e9-4cb3-bb02-f9df654b23f5,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# TRANSFORMER_BEGIN BestPractice-ReportHeader,1,BestPractices,9e210e4b-d411-461f-a1da-e1575ae73f0e,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
 # <p>This transformer creates a Best Practice report that acts as the report header.</p>
 # 
 # TRANSFORMER_END
-#!   FMX_INSERT_MODE="Linked by Default"
-#!   DOC_TOP_LEFT="-215.627 -1371.88"
-#!   DOC_EXTENTS="2237.89 1450.01"
-#!   MARKDOWN_DESCRIPTION="This transformer creates a Best Practice report that acts as the report header."
-#!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   BLOCKED_LOOPING="No"
-#!   MARKDOWN_USAGE=""
-#!   WORKSPACE_VERSION="1"
-#!   FME_LINKED_TRANSFORMER_VERSION="1"
-#!   PASSWORD=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
-#!   XFORM_DEPRECATED="No"
-#!   FME_SERVER_SERVICES=""
-#!   CATEGORY="BestPractices"
 #!   FME_PROCESS_GROUP_BY=""
-#!   USAGE=""
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
-#!   VIEW_POSITION="-600.006 521.88"
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   PYTHON_COMPATIBILITY="27"
 #!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   TITLE="BestPractice-ReportHeader"
-#!   FME_DOCUMENT_PRIORGUID="4e6a525c-7889-4fdb-811c-4f27739976ba,4678448d-765d-47fd-b017-1477a9436414,cdcd54cb-ec50-4cf3-917d-bcf53b681f93"
-#!   SHOW_ANNOTATIONS="true"
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   SHOW_INFO_NODES="true"
 #!   ZOOM_SCALE="100"
+#!   LAST_SAVE_DATE="2017-04-17T16:54:25"
+#!   MAX_LOOP_ITERATIONS=""
+#!   SHOW_INFO_NODES="true"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   SHOW_ANNOTATIONS="true"
+#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   USE_MARKDOWN="YES"
 #!   ITERATION_COUNT_ATTR=""
-#!   MAX_LOOP_ITERATIONS=""
+#!   WORKSPACE_VERSION="1"
+#!   XFORM_DEPRECATED="No"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   VIEW_POSITION="-2259.4 559.381"
+#!   FME_LINKED_TRANSFORMER_VERSION="1"
 #!   FME_BUILD_NUM="17259"
-#!   LAST_SAVE_DATE="2017-04-17T16:09:48"
-#!   FME_DOCUMENT_GUID="0fe5be46-e0e9-4cb3-bb02-f9df654b23f5"
+#!   MARKDOWN_DESCRIPTION="This transformer creates a Best Practice report that acts as the report header."
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
+#!   MARKDOWN_USAGE=""
+#!   DOC_EXTENTS="2237.89 1450.01"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   FME_SERVER_SERVICES=""
+#!   CATEGORY="BestPractices"
+#!   FME_DOCUMENT_PRIORGUID="4e6a525c-7889-4fdb-811c-4f27739976ba,4678448d-765d-47fd-b017-1477a9436414,cdcd54cb-ec50-4cf3-917d-bcf53b681f93,0fe5be46-e0e9-4cb3-bb02-f9df654b23f5,06590edc-24c7-4eb0-88e5-9ba11606cb34"
+#!   FME_DOCUMENT_GUID="9e210e4b-d411-461f-a1da-e1575ae73f0e"
+#!   USAGE=""
+#!   TITLE="BestPractice-ReportHeader"
 #!   DESCRIPTION="&lt;p&gt;This transformer creates a Best Practice report that acts as the report header.&lt;/p&gt;&#10;"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   DOC_TOP_LEFT="-215.627 -1371.88"
+#!   PASSWORD=""
+#!   FMX_INSERT_MODE="Linked by Default"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -107,7 +107,7 @@
 #!   BOUNDING_RECT="-215.627 78.1258 1537.52 1450.01"
 #!   STICKY="true"
 #!   COLOUR="1,0.666667,0.666667"
-#!   CONTENTS="17 18 8 3 4 14 9 16 12 "
+#!   CONTENTS="4 12 17 16 3 18 14 9 8 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -126,16 +126,16 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportOrder 1 SET_TO html_content html_content  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportOrder 1 SET_TO html_content html_content  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="4"
@@ -151,14 +151,14 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;FME&lt;space&gt;Workspace;HEADER;H1;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;&lt;space&gt;Best&lt;space&gt;Practice&lt;space&gt;Report;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;This&lt;space&gt;report&lt;space&gt;examines&lt;space&gt;best&lt;space&gt;practices&lt;space&gt;for&lt;space&gt;a&lt;space&gt;workspaces&lt;space&gt;that&lt;space&gt;is&lt;space&gt;about&lt;space&gt;to&lt;space&gt;be&lt;space&gt;put&lt;space&gt;into&lt;space&gt;production.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;It&lt;space&gt;is&lt;space&gt;assumed&lt;space&gt;that&lt;space&gt;the&lt;space&gt;version&lt;space&gt;of&lt;space&gt;FME&lt;space&gt;being&lt;space&gt;used&lt;space&gt;to&lt;space&gt;generate&lt;space&gt;this&lt;space&gt;report&lt;space&gt;&lt;openparen&gt;$(FME_BUILD_NUM)&lt;closeparen&gt;&lt;space&gt;is&lt;space&gt;the&lt;space&gt;newest&lt;space&gt;release&lt;space&gt;version&lt;space&gt;available.&lt;space&gt;If&lt;space&gt;not&lt;comma&gt;&lt;space&gt;please&lt;space&gt;contact&lt;space&gt;the&lt;space&gt;administrator&lt;space&gt;of&lt;space&gt;this&lt;space&gt;system.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;Note&lt;space&gt;that&lt;space&gt;this&lt;space&gt;report&lt;space&gt;does&lt;space&gt;not&lt;space&gt;comment&lt;space&gt;upon&lt;space&gt;the&lt;space&gt;suitability&lt;space&gt;of&lt;space&gt;the&lt;space&gt;workspace&lt;space&gt;to&lt;space&gt;produce&lt;space&gt;the&lt;space&gt;desired&lt;space&gt;result&lt;comma&gt;&lt;space&gt;merely&lt;space&gt;the&lt;space&gt;practices&lt;space&gt;by&lt;space&gt;which&lt;space&gt;it&lt;space&gt;has&lt;space&gt;been&lt;space&gt;constructed.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}SEPARATOR{{WIDTH;1;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Separator.fme}}TABLE{{STYLE;DEFAULT;TABLE;ReportName|Report/ReportDateTime|Generated/ReportWorkspace|Workspace;TABLE_GROUP;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Table.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER HEADER HEADER HEADER SEPARATOR TABLE"/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;FME&lt;space&gt;Workspace;HEADER;H1;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;&lt;space&gt;Best&lt;space&gt;Practice&lt;space&gt;Report;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;This&lt;space&gt;report&lt;space&gt;examines&lt;space&gt;best&lt;space&gt;practices&lt;space&gt;for&lt;space&gt;a&lt;space&gt;workspaces&lt;space&gt;that&lt;space&gt;is&lt;space&gt;about&lt;space&gt;to&lt;space&gt;be&lt;space&gt;put&lt;space&gt;into&lt;space&gt;production.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;It&lt;space&gt;is&lt;space&gt;assumed&lt;space&gt;that&lt;space&gt;the&lt;space&gt;version&lt;space&gt;of&lt;space&gt;FME&lt;space&gt;being&lt;space&gt;used&lt;space&gt;to&lt;space&gt;generate&lt;space&gt;this&lt;space&gt;report&lt;space&gt;&lt;openparen&gt;$(FME_BUILD_NUM)&lt;closeparen&gt;&lt;space&gt;is&lt;space&gt;the&lt;space&gt;newest&lt;space&gt;release&lt;space&gt;version&lt;space&gt;available.&lt;space&gt;If&lt;space&gt;not&lt;comma&gt;&lt;space&gt;please&lt;space&gt;contact&lt;space&gt;the&lt;space&gt;administrator&lt;space&gt;of&lt;space&gt;this&lt;space&gt;system.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;Note&lt;space&gt;that&lt;space&gt;this&lt;space&gt;report&lt;space&gt;does&lt;space&gt;not&lt;space&gt;comment&lt;space&gt;upon&lt;space&gt;the&lt;space&gt;suitability&lt;space&gt;of&lt;space&gt;the&lt;space&gt;workspace&lt;space&gt;to&lt;space&gt;produce&lt;space&gt;the&lt;space&gt;desired&lt;space&gt;result&lt;comma&gt;&lt;space&gt;merely&lt;space&gt;the&lt;space&gt;practices&lt;space&gt;by&lt;space&gt;which&lt;space&gt;it&lt;space&gt;has&lt;space&gt;been&lt;space&gt;constructed.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}SEPARATOR{{WIDTH;1;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Separator.fme}}TABLE{{STYLE;DEFAULT;TABLE;ReportName|Report/ReportDateTime|Generated/ReportWorkspace|Workspace;TABLE_GROUP;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Table.fme}}"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="14"
@@ -175,16 +175,16 @@
 #!     <XFORM_ATTR ATTR_NAME="ReportDateTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportDateTime &lt;at&gt;DateTimeFormat&lt;openparen&gt;&lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt;&lt;comma&gt;%H:%M:%S:%z&lt;space&gt;%d-%m-%Y&lt;closeparen&gt; SET_TO ReportName ReportName  NO_OP ReportWorkspace ReportWorkspace  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportDateTime &lt;at&gt;DateTimeFormat&lt;openparen&gt;&lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt;&lt;comma&gt;%H:%M:%S&lt;space&gt;UTC&lt;space&gt;%d-%m-%Y&lt;closeparen&gt; SET_TO ReportName ReportName  NO_OP ReportWorkspace ReportWorkspace  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
@@ -277,11 +277,11 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-ReportHeader_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-ReportHeader_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-ReportHeader_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input1492463388 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,ReportName,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME),ReportWorkspace,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input1492466065 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,ReportName,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME),ReportWorkspace,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 
 
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportDateTime" "<at>DateTimeFormat<openparen><at>DateTimeNow<openparen><closeparen><comma>%H:%M:%S:%z<space>%d-%m-%Y<closeparen>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportDateTime" "<at>DateTimeFormat<openparen><at>DateTimeNow<openparen><closeparen><comma>%H:%M:%S<space>UTC<space>%d-%m-%Y<closeparen>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"
 
 # -------------------------------------------------------------------------
 
@@ -298,5 +298,5 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPAC
 
 FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "1" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report1492463388 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report1492466065 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-ReportHeader_WORKSPACE_NAME))}]

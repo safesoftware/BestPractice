@@ -2,6 +2,14 @@
 
 Suggestions and reports still to do.
 
+## Server Implementation ##
+
+- Convert Writer to a FeatureWriter transformer
+- Make output file name related to datetime (to make it unique)
+- Add an Emailer transformer to email the report back to the user
+- Make a webhook(?) for GitHub to trigger upload of updated transformers to Server 
+
+
 ## Report Structure ##
 
 Ways to improve the layout and structure of the HTML report
@@ -18,7 +26,6 @@ Ways to improve the layout and structure of the HTML report
 
 Suggestions and updates for the report header
 
-- Fix DateTime of report (trying to truncate seconds to an integer doesn't work)
 - Implement other updates from lost contribution on KnowledgeCentre Q+A
 
 ## Report 2: WORKSPACE ##
