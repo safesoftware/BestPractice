@@ -1,45 +1,45 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN BestPractice-BreakpointAnalysis,1,BestPractices,4d14ad3d-6a37-4b7a-89bb-8eb5691d8295,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# TRANSFORMER_BEGIN BestPractice-BreakpointAnalysis,1,BestPractices,82c8487e-5198-4602-82e4-acf8381975d9,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
 # <p>This transformer takes input from the Breakpoint feature type of an FMW reader and creates a Best Practice report from it.</p>
 # 
 # TRANSFORMER_END
+#!   FME_DOCUMENT_GUID="82c8487e-5198-4602-82e4-acf8381975d9"
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_DOCUMENT_PRIORGUID="299fcdcd-c12d-4561-a410-988588173ec2,0fcfe80b-7b6b-4079-b668-0abc4d1e5c3f,f2f81b2d-737d-4bb1-ac80-0a57e9efa63c"
-#!   USE_MARKDOWN="YES"
-#!   FME_LINKED_TRANSFORMER_VERSION="1"
-#!   MARKDOWN_DESCRIPTION="This transformer takes input from the Breakpoint feature type of an FMW reader and creates a Best Practice report from it."
-#!   PASSWORD=""
-#!   ZOOM_SCALE="100"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
-#!   MARKDOWN_USAGE=""
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   TITLE="BestPractice-BreakpointAnalysis"
-#!   FME_BUILD_NUM="17259"
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   SHOW_INFO_NODES="true"
-#!   FME_SERVER_SERVICES=""
-#!   DESCRIPTION="&lt;p&gt;This transformer takes input from the Breakpoint feature type of an FMW reader and creates a Best Practice report from it.&lt;/p&gt;&#10;"
+#!   VIEW_POSITION="-1128.14 781.258"
 #!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   FME_DOCUMENT_GUID="4d14ad3d-6a37-4b7a-89bb-8eb5691d8295"
-#!   DOC_TOP_LEFT="-2367.97 -393.752"
-#!   BLOCKED_LOOPING="No"
-#!   USAGE=""
-#!   PYTHON_COMPATIBILITY="27"
-#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
-#!   WORKSPACE_VERSION="1"
 #!   CATEGORY="BestPractices"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   VIEW_POSITION="-2575.03 718.757"
-#!   SHOW_ANNOTATIONS="true"
-#!   MAX_LOOP_ITERATIONS=""
-#!   DOC_EXTENTS="5155.5 1175.01"
-#!   LAST_SAVE_DATE="2017-04-06T14:43:01"
-#!   FMX_INSERT_MODE="Linked by Default"
-#!   ITERATION_COUNT_ATTR=""
-#!   XFORM_DEPRECATED="No"
-#!   FME_PROCESS_GROUP_BY=""
+#!   LAST_SAVE_DATE="2017-04-17T15:53:06"
+#!   SHOW_INFO_NODES="true"
 #!   ATTR_TYPE_ENCODING="SDF"
+#!   FMX_INSERT_MODE="Linked by Default"
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   FME_SERVER_SERVICES=""
+#!   USAGE=""
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
+#!   ITERATION_COUNT_ATTR=""
+#!   ZOOM_SCALE="100"
+#!   MARKDOWN_USAGE=""
+#!   USE_MARKDOWN="YES"
+#!   TITLE="BestPractice-BreakpointAnalysis"
+#!   PYTHON_COMPATIBILITY="27"
+#!   PASSWORD=""
+#!   SHOW_ANNOTATIONS="true"
+#!   BLOCKED_LOOPING="No"
+#!   XFORM_DEPRECATED="No"
+#!   DESCRIPTION="&lt;p&gt;This transformer takes input from the Breakpoint feature type of an FMW reader and creates a Best Practice report from it.&lt;/p&gt;&#10;"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   DOC_TOP_LEFT="-2367.97 -393.752"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   MARKDOWN_DESCRIPTION="This transformer takes input from the Breakpoint feature type of an FMW reader and creates a Best Practice report from it."
+#!   FME_PROCESS_GROUP_BY=""
+#!   FME_BUILD_NUM="17259"
+#!   WORKSPACE_VERSION="1"
+#!   DOC_EXTENTS="5155.5 1175.01"
+#!   FME_DOCUMENT_PRIORGUID="299fcdcd-c12d-4561-a410-988588173ec2,0fcfe80b-7b6b-4079-b668-0abc4d1e5c3f,f2f81b2d-737d-4bb1-ac80-0a57e9efa63c,4d14ad3d-6a37-4b7a-89bb-8eb5691d8295,ba902e96-c27a-4b6c-922f-7256f9a94b89"
+#!   MAX_LOOP_ITERATIONS=""
+#!   FME_LINKED_TRANSFORMER_VERSION="1"
+#!   HISTORY="3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -52,11 +52,6 @@
 #! <FMESERVER>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
-#! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_OR_ATTR FME_DATASET Fme Dataset:"
-#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;fme_dataset&lt;closeparen&gt;"
-#!   IS_STAND_ALONE="false"
-#! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI OPTIONAL TEXT_EDIT_OR_NUM_OR_ATTR BREAKPOINT_CONDITION Breakpoint Condition:"
 #!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;breakpoint_condition&lt;closeparen&gt;"
@@ -252,7 +247,7 @@
 #!   BOUNDING_RECT="-1817.31 781.258 4604.84 1175.01"
 #!   STICKY="true"
 #!   COLOUR="1,0.666667,0.666667"
-#!   CONTENTS="32 41 31 21 17 39 22 4 30 24 19 47 42 7 9 12 50 43 29 44 15 20 18 35 40 6 8 27 46 3 26 10 13 45 36 49 "
+#!   CONTENTS="42 44 40 19 49 20 17 26 12 39 27 50 46 15 35 36 24 10 13 47 6 9 4 3 8 30 7 31 32 43 22 18 29 21 45 41 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -270,14 +265,14 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HTML HEADER LIST"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HTML HEADER LIST"/>
 #!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Feature&lt;space&gt;Inspection&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HTML{{HTML;&lt;lt&gt;h3&lt;gt&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;https:&lt;solidus&gt;&lt;solidus&gt;docs.safe.com&lt;solidus&gt;fme&lt;solidus&gt;html&lt;solidus&gt;FME_Desktop_Documentation&lt;solidus&gt;FME_Workbench&lt;solidus&gt;Workbench&lt;solidus&gt;feature_inspection_about.htm&lt;quote&gt;&lt;gt&gt;Feature&lt;space&gt;Inspection&lt;lt&gt;&lt;solidus&gt;a&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;h3&lt;gt&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Custom&lt;space&gt;HTML.fme}}HEADER{{TEXT;Breakpoint&lt;space&gt;Count:&lt;space&gt;0;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;BreakPointText;STYLE;NONE;COLOR;0&lt;comma&gt;255&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="4"
@@ -294,15 +289,15 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ReportOrder 4 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="html_content html_content  NO_OP  ReportOrder 4 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -321,7 +316,6 @@
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="COMPLETE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -331,7 +325,6 @@
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="CUMULATIVE"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -339,28 +332,28 @@
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_enabled" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE="NumBreakpoints"/>
-#!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUMERIC_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
 #!     <XFORM_PARM PARM_NAME="STDEVP_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MIN_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator"/>
-#!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="breakpoint_id"/>
-#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
-#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NUMERIC_ATTR" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RANGE_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_GROUPS_ORDERED" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="MAX_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUM_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COUNT_ATTR" PARM_VALUE="NumBreakpoints"/>
+#!     <XFORM_PARM PARM_NAME="FME_PROCESS_COUNTDISP" PARM_VALUE="No Parallelism"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMPUTE_HISTOGRAM" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="MODE_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PREPEND_ATTR_NAME_CHOICE" PARM_VALUE="For multiple results only"/>
+#!     <XFORM_PARM PARM_NAME="STDEV_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MEDIAN_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="STATS_ATTRS" PARM_VALUE="breakpoint_id"/>
+#!     <XFORM_PARM PARM_NAME="HISTO_ATTR" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="StatisticsCalculator"/>
+#!     <XFORM_PARM PARM_NAME="MEAN_ATTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTIBUTES_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="7"
@@ -375,14 +368,14 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HTML HEADER LIST LIST HEADER"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator_2"/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HTML HEADER LIST LIST HEADER"/>
 #!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;Feature&lt;space&gt;Inspection&lt;space&gt;Analysis;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HTML{{HTML;&lt;lt&gt;h3&lt;gt&gt;&lt;lt&gt;a&lt;space&gt;href=&lt;quote&gt;https:&lt;solidus&gt;&lt;solidus&gt;docs.safe.com&lt;solidus&gt;fme&lt;solidus&gt;html&lt;solidus&gt;FME_Desktop_Documentation&lt;solidus&gt;FME_Workbench&lt;solidus&gt;Workbench&lt;solidus&gt;feature_inspection_about.htm&lt;quote&gt;&lt;gt&gt;Feature&lt;space&gt;Inspection&lt;lt&gt;&lt;solidus&gt;a&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;h3&lt;gt&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Custom&lt;space&gt;HTML.fme}}HEADER{{TEXT;Breakpoint&lt;space&gt;Count:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;NumBreakpoints&lt;closeparen&gt;;HEADER;H4;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}LIST{{ATTR;HTMLBkptError;STYLE;NONE;COLOR;255&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}LIST{{ATTR;HTMLBkptWarning;STYLE;NONE;COLOR;255&lt;comma&gt;170&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}HEADER{{TEXT;&lt;lt&gt;strong&lt;gt&gt;Recommendations:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;may&lt;space&gt;wish&lt;space&gt;to&lt;space&gt;remove&lt;space&gt;these&lt;space&gt;breakpoint&lt;openparen&gt;s&lt;closeparen&gt;.&lt;space&gt;Breakpoints&lt;space&gt;should&lt;space&gt;be&lt;space&gt;used&lt;space&gt;solely&lt;space&gt;for&lt;space&gt;debugging&lt;space&gt;and&lt;space&gt;removed&lt;space&gt;before&lt;space&gt;putting&lt;space&gt;a&lt;space&gt;workspace&lt;space&gt;into&lt;space&gt;production.;HEADER;NO;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="8"
@@ -397,7 +390,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -407,7 +399,6 @@
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -416,12 +407,12 @@
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Tester"/>
+#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;breakpoint_enabled&lt;closeparen&gt; = No"/>
 #!     <XFORM_PARM PARM_NAME="TEST_DESCRIPTION" PARM_VALUE="&quot;&quot;"/>
-#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_TEST" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TEST_MODE" PARM_VALUE="Automatic"/>
 #!     <XFORM_PARM PARM_NAME="TEST_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TEST_CLAUSE" PARM_VALUE="TEST &lt;at&gt;Value&lt;openparen&gt;breakpoint_enabled&lt;closeparen&gt; = No"/>
+#!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="9"
@@ -442,19 +433,18 @@
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBkptWarning" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP breakpoint_id breakpoint_id  NO_OP breakpoint_name breakpoint_name  NO_OP breakpoint_condition breakpoint_condition  NO_OP breakpoint_test_clause breakpoint_test_clause  NO_OP breakpoint_enabled breakpoint_enabled  NO_OP fme_dataset fme_dataset  NO_OP NumBreakpoints NumBreakpoints  NO_OP  HTMLBkptWarning &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;disabled&lt;space&gt;breakpoint&lt;space&gt;at:&lt;space&gt;&lt;lt&gt;i&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;breakpoint_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO  WarnMsg 1 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP breakpoint_id breakpoint_id  NO_OP breakpoint_name breakpoint_name  NO_OP breakpoint_condition breakpoint_condition  NO_OP breakpoint_test_clause breakpoint_test_clause  NO_OP breakpoint_enabled breakpoint_enabled  NO_OP NumBreakpoints NumBreakpoints  NO_OP  HTMLBkptWarning &lt;lt&gt;strong&lt;gt&gt;WARNING:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;a&lt;space&gt;disabled&lt;space&gt;breakpoint&lt;space&gt;at:&lt;space&gt;&lt;lt&gt;i&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;breakpoint_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO  WarnMsg 1 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -476,19 +466,18 @@
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBkptError" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_3"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP breakpoint_id breakpoint_id  NO_OP breakpoint_name breakpoint_name  NO_OP breakpoint_condition breakpoint_condition  NO_OP breakpoint_test_clause breakpoint_test_clause  NO_OP breakpoint_enabled breakpoint_enabled  NO_OP fme_dataset fme_dataset  NO_OP NumBreakpoints NumBreakpoints  NO_OP  HTMLBkptError &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;active&lt;space&gt;breakpoint&lt;space&gt;at:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;breakpoint_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO  ErrorMsg 1 SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="workspace_id workspace_id  NO_OP breakpoint_id breakpoint_id  NO_OP breakpoint_name breakpoint_name  NO_OP breakpoint_condition breakpoint_condition  NO_OP breakpoint_test_clause breakpoint_test_clause  NO_OP breakpoint_enabled breakpoint_enabled  NO_OP NumBreakpoints NumBreakpoints  NO_OP  HTMLBkptError &lt;lt&gt;strong&lt;gt&gt;ERROR:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;This&lt;space&gt;workspace&lt;space&gt;contains&lt;space&gt;an&lt;space&gt;active&lt;space&gt;breakpoint&lt;space&gt;at:&lt;lt&gt;i&lt;gt&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;breakpoint_name&lt;closeparen&gt;.&lt;lt&gt;&lt;solidus&gt;i&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO  ErrorMsg 1 SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -510,12 +499,11 @@
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HTMLBkptError" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBkptWarning" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="HTMLBkptError" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_9"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -532,15 +520,15 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="BreakPointText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_4"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; BreakPointText &lt;lt&gt;strong&lt;gt&gt;PASS:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;no&lt;space&gt;breakpoints&lt;space&gt;in&lt;space&gt;your&lt;space&gt;workspace SET_TO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; BreakPointText &lt;lt&gt;strong&lt;gt&gt;PASS:&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;space&gt;You&lt;space&gt;have&lt;space&gt;no&lt;space&gt;breakpoints&lt;space&gt;in&lt;space&gt;your&lt;space&gt;workspace SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -558,15 +546,14 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_enabled" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-NoFeaturesTester"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
@@ -591,7 +578,6 @@
 #!   IS_SOURCE="true"
 #!   ATTR_MODE="0"
 #! >
-#!     <XFORM_ATTR ATTR_NAME="fme_dataset" ATTR_VALUE="$(FME_DATASET)" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" ATTR_VALUE="$(BREAKPOINT_CONDITION)" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_test_clause" ATTR_VALUE="$(BREAKPOINT_TEST_CLAUSE)" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" ATTR_VALUE="$(BREAKPOINT_NAME)" />
@@ -786,7 +772,6 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </TRANSFORMER>
-DEFAULT_MACRO $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_FME_DATASET <at>Value<openparen>fme_dataset<closeparen>
 DEFAULT_MACRO $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_CONDITION <at>Value<openparen>breakpoint_condition<closeparen>
 DEFAULT_MACRO $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_TEST_CLAUSE <at>Value<openparen>breakpoint_test_clause<closeparen>
 DEFAULT_MACRO $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_NAME <at>Value<openparen>breakpoint_name<closeparen>
@@ -801,7 +786,7 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-BreakpointAnalysis_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Input:Breakpoints1491507781 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Input:Breakpoints"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Input:Breakpoints" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,fme_dataset,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_FME_DATASET),breakpoint_condition,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_CONDITION),breakpoint_test_clause,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_TEST_CLAUSE),breakpoint_name,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_NAME),workspace_id,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_WORKSPACE_ID),breakpoint_enabled,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_ENABLED),breakpoint_id,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_ID), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Input:Breakpoints1492462386 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Input:Breakpoints"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Input:Breakpoints" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,breakpoint_condition,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_CONDITION),breakpoint_test_clause,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_TEST_CLAUSE),breakpoint_name,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_NAME),workspace_id,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_WORKSPACE_ID),breakpoint_enabled,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_ENABLED),breakpoint_id,$($(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BREAKPOINT_ID), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BestPractice-NoFeaturesTester Input Input Collector"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Input:Breakpoints"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BestPractice-NoFeaturesTester_Input"
 MACRO BestPractice-NoFeaturesTester_WORKSPACE_NAME $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BestPractice-NoFeaturesTester
@@ -813,11 +798,11 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKS
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BestPractice-NoFeaturesTester Output Output Renamer/Nuker"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BestPractice-NoFeaturesTester_Output"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BestPractice-NoFeaturesTester_Output"
 # -------------------------------------------------------------------------
 
-DEFAULT_MACRO __$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_0ef3e0f6_80e0_487c_8eb3_144bd2ae80d90_GROUP_BY
+DEFAULT_MACRO __$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_f7010fe6_7dab_48db_962c_a88dd3f550dd0_GROUP_BY
 
 DYNAMIC_FUNCTION_CONFIGURATION Python FMEOBJECTS
 DYNAMIC_FUNCTION_CONFIGURATION Python import StatisticsCalculator
-DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_0ef3e0f6_80e0_487c_8eb3_144bd2ae80d90_GROUP_BY',     'STATS_ATTRS':'breakpoint_id',     'COUNT_ATTR':'NumBreakpoints',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
+DYNAMIC_FUNCTION_CONFIGURATION Python "StatisticsCalculator.connectTransformer(    '$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator',{     'GROUP_BY_MACRO':'__$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_f7010fe6_7dab_48db_962c_a88dd3f550dd0_GROUP_BY',     'STATS_ATTRS':'breakpoint_id',     'COUNT_ATTR':'NumBreakpoints',     'COMPUTE_HISTOGRAM':'NO',     'HISTO_ATTR':'<Unused>',     'PREPEND_ATTR_NAME':'No',     'encoded_result_attrs':True,     None:None})"
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_InputProcessor    INPUT  FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_BestPractice-NoFeaturesTester_Output"    OUTPUT FEATURE_TYPE __ORIGINAL__       @Python(StatisticsCalculator.recordFeature,$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator)
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_UnneededInputNuker    INPUT FEATURE_TYPE __ORIGINAL__    OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"
 FACTORY_DEF * SortFactory    FACTORY_NAME $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_CompleteOutputter    INPUT FEATURE_TYPE __UNUSED_INPUT_TO_GUARANTEE_FACTORY_DOESNT_CONSUME_EVERYTHING__    INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"    OUTPUT SORTED FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator_COMPLETE"       @Python(StatisticsCalculator.summarizeStatistics,$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_StatisticsCalculator,__ORIGINAL__)
@@ -871,6 +856,6 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-BreakpointAnalysis_WO
 
 FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_AttributeManager    INPUT  FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"    INPUT  FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_HTMLReportGenerator_2_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "4" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_AttributeManager_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Summary1491507781 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Junction_9_Output"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Summary"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Report1491507781 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Report"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Summary1492462386 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Junction_9_Output"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Summary"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Report1492462386 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME)_Output:Report"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-BreakpointAnalysis_WORKSPACE_NAME))}]
