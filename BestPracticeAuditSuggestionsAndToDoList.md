@@ -7,16 +7,21 @@ Suggestions and reports still to do.
 Ways to improve the layout and structure of the HTML report
 
 - Improve the style of the HTML
+	- The report is fairly basic. I'm sure we can do better.
 - Check whether 'Custom HTML' can now replace some aspects of the 2016.1 implementation
+	- eg there are StringReplacers in ReportCollation.fmx that might be avoided if ReportGenerators can be improved
 - Include a list of links to the subsections either before or immediately after the header to facilitate navigation
 	- This needs a way to set an ID in a header. Either custom HTML or FME update (Filed PR#77044)
+- Replace the HTML writer with a FeatureWriter transformer - so a report can be streamed back, but the workspace can also make a copy of the report to a backup folder 
 
-## Report 1: Header ##
+## Report 1: HEADER ##
 
 Suggestions and updates for the report header
 
+- Fix DateTime of report (trying to truncate seconds to an integer doesn't work)
+- Implement other updates from lost contribution on KnowledgeCentre Q+A
 
-## Report 2: Workspace ##
+## Report 2: WORKSPACE ##
 
 Suggestions and updates for the Workspace report
 
@@ -41,15 +46,24 @@ Suggestions and updates for the Breakpoints report
 
 Suggestions and updates for the Readers report
 
-- Give a warning if Readers/Reader FTs are not connected (possible in 2017?)
-- If we knew what connections exist (this might now be possible in 2017) then test for all Reader FT's connected to same transformer - in which case a merge filter could be used
-- Information or warning where it would be possible to implement a where clause on a reader (for instance if there's a tester right after a reader).
+- Give a warning if Readers/Reader FTs are not connected
+	- 2017 introduced connection info, so this might now be possible
+- Test for all Reader FT's connected to same transformer - where a merge filter could be used
+	- Again, with connection info in 2017 this might be possible
+- Information or warning where it would be possible to implement a where clause on a reader 
+	- For instance an empty where clause followed by a Tester after a reader
 - Test connections to databases and file locations using the information in the workspace
 
 
 ## Report 6: WRITERS ##
 
 Suggestions and updates for the Writers report
+
+- Give a warning if Writers/Writer FTs are not connected
+	- 2017 introduced connection info, so this might now be possible
+- Test for all Writer FT's connected to same filter transformer - where a fanout could be used
+	- Again, with connection info in 2017 this might be possible
+- Test connections to databases and file locations using the information in the workspace
 
 ## Report 7: Transformers ##
 
@@ -59,9 +73,12 @@ Suggestions and updates for the Transformers report
 	- This would need a lookup table from transformer<->category, since category is not returned by the FMW reader
 - 	Where parameters are set to an attribute value, warn to include error checking to ensure the attribute exists
 	- Currently we can't tell if a parameter is set to an attribute value (or whether it is a fixed string)
-- Check the possibility of losing features / lack of error trapping. For instance if there exists a tester with a connection only to the Passed port
+- Check the possibility of losing features / lack of error trapping.
+	- For instance if there exists a Tester with a connection only to the Passed port
+	- Basically any filter transformer with an unconnected output port (connect to Null writer/Logger instead?)
 - Check groupings (ie common sections of transformers) eg to say "this should be a custom transformer"
-- Test if transformer names have been changed (if not, could not be best practice?) Or check where there is a long series of _1, _2, _3, _4, etc on transformer names
+- Test if transformer names have been changed (if not, could not be best practice?) 
+	- Or check where there is a long series of _1, _2, _3, _4, etc on transformer names
 - Ping URLs used in a HTTPCaller to see if they respond
 
 
