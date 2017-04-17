@@ -6,58 +6,115 @@
 #    
 #    
 #    C:\apps\FME2017.0\fme.exe C:\Users\imark\Documents\Training\MaterialsAndData\BestPractice\Workspaces\BestPracticeReportGenerator2017ForServer.fmw
-#          --SourceDataset_FMW "C:\Users\imark\Google Drive\2016 - Best Practice Analysis\TestingNoTransformers.fmw"
-#          --DestDataset_HTML "C:\FMEOutput\WorkspaceReport.html"
-#          --ReportName "Marks Workspace Test"
+#          --DestDataset_HTML "\BestPractices\WorkspaceReport.html"
+#          --SourceDataset_TEXTLINE "C:\Users\imark\Documents\Black Hole\testemail.json"
 #    
 #    
-#!   WORKSPACE_VERSION="1"
-#!   HISTORY=""
-#!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_GEOMETRY_HANDLING="Enhanced"
-#!   PYTHON_COMPATIBILITY="27"
-#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
-#!   IGNORE_READER_FAILURE="No"
-#!   END_TCL=""
-#!   USAGE=""
-#!   SHOW_INFO_NODES="true"
-#!   LOG_FILE=""
-#!   DESTINATION="NONE"
-#!   BEGIN_TCL=""
-#!   FME_DOCUMENT_PRIORGUID="11f29e9d-a4e4-4b34-8895-ae85cdf19a7a,249ce42f-85c6-444c-8d05-af923c578fdc,20013974-c9d9-44fc-8a03-aba51fcd5d86,a830ad10-f5be-443c-8047-9f01185463ae,d53403ed-76ad-430f-bade-d38f72d3d03e,c9ff5371-8d9a-4810-9d41-344f42fd6c03,b269c84e-7e64-4ca0-8d3c-6e8c6c373d2d,5832b859-868e-4515-8e74-41620ff95ec3,7d2853e0-2d0b-4708-ba12-7170f467b4cc,faa74b14-9717-4c4d-9a04-1f291d930e73,123dc2ee-59d8-4986-b547-cf1ea828e282,76dd6cf1-2440-4208-8ced-85b8fb235ec7,9b1786ad-8510-4c01-92f8-958d1c7271e9,de43909f-6bce-4696-8e3e-4952d90e7516,32232c17-33b9-4e84-9400-28049a0ce3dd,85db43c5-8f90-444b-a6da-5e11cee18720,65ec7af7-c920-446b-9faa-c992424aedee,2beb4a5f-25c0-45ad-a6a5-4e2a11cd5d04,57fc83f4-88d5-465a-bd45-628b66c7b077,de33484b-796f-4a7c-a27a-070849d4a1e5,caf79008-eb78-4eae-b532-87006a1bd0b2,a0c59812-a0f7-4a7a-bcd9-2a1c0e19f03f,bb557904-4ac1-438a-8ea6-c381b9825938,061b945e-48d8-4a24-84b5-73d0c44081eb,be0f47ff-f131-4b03-8262-8f3d50d473b1,99a448fb-88e3-4407-958f-565fe9772056,66f222b0-2d16-437b-bc28-18ec517edc6a,486270ec-b1c9-42e9-ae6c-5f9a724c598d,e71176bf-1c74-4716-a39f-c1490e1748d4,9b26c2fd-50ff-4068-845c-eae9c49e5a32,49e47cce-efee-4f61-aba2-298b0c090101,ba60f5d2-22d4-4801-89d3-d4e0fafcf391,01dbd406-264e-4154-bc23-e4e77160fcf7"
-#!   DOC_TOP_LEFT="-411.249 -3789.06"
-#!   ZOOM_SCALE="46"
-#!   ATTR_TYPE_ENCODING="SDF"
-#!   FME_SERVER_SERVICES=""
-#!   END_PYTHON=""
-#!   REDIRECT_TERMINATORS="NONE"
-#!   FME_DOCUMENT_GUID="0c1b3d3c-653e-4870-9956-14779f23cebd"
-#!   SHOW_ANNOTATIONS="true"
-#!   TERMINATE_REJECTED="NO"
-#!   TITLE=""
-#!   VIEW_POSITION="-2629.1 -27.1742"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
-#!   MARKDOWN_USAGE=""
-#!   DESTINATION_ROUTING_FILE=""
-#!   FME_REPROJECTION_ENGINE="FME"
-#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
-#!   USE_MARKDOWN=""
-#!   SOURCE_ROUTING_FILE=""
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
 #!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_USAGE=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
 #!   PASSWORD=""
-#!   SOURCE="NONE"
-#!   CATEGORY=""
-#!   MARKDOWN_DESCRIPTION=""
+#!   TITLE=""
+#!   SHOW_INFO_NODES="true"
 #!   FME_BUILD_NUM="17259"
-#!   DESCRIPTION=""
-#!   MAX_LOG_FEATURES="200"
+#!   PYTHON_COMPATIBILITY="27"
+#!   IGNORE_READER_FAILURE="No"
+#!   WORKSPACE_VERSION="1"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   BEGIN_PYTHON=""
-#!   LAST_SAVE_DATE="2017-04-17T16:04:28"
+#!   TERMINATE_REJECTED="NO"
+#!   SOURCE="NONE"
+#!   USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   LOG_FILE=""
+#!   MARKDOWN_DESCRIPTION=""
+#!   DESCRIPTION=""
+#!   DOC_EXTENTS="5746.51 3468.31"
+#!   CATEGORY=""
+#!   DESTINATION_ROUTING_FILE=""
+#!   ZOOM_SCALE="100"
 #!   FME_STROKE_MAX_DEVIATION="0"
-#!   DOC_EXTENTS="5746.51 3415.87"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   DESTINATION="NONE"
+#!   USE_MARKDOWN=""
+#!   DOC_TOP_LEFT="-411.249 -3789.06"
+#!   BEGIN_TCL=""
+#!   END_TCL=""
+#!   FME_SERVER_SERVICES=""
+#!   FME_DOCUMENT_GUID="3f1a8a3b-595a-4453-be9f-0b5f1be9cf73"
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   LAST_SAVE_DATE="2017-04-17T16:39:06"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   HISTORY=""
+#!   SHOW_ANNOTATIONS="true"
+#!   VIEW_POSITION="1640.64 -1871.89"
+#!   SOURCE_ROUTING_FILE=""
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   END_PYTHON=""
+#!   FME_DOCUMENT_PRIORGUID="11f29e9d-a4e4-4b34-8895-ae85cdf19a7a,249ce42f-85c6-444c-8d05-af923c578fdc,20013974-c9d9-44fc-8a03-aba51fcd5d86,a830ad10-f5be-443c-8047-9f01185463ae,d53403ed-76ad-430f-bade-d38f72d3d03e,c9ff5371-8d9a-4810-9d41-344f42fd6c03,b269c84e-7e64-4ca0-8d3c-6e8c6c373d2d,5832b859-868e-4515-8e74-41620ff95ec3,7d2853e0-2d0b-4708-ba12-7170f467b4cc,faa74b14-9717-4c4d-9a04-1f291d930e73,123dc2ee-59d8-4986-b547-cf1ea828e282,76dd6cf1-2440-4208-8ced-85b8fb235ec7,9b1786ad-8510-4c01-92f8-958d1c7271e9,de43909f-6bce-4696-8e3e-4952d90e7516,32232c17-33b9-4e84-9400-28049a0ce3dd,85db43c5-8f90-444b-a6da-5e11cee18720,65ec7af7-c920-446b-9faa-c992424aedee,2beb4a5f-25c0-45ad-a6a5-4e2a11cd5d04,57fc83f4-88d5-465a-bd45-628b66c7b077,de33484b-796f-4a7c-a27a-070849d4a1e5,caf79008-eb78-4eae-b532-87006a1bd0b2,a0c59812-a0f7-4a7a-bcd9-2a1c0e19f03f,bb557904-4ac1-438a-8ea6-c381b9825938,061b945e-48d8-4a24-84b5-73d0c44081eb,be0f47ff-f131-4b03-8262-8f3d50d473b1,99a448fb-88e3-4407-958f-565fe9772056,66f222b0-2d16-437b-bc28-18ec517edc6a,486270ec-b1c9-42e9-ae6c-5f9a724c598d,e71176bf-1c74-4716-a39f-c1490e1748d4,9b26c2fd-50ff-4068-845c-eae9c49e5a32,49e47cce-efee-4f61-aba2-298b0c090101,ba60f5d2-22d4-4801-89d3-d4e0fafcf391,01dbd406-264e-4154-bc23-e4e77160fcf7,0c1b3d3c-653e-4870-9956-14779f23cebd"
 #! >
 #! <DATASETS>
+#! <DATASET
+#!   IS_SOURCE="true"
+#!   ROLE="READER"
+#!   FORMAT="TEXTLINE"
+#!   DATASET="$(SourceDataset_TEXTLINE)"
+#!   KEYWORD="TEXTLINE_1"
+#!   MULTI_GEOM_ALLOWED="false"
+#!   ATTR_MAX_LENGTH="0"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES=""
+#!   WRITE_DEFS="false"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) text_line_length number(6,0) multi_reader_id number(11,0) text_line_type char(64) fme_type char(50) multi_reader_full_id number(11,0) fme_secondary_axis number(31,15) fme_color char(50) fme_dataset char(50) fme_basename char(50) fme_feature_type char(50) text_line_eol char(10) text_line_number number(11,0) fme_sweep_angle number(31,15) fme_fill_color char(50) fme_rotation number(31,15) fme_text_string char(50) multi_reader_keyword char(50) fme_text_size number(31,15) fme_geometry fme_char(50) multi_reader_type char(50) fme_primary_axis number(31,15)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="true"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="17259"
+#!   FEATURE_TYPES=""
+#!   MAX_FEATURES_PER_FEATURE_TYPE=""
+#!   MIN_FEATURES=""
+#!   MAX_FEATURES=""
+#!   COORDSYS=""
+#!   START_FEATURE=""
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Text file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE=""
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="txt file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="text_line"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Text file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
+#! />
+#! </DATASET>
 #! <DATASET
 #!   IS_SOURCE="false"
 #!   ROLE="WRITER"
@@ -71,7 +128,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="false"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_type char(50) fme_feature_type char(50) fme_text_string char(50) fme_geometry fme_char(50) fme_primary_axis number(31,15) html_eol char(10) fme_text_size number(31,15) fme_rotation number(31,15) fme_secondary_axis number(31,15) fme_start_angle number(31,15) fme_basename char(50) fme_color char(50) fme_fill_color char(50) fme_sweep_angle number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_start_angle number(31,15) fme_rotation number(31,15) fme_feature_type char(50) fme_secondary_axis number(31,15) fme_geometry fme_char(50) fme_basename char(50) fme_dataset char(50) fme_color char(50) fme_type char(50) fme_text_string char(50) fme_text_size number(31,15) fme_sweep_angle number(31,15) fme_fill_color char(50) fme_primary_axis number(31,15) html_eol char(10)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -80,17 +137,13 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="16674"
-#!   FANOUT_EXPRESSION=""
-#!   COORDSYS=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
 #!   FANOUT_GROUP="NO"
+#!   COORDSYS=""
 #! >
 #! <METAFILE_PARAMETER
 #!   NAME="MIME_TYPE"
 #!   VALUE="text/html"
-#! />
-#! <METAFILE_PARAMETER
-#!   NAME="READER_DATASET_HINT"
-#!   VALUE="Select the HTML file(s)"
 #! />
 #! <METAFILE_PARAMETER
 #!   NAME="WRITER_DATASET_HINT"
@@ -101,12 +154,154 @@
 #!   VALUE="HTML file"
 #! />
 #! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the HTML file(s)"
+#! />
+#! <METAFILE_PARAMETER
 #!   NAME="FEATURE_TYPE_DEFAULT_NAME"
 #!   VALUE="HTML"
 #! />
 #! </DATASET>
 #! </DATASETS>
 #! <DATA_TYPES>
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="buffer"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(20)"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(12)"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(8)"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(31,15)"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(15,7)"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(11,0)"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="logical"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(6,0)"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(4,0)"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="number(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="TEXTLINE"
+#! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(width)"
@@ -248,6 +443,96 @@
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
 #! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
 #!   IS_SOURCE="false"
 #!   FORMAT_TYPE="html_none"
 #!   FME_TYPE="fme_no_geom"
@@ -358,18 +643,36 @@
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="html_content" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="true"
+#!   NODE_NAME="text_line"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="58"
+#!   FEAT_GEOMTYPE="text_line_none"
+#!   POSITION="-411.249 -358.004"
+#!   BOUNDING_RECT="-411.249 -358.004 -1 -1"
+#!   ORDER="5e+14"
+#!   COLLAPSED="false"
+#!   KEYWORD="TEXTLINE_1"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   HIDDEN_USER_ATTRS=""
+#!   MERGE_FILTER=""
+#!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
+#!   MERGE_FILTER_CASE_SENSITIVE="true"
+#!   DYNAMIC_SCHEMA="false"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <SERVICES>
 #! <SERVICE
-#!   NAME="fmedatastreaming"
+#!   NAME="fmenotification"
 #! >
 #! <PROPERTIES>
-#! <PROPERTY
-#!   CATEGORY="FMEUSERPROPDATA"
-#!   NAME="ADVANCED"
-#!   VALUE=""
-#! />
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
 #!   NAME="FAILURE_TOPICS"
@@ -378,7 +681,7 @@
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
 #!   NAME="HTTP_DATASET"
-#!   VALUE="FMW_1"
+#!   VALUE="SourceDataset_TEXTLINE"
 #! />
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
@@ -387,13 +690,18 @@
 #! />
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
-#!   NAME="OUTPUT_WRITER"
-#!   VALUE="HTML_1"
+#!   NAME="PUBLISHER"
+#!   VALUE="FME_DISCLOSURE_OPEN"
 #! />
 #! <PROPERTY
 #!   CATEGORY="FMEUSERPROPDATA"
 #!   NAME="SUCCESS_TOPICS"
 #!   VALUE=""
+#! />
+#! <PROPERTY
+#!   CATEGORY="FMEUSERPROPDATA"
+#!   NAME="TOPICS_LIST"
+#!   VALUE="BestPractice-IncomingWorkspace"
 #! />
 #! </PROPERTIES>
 #! </SERVICE>
@@ -402,27 +710,11 @@
 #!   NAME="iMark"
 #! />
 #! <ITEM
-#!   NAME="BestPracticeReportGenerator2017.fmw"
+#!   NAME="BestPracticeReportGenerator2017ForServer.fmw"
 #! />
 #! <MODIFICATIONS>
 #! <MODIFICATION
-#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
-#!   UID=":DatasetMgr_FMW_1:SourceDataset_FMW_1"
-#!   VALUE="$(SourceDataset_FMW)"
-#! />
-#! <MODIFICATION
 #!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_DATA"
-#!   VALUE=""
-#! />
-#! <MODIFICATION
-#!   UID=":DatasetMgr_HTML_1:DestDataset_HTML_1"
-#!   VALUE="$(DestDataset_HTML)"
-#! />
-#! <MODIFICATION
-#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
@@ -430,11 +722,15 @@
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
+#!   UID=":GlobalParameterMgr:SourceDataset_TEXTLINE"
+#!   VALUE="C:\Users\imark\Documents\Black Hole\testemail.json"
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:DESTINATION_ROUTING_FILE"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":WBDoc:LOG_FILE"
+#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
@@ -442,30 +738,41 @@
 #!   VALUE="C:\FMEOutput\WorkspaceReport.html"
 #! />
 #! <MODIFICATION
-#!   UID=":GlobalParameterMgr:FME_TOPIC_MESSAGE"
+#!   UID=":DatasetMgr_HTML_1:DestDataset_HTML_1"
+#!   VALUE="$(DestDataset_HTML)"
+#! />
+#! <MODIFICATION
+#!   UID=":WBParameterNode_130:DATASET"
+#!   VALUE="&lt;at&gt;Value&lt;openparen&gt;email_publisher_attachment&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt;"
+#! />
+#! <MODIFICATION
+#!   UID=":GlobalParameterMgr:FME_SHAREDRESOURCE_TEMP"
 #!   VALUE=""
 #! />
 #! <MODIFICATION
-#!   UID=":GlobalParameterMgr:SourceDataset_FMW"
-#!   VALUE="C:\Users\imark\Google Drive\2016 - Best Practice Analysis\TestingNoTransformers.fmw"
+#!   UID=":DatasetMgr_TEXTLINE_1:SourceDataset_TEXTLINE_1"
+#!   VALUE="$(SourceDataset_TEXTLINE)"
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:LOG_FILE"
+#!   VALUE=""
+#! />
+#! <MODIFICATION
+#!   UID=":WBDoc:SOURCE_ROUTING_FILE"
+#!   VALUE=""
 #! />
 #! </MODIFICATIONS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI MULTIFILE_OR_ATTR SourceDataset_FMW FME Workspace file to be analysed:"
-#!   DEFAULT_VALUE="C:\Users\imark\Google Drive\2016 - Best Practice Analysis\TestingNoTransformers.fmw"
-#!   IS_STAND_ALONE="false"
-#! />
-#! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI FILENAME DestDataset_HTML HTML&lt;space&gt;Files(*.html)|*.html HTML report file:"
-#!   DEFAULT_VALUE="C:\FMEOutput\WorkspaceReport.html"
+#!   DEFAULT_VALUE="$(FME_SHAREDRESOURCE_DATA)\BestPractices\WorkspaceReport.html"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI TEXT_OR_ATTR ReportName Enter a name for the report:"
-#!   DEFAULT_VALUE="Marks Workspace Test"
-#!   IS_STAND_ALONE="true"
+#!   GUI_LINE="GUI MULTIFILE SourceDataset_TEXTLINE Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Source Text File(s):"
+#!   DEFAULT_VALUE="C:\Users\imark\Documents\Black Hole\testemail.json"
+#!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
@@ -490,43 +797,43 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ERRORMSG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ErrorMsg&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SOURCE_DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;source_dataset&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DANGLINGREADERTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;DanglingReaderText&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CURRENTMAJORBUILD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;CurrentMajorBuild&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_KEYWORD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_keyword&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-ReportSummary"/>
-#!     <XFORM_PARM PARM_NAME="REQUIREMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirement&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUMFEATURETYPES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;NumFeatureTypes&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FMEBUILDNUM" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;FMEBuildNum&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_GENERATE_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_generate_build_number&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MODBUILDLENGTH" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ModBuildLength&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="HISTORY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;history&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MAJORBUILDTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;MajorBuildText&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_POSSIBLE_GEOMETRIES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_possible_geometries&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REQUIREMENTS_FLAG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirements_flag&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WORKSPACE_NAME_2" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WKSPPROPERTIESTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;WkspPropertiesText&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="READER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MODIFIED_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;modified_build_number&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="EXCESSFTTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ExcessFTText&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_KEYWORD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_keyword&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FMEBUILDNUM" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;FMEBuildNum&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="SUBORDER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;SubOrder&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="USAGE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;usage&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_QUALIFIER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_qualifier&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WARNMSG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;WarnMsg&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CATEGORY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;category&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MAJORBUILDID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;MajorBuildID&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="HTML_CONTENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;html_content&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="DANGLINGREADERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;DanglingReaders&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="EXCESSFTTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ExcessFTText&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_NAME_2" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_name&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;feature_type_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAJORBUILDTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;MajorBuildText&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WARNMSG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;WarnMsg&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WKSPPROPERTIESTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;WkspPropertiesText&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAJORBUILDID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;MajorBuildID&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODBUILDLENGTH" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ModBuildLength&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REQUIREMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirement&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DANGLINGREADERTEXT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;DanglingReaderText&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="USAGE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;usage&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUMFEATURETYPES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;NumFeatureTypes&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ERRORMSG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ErrorMsg&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DANGLINGREADERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;DanglingReaders&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="HISTORY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;history&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_QUALIFIER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_qualifier&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SOURCE_DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;source_dataset&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="HTML_CONTENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;html_content&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_POSSIBLE_GEOMETRIES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_possible_geometries&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CATEGORY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;category&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-ReportSummary"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CURRENTMAJORBUILD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;CurrentMajorBuild&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GENERATE_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_generate_build_number&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REQUIREMENTS_FLAG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirements_flag&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODIFIED_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;modified_build_number&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="901"
@@ -541,23 +848,23 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REPORTORDER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportOrder&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HTML_CONTENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;html_content&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-ReportCollation"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="1016"
 #!   TYPE="BestPractice-BreakpointAnalysis"
 #!   VERSION="1"
-#!   POSITION="2671.73 -373.191"
-#!   BOUNDING_RECT="2671.73 -373.191 773.016 71"
+#!   POSITION="2685.32 -767.216"
+#!   BOUNDING_RECT="2685.32 -767.216 773.016 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -578,18 +885,21 @@
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBkptWarning" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBkptError" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="BREAKPOINT_TEST_CLAUSE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;breakpoint_test_clause&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="BREAKPOINT_CONDITION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;breakpoint_condition&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="BREAKPOINT_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;breakpoint_name&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="BREAKPOINT_TEST_CLAUSE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;breakpoint_test_clause&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-FeatureInspectionAnalysis"/>
 #!     <XFORM_PARM PARM_NAME="BREAKPOINT_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;breakpoint_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-FeatureInspectionAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="BREAKPOINT_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;breakpoint_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="863"
@@ -615,28 +925,28 @@
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="NUM_READERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_readers&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_CUSTOM_TRANSFORMERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_custom_transformers&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_WRITERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_writers&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="NUM_PUBLISHED_PARAMETERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_published_parameters&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_BREAKPOINTS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_breakpoints&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_OUT_OF_DATE_TRANSFORMERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_out_of_date_transformers&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_BOOKMARKS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_bookmarks&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-StyleAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="NUM_READERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_readers&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_WRITERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_writers&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_BREAKPOINTS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_breakpoints&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_CUSTOM_TRANSFORMERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_custom_transformers&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_TRANSFORMERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_transformers&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_ANNOTATIONS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_annotations&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NUM_READER_FEATURE_TYPES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_reader_feature_types&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NUM_WRITER_FEATURE_TYPES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_writer_feature_types&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PUBLISHED_PARAMETERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_published_parameters&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_ANNOTATIONS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_annotations&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_OUT_OF_DATE_TRANSFORMERS" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;num_out_of_date_transformers&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-StyleAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="785"
 #!   TYPE="BestPractice-ReportHeader"
 #!   VERSION="1"
-#!   POSITION="3286.49 -827.088"
-#!   BOUNDING_RECT="3286.49 -827.088 561.016 71"
+#!   POSITION="3031.56 -460.237"
+#!   BOUNDING_RECT="3031.56 -460.237 561.016 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -646,11 +956,11 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-ReportHeader"/>
-#!     <XFORM_PARM PARM_NAME="REPORTNAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportName&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="REPORTWORKSPACE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspace&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPORTNAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportName&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-ReportHeader"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="1044"
@@ -675,6 +985,9 @@
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLLogInspError" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="custom_transformer_parent_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -695,19 +1008,19 @@
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_TYPE_2" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MAX_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_COUNT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_count&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-TransformerAnalysis"/>
-#!     <XFORM_PARM PARM_NAME="CURRENT_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_type&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_id&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_TYPE_2" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_type&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_COUNT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_count&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-TransformerAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CURRENT_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="945"
@@ -742,23 +1055,26 @@
 #!     <XFORM_ATTR ATTR_NAME="MajorBuildText" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="MajorBuildRec" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="legal" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="WkspPropertiesText" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="WkspPropertiesRec" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="USAGE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;usage&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="REQUIREMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirement&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="WORKSPACE_NAME_2" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MODIFIED_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;modified_build_number&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="REQUIREMENTS_FLAG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirements_flag&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-WorkspaceAnalysis"/>
-#!     <XFORM_PARM PARM_NAME="CATEGORY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;category&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CATEGORY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;category&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="HISTORY" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;history&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REQUIREMENTS_FLAG" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirements_flag&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="USAGE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;usage&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-WorkspaceAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MODIFIED_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;modified_build_number&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="REQUIREMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;requirement&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="752"
@@ -792,27 +1108,31 @@
 #!     <XFORM_ATTR ATTR_NAME="TransXFirstWarn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="TransXFirstRec" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="custom_transformer_parent_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="NumParallelProcessing" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="MultiParallelMsg" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="MultiParallelRec" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="PPExAgWarn" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="PPExAgRec" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MAX_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-PerformanceAnalysis"/>
-#!     <XFORM_PARM PARM_NAME="CURRENT_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_LAST_EDIT_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_last_edit_build_number&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_type&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_LAST_EDIT_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_last_edit_build_number&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_id&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;max_transformer_version&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_parameter_value&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-PerformanceAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CURRENT_TRANSFORMER_VERSION" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;current_transformer_version&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="596"
@@ -849,6 +1169,9 @@
 #!     <XFORM_ATTR ATTR_NAME="reader_feature_type_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="reader_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="published_parameter_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ExcessFTText" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -869,25 +1192,25 @@
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SOURCE_DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;source_dataset&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="READER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_KEYWORD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_keyword&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-ReaderAnalysis"/>
-#!     <XFORM_PARM PARM_NAME="READER_GENERATE_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_generate_build_number&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_POSSIBLE_GEOMETRIES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_possible_geometries&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_name&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="READER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_QUALIFIER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_qualifier&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_DEFAULT_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_default_value&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_KEYWORD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_keyword&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;feature_type_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_type&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_QUALIFIER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_qualifier&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="SOURCE_DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;source_dataset&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_POSSIBLE_GEOMETRIES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_possible_geometries&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice-ReaderAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_FEATURE_TYPE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_feature_type_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GENERATE_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_generate_build_number&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_DEFAULT_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_default_value&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="424"
@@ -932,6 +1255,9 @@
 #!     <XFORM_ATTR ATTR_NAME="published_parameter_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="reader_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="FMEBuildNum" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GenBuildLength" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -959,32 +1285,32 @@
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_POSSIBLE_GEOMETRIES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_possible_geometries&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_KEYWORD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_keyword&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_enabled&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="USER_ATTRIBUTE_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;user_attribute_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="USER_ATTRIBUTE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;user_attribute_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice:WriterAnalysis"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_parameter_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_QUALIFIER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_qualifier&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_parameter_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_name&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="WRITER_GENERATE_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_generate_build_number&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_parameter_value&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_name&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;transformer_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WRITER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_parameter_value&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_type&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_DEFAULT_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_default_value&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="DESTINATION_DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;destination_dataset&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="WRITER_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_name&lt;closeparen&gt;"/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;feature_type_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_GENERATE_BUILD_NUMBER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_generate_build_number&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_type&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_QUALIFIER" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_qualifier&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_type&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_parameter_value&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="USER_ATTRIBUTE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;user_attribute_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_ID" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;workspace_id&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_PARAMETER_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_parameter_value&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DESTINATION_DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;destination_dataset&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_parameter_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_KEYWORD" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_keyword&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_name&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="USER_ATTRIBUTE_TYPE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;user_attribute_type&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_POSSIBLE_GEOMETRIES" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_feature_type_possible_geometries&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_ENABLED" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;writer_enabled&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="BestPractice:WriterAnalysis"/>
+#!     <XFORM_PARM PARM_NAME="__COMPOUND_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PUBLISHED_PARAMETER_DEFAULT_VALUE" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;published_parameter_default_value&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="READER_PARAMETER_NAME" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;reader_parameter_name&lt;closeparen&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="100"
@@ -1014,12 +1340,66 @@
 #!     <XFORM_ATTR ATTR_NAME="MajorBuildText" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="MajorBuildRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="legal" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WkspPropertiesText" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WkspPropertiesRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_keyword" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="source_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_generate_build_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DanglingReaders" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DanglingReaderText" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NumFeatureTypes" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DanglingReaderRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_qualifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="published_parameter_default_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="published_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="feature_type_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_possible_geometries" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="published_parameter_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ExcessFTText" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ExcessFTRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GenBuildLength" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReadBuildHTML" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DisabledReaderText" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DisabledReaderRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DisabledRFTText" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="DisabledRFTRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PubSourceParamText" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PubSourceParamRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="current_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="HTMLLogInspError" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="custom_transformer_parent_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_last_edit_build_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="HTMLLogInspWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="HTMLFunctionCallerWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="HTMLTransVersionWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="HTMLMatchingParamWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="HTMLPercentWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="PercentOfWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_keyword" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1027,27 +1407,19 @@
 #!     <XFORM_ATTR ATTR_NAME="destination_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_generate_build_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="NumFeatureTypes" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="DanglingWriters" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="DanglingWriterText" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="DanglingWriterRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="published_parameter_default_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="user_attribute_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="user_attribute_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="published_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_feature_type_possible_geometries" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="feature_type_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="reader_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_feature_type_qualifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="writer_feature_type_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="published_parameter_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="reader_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GenBuildLength" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReadBuildHTML" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="DisabledWriterText" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="DisabledWriterRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="DisabledWFTText" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1064,48 +1436,16 @@
 #!     <XFORM_ATTR ATTR_NAME="OddFTNameRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="PubDestParamText" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="PubDestParamRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="current_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="max_transformer_version" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_last_edit_build_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_parameter_value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TransXFirstWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="TransXFirstRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="custom_transformer_parent_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="NumParallelProcessing" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="MultiParallelMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="MultiParallelRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="PPExAgWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="PPExAgRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_keyword" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="source_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_generate_build_number" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DanglingReaders" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DanglingReaderText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DanglingReaderRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_qualifier" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_possible_geometries" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_enabled" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="reader_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ExcessFTText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ExcessFTRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DisabledReaderText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DisabledReaderRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DisabledRFTText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="DisabledRFTRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PubSourceParamText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PubSourceParamRec" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_condition" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1114,16 +1454,6 @@
 #!     <XFORM_ATTR ATTR_NAME="NumBreakpoints" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBkptWarning" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="HTMLBkptError" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="transformer_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="NumTransformers" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HTMLLogInspError" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HTMLLogInspWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HTMLFunctionCallerWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HTMLTransVersionWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HTMLMatchingParamWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="NumberOfMatches" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="HTMLPercentWarn" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="PercentOfWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
@@ -1139,44 +1469,19 @@
 #! >
 #!     <OUTPUT_FEAT NAME="Output"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ErrorMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="WarnMsg" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="129"
-#!   TYPE="Creator"
-#!   VERSION="5"
-#!   POSITION="2282.52 -827.088"
-#!   BOUNDING_RECT="2282.52 -827.088 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17259"
-#! >
-#!     <OUTPUT_FEAT NAME="CREATED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="132"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="2799.03 -827.088"
-#!   BOUNDING_RECT="2799.03 -827.088 -1 -1"
+#!   POSITION="2394.1 -460.237"
+#!   BOUNDING_RECT="2394.1 -460.237 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1184,19 +1489,21 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="_creation_instance _creation_instance  NO_OP  ReportName $(ReportName) SET_TO  ReportWorkspace $(SourceDataset_FMW) SET_TO"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportName &lt;at&gt;Value&lt;openparen&gt;email_publisher_subject&lt;closeparen&gt; SET_TO  ReportWorkspace &lt;at&gt;Value&lt;openparen&gt;email_publisher_attachment&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt; SET_TO text_line_data text_line_data  NO_OP email_publisher_subject email_publisher_subject  NO_OP email_publisher_attachment&lt;opencurly&gt;0&lt;closecurly&gt; email_publisher_attachment&lt;opencurly&gt;0&lt;closecurly&gt;  NO_OP email_publisher_attachment&lt;opencurly&gt;&lt;closecurly&gt; email_publisher_attachment&lt;opencurly&gt;&lt;closecurly&gt;  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="130"
@@ -1212,7 +1519,9 @@
 #! >
 #!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1222,6 +1531,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_schema_handling" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="Annotations"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="annotation_id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="annotation" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1229,6 +1541,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <OUTPUT_FEAT NAME="Bookmarks"/>
 #!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="bookmark_id" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="bookmark_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1236,6 +1551,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <OUTPUT_FEAT NAME="Connections"/>
 #!     <FEAT_COLLAPSED COLLAPSED="3"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="connection_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="connection_source_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="connection_target_id" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1247,6 +1565,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <OUTPUT_FEAT NAME="FeatureTypeFormatAttributes"/>
 #!     <FEAT_COLLAPSED COLLAPSED="4"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="4" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="feature_type_id" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="format_attribute_name" IS_USER_CREATED="false" FEAT_INDEX="4" />
@@ -1254,6 +1575,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <OUTPUT_FEAT NAME="FeatureTypeParameters"/>
 #!     <FEAT_COLLAPSED COLLAPSED="5"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="5" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="feature_type_id" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <XFORM_ATTR ATTR_NAME="feature_type_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="5" />
@@ -1261,6 +1585,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="5" />
 #!     <OUTPUT_FEAT NAME="FileProperties"/>
 #!     <FEAT_COLLAPSED COLLAPSED="6"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="6" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="file_path" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <XFORM_ATTR ATTR_NAME="file_size" IS_USER_CREATED="false" FEAT_INDEX="6" />
@@ -1270,12 +1597,18 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="6" />
 #!     <OUTPUT_FEAT NAME="ReaderHistogram"/>
 #!     <FEAT_COLLAPSED COLLAPSED="7"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="7" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="reader_type" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="reader_count" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="7" />
 #!     <OUTPUT_FEAT NAME="TransformerOutputPortAttributes"/>
 #!     <FEAT_COLLAPSED COLLAPSED="8"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="8" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_output_port_id" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_output_port_attribute_name" IS_USER_CREATED="false" FEAT_INDEX="8" />
@@ -1284,6 +1617,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="8" />
 #!     <OUTPUT_FEAT NAME="TransformerOutputPorts"/>
 #!     <FEAT_COLLAPSED COLLAPSED="9"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="9" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_output_port_id" IS_USER_CREATED="false" FEAT_INDEX="9" />
@@ -1291,6 +1627,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="9" />
 #!     <OUTPUT_FEAT NAME="Breakpoints"/>
 #!     <FEAT_COLLAPSED COLLAPSED="10"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="10" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_id" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #!     <XFORM_ATTR ATTR_NAME="breakpoint_name" IS_USER_CREATED="false" FEAT_INDEX="10" />
@@ -1300,6 +1639,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="10" />
 #!     <OUTPUT_FEAT NAME="Readers"/>
 #!     <FEAT_COLLAPSED COLLAPSED="11"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="11" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #!     <XFORM_ATTR ATTR_NAME="reader_id" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #!     <XFORM_ATTR ATTR_NAME="reader_name" IS_USER_CREATED="false" FEAT_INDEX="11" />
@@ -1311,6 +1653,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="11" />
 #!     <OUTPUT_FEAT NAME="ReaderFeatureTypes"/>
 #!     <FEAT_COLLAPSED COLLAPSED="12"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="12" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #!     <XFORM_ATTR ATTR_NAME="reader_id" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #!     <XFORM_ATTR ATTR_NAME="feature_type_id" IS_USER_CREATED="false" FEAT_INDEX="12" />
@@ -1321,6 +1666,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="12" />
 #!     <OUTPUT_FEAT NAME="PublishedParameters"/>
 #!     <FEAT_COLLAPSED COLLAPSED="13"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="13" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #!     <XFORM_ATTR ATTR_NAME="published_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #!     <XFORM_ATTR ATTR_NAME="published_parameter_type" IS_USER_CREATED="false" FEAT_INDEX="13" />
@@ -1328,6 +1676,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="13" />
 #!     <OUTPUT_FEAT NAME="Writers"/>
 #!     <FEAT_COLLAPSED COLLAPSED="14"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="14" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="14" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="14" />
 #!     <XFORM_ATTR ATTR_NAME="writer_id" IS_USER_CREATED="false" FEAT_INDEX="14" />
 #!     <XFORM_ATTR ATTR_NAME="writer_name" IS_USER_CREATED="false" FEAT_INDEX="14" />
@@ -1339,6 +1690,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="14" />
 #!     <OUTPUT_FEAT NAME="WriterFeatureTypes"/>
 #!     <FEAT_COLLAPSED COLLAPSED="15"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="15" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="15" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="15" />
 #!     <XFORM_ATTR ATTR_NAME="writer_id" IS_USER_CREATED="false" FEAT_INDEX="15" />
 #!     <XFORM_ATTR ATTR_NAME="feature_type_id" IS_USER_CREATED="false" FEAT_INDEX="15" />
@@ -1349,6 +1703,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="15" />
 #!     <OUTPUT_FEAT NAME="FeatureTypeUserAttributes"/>
 #!     <FEAT_COLLAPSED COLLAPSED="16"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="16" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="16" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="16" />
 #!     <XFORM_ATTR ATTR_NAME="feature_type_id" IS_USER_CREATED="false" FEAT_INDEX="16" />
 #!     <XFORM_ATTR ATTR_NAME="user_attribute_name" IS_USER_CREATED="false" FEAT_INDEX="16" />
@@ -1356,6 +1713,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="16" />
 #!     <OUTPUT_FEAT NAME="ReaderParameters"/>
 #!     <FEAT_COLLAPSED COLLAPSED="17"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="17" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="17" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="17" />
 #!     <XFORM_ATTR ATTR_NAME="reader_id" IS_USER_CREATED="false" FEAT_INDEX="17" />
 #!     <XFORM_ATTR ATTR_NAME="reader_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="17" />
@@ -1363,6 +1723,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="17" />
 #!     <OUTPUT_FEAT NAME="WriterParameters"/>
 #!     <FEAT_COLLAPSED COLLAPSED="18"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="18" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="18" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="18" />
 #!     <XFORM_ATTR ATTR_NAME="writer_id" IS_USER_CREATED="false" FEAT_INDEX="18" />
 #!     <XFORM_ATTR ATTR_NAME="writer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="18" />
@@ -1370,6 +1733,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="18" />
 #!     <OUTPUT_FEAT NAME="Transformers"/>
 #!     <FEAT_COLLAPSED COLLAPSED="19"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="19" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="19" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="19" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="19" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_name" IS_USER_CREATED="false" FEAT_INDEX="19" />
@@ -1382,6 +1748,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="19" />
 #!     <OUTPUT_FEAT NAME="TransformerParameters"/>
 #!     <FEAT_COLLAPSED COLLAPSED="20"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="20" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="20" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="20" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_id" IS_USER_CREATED="false" FEAT_INDEX="20" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_parameter_name" IS_USER_CREATED="false" FEAT_INDEX="20" />
@@ -1389,12 +1758,18 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="20" />
 #!     <OUTPUT_FEAT NAME="TransformerHistogram"/>
 #!     <FEAT_COLLAPSED COLLAPSED="21"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="21" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="21" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="21" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_type" IS_USER_CREATED="false" FEAT_INDEX="21" />
 #!     <XFORM_ATTR ATTR_NAME="transformer_count" IS_USER_CREATED="false" FEAT_INDEX="21" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="21" />
 #!     <OUTPUT_FEAT NAME="Statistics"/>
 #!     <FEAT_COLLAPSED COLLAPSED="22"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="22" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="22" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="22" />
 #!     <XFORM_ATTR ATTR_NAME="num_published_parameters" IS_USER_CREATED="false" FEAT_INDEX="22" />
 #!     <XFORM_ATTR ATTR_NAME="num_annotations" IS_USER_CREATED="false" FEAT_INDEX="22" />
@@ -1411,6 +1786,9 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="22" />
 #!     <OUTPUT_FEAT NAME="WorkspaceProperties"/>
 #!     <FEAT_COLLAPSED COLLAPSED="23"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="23" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="23" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="23" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_name" IS_USER_CREATED="false" FEAT_INDEX="23" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_description" IS_USER_CREATED="false" FEAT_INDEX="23" />
@@ -1424,89 +1802,109 @@
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="23" />
 #!     <OUTPUT_FEAT NAME="WriterHistogram"/>
 #!     <FEAT_COLLAPSED COLLAPSED="24"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="24" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="24" />
 #!     <XFORM_ATTR ATTR_NAME="workspace_id" IS_USER_CREATED="false" FEAT_INDEX="24" />
 #!     <XFORM_ATTR ATTR_NAME="writer_type" IS_USER_CREATED="false" FEAT_INDEX="24" />
 #!     <XFORM_ATTR ATTR_NAME="writer_count" IS_USER_CREATED="false" FEAT_INDEX="24" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="24" />
 #!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="25"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="25" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="25" />
 #!     <OUTPUT_FEAT NAME="INITIATOR"/>
 #!     <FEAT_COLLAPSED COLLAPSED="26"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="26" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="26" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="26" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="26" />
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="26" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="27"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="27" />
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="27" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="27" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="27" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="27" />
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
-#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="Annotations,&quot;workspace_id,annotation_id,annotation,annotation_type,fme_geometry{0}&quot;,Bookmarks,&quot;workspace_id,bookmark_id,bookmark_name,bookmark_description,fme_geometry{0}&quot;,Breakpoints,&quot;workspace_id,breakpoint_id,breakpoint_name,breakpoint_condition,breakpoint_test_clause,breakpoint_enabled,fme_geometry{0}&quot;,Connections,&quot;connection_id,connection_source_id,connection_target_id,connection_source_port_desc,connection_target_port_desc,connection_enabled,connection_execution_index,connection_hidden,fme_geometry{0}&quot;,FeatureTypeFormatAttributes,&quot;workspace_id,feature_type_id,format_attribute_name,format_attribute_type,fme_geometry{0}&quot;,FeatureTypeParameters,&quot;workspace_id,feature_type_id,feature_type_parameter_name,feature_type_parameter_value,fme_geometry{0}&quot;,FeatureTypeUserAttributes,&quot;workspace_id,feature_type_id,user_attribute_name,user_attribute_type,fme_geometry{0}&quot;,FileProperties,&quot;workspace_id,file_path,file_size,creation_date,modified_date,last_run_date,fme_geometry{0}&quot;,PublishedParameters,&quot;workspace_id,published_parameter_name,published_parameter_type,published_parameter_default_value,fme_geometry{0}&quot;,ReaderFeatureTypes,&quot;workspace_id,reader_id,feature_type_id,reader_feature_type_qualifier,reader_feature_type_name,reader_feature_type_possible_geometries,reader_feature_type_enabled,fme_geometry{0}&quot;,ReaderHistogram,&quot;workspace_id,reader_type,reader_count,fme_geometry{0}&quot;,ReaderParameters,&quot;workspace_id,reader_id,reader_parameter_name,reader_parameter_value,fme_geometry{0}&quot;,Readers,&quot;workspace_id,reader_id,reader_name,reader_keyword,reader_type,source_dataset,reader_enabled,reader_generate_build_number,fme_geometry{0}&quot;,Statistics,&quot;workspace_id,num_published_parameters,num_annotations,num_bookmarks,num_breakpoints,num_readers,num_reader_feature_types,num_writers,num_writer_feature_types,num_transformers,num_custom_transformers,num_out_of_date_transformers,num_connections,fme_geometry{0}&quot;,TransformerHistogram,&quot;workspace_id,transformer_type,transformer_count,fme_geometry{0}&quot;,TransformerOutputPortAttributes,&quot;workspace_id,transformer_output_port_id,transformer_output_port_attribute_name,transformer_output_port_attribute_constant_value,transformer_output_port_attribute_enabled,fme_geometry{0}&quot;,TransformerOutputPorts,&quot;workspace_id,transformer_id,transformer_output_port_id,transformer_output_port_name,fme_geometry{0}&quot;,TransformerParameters,&quot;workspace_id,transformer_id,transformer_parameter_name,transformer_parameter_value,fme_geometry{0}&quot;,Transformers,&quot;workspace_id,transformer_id,transformer_name,transformer_type,custom_transformer_parent_name,current_transformer_version,max_transformer_version,transformer_enabled,transformer_last_edit_build_number,fme_geometry{0}&quot;,WorkspaceProperties,&quot;workspace_id,workspace_name,workspace_description,modified_build_number,category,usage,history,requirement,requirements_flag,legal,fme_geometry{0}&quot;,WriterFeatureTypes,&quot;workspace_id,writer_id,feature_type_id,writer_feature_type_qualifier,writer_feature_type_name,writer_feature_type_possible_geometries,writer_feature_type_enabled,fme_geometry{0}&quot;,WriterHistogram,&quot;workspace_id,writer_type,writer_count,fme_geometry{0}&quot;,WriterParameters,&quot;workspace_id,writer_id,writer_parameter_name,writer_parameter_value,fme_geometry{0}&quot;,Writers,&quot;workspace_id,writer_id,writer_name,writer_keyword,writer_type,destination_dataset,writer_enabled,writer_generate_build_number,fme_geometry{0}&quot;"/>
-#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%Annotations%Bookmarks%Breakpoints%Connections%FeatureTypeFormatAttributes%FeatureTypeParameters%FeatureTypeUserAttributes%FileProperties%PublishedParameters%ReaderFeatureTypes%ReaderHistogram%ReaderParameters%Readers%Statistics%TransformerHistogram%TransformerOutputPortAttributes%TransformerOutputPorts%TransformerParameters%Transformers%WorkspaceProperties%WriterFeatureTypes%WriterHistogram%WriterParameters%Writers"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="FMW"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
+#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="PORTS_FROM_FTTR"/>
-#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="C:&lt;backslash&gt;Users&lt;backslash&gt;imark&lt;backslash&gt;Documents&lt;backslash&gt;Black&lt;space&gt;Hole&lt;backslash&gt;deleteme.fmw"/>
+#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_%Annotations%Bookmarks%Breakpoints%Connections%FeatureTypeFormatAttributes%FeatureTypeParameters%FeatureTypeUserAttributes%FileProperties%PublishedParameters%ReaderFeatureTypes%ReaderHistogram%ReaderParameters%Readers%Statistics%TransformerHistogram%TransformerOutputPortAttributes%TransformerOutputPorts%TransformerParameters%Transformers%WorkspaceProperties%WriterFeatureTypes%WriterHistogram%WriterParameters%Writers"/>
+#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,,METAFILE,FMW"/>
-#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
+#!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Only Use Result"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,,METAFILE,FMW"/>
+#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="Annotations,&quot;workspace_id,annotation_id,annotation,annotation_type,fme_geometry{0}&quot;,Bookmarks,&quot;workspace_id,bookmark_id,bookmark_name,bookmark_description,fme_geometry{0}&quot;,Breakpoints,&quot;workspace_id,breakpoint_id,breakpoint_name,breakpoint_condition,breakpoint_test_clause,breakpoint_enabled,fme_geometry{0}&quot;,Connections,&quot;connection_id,connection_source_id,connection_target_id,connection_source_port_desc,connection_target_port_desc,connection_enabled,connection_execution_index,connection_hidden,fme_geometry{0}&quot;,FeatureTypeFormatAttributes,&quot;workspace_id,feature_type_id,format_attribute_name,format_attribute_type,fme_geometry{0}&quot;,FeatureTypeParameters,&quot;workspace_id,feature_type_id,feature_type_parameter_name,feature_type_parameter_value,fme_geometry{0}&quot;,FeatureTypeUserAttributes,&quot;workspace_id,feature_type_id,user_attribute_name,user_attribute_type,fme_geometry{0}&quot;,FileProperties,&quot;workspace_id,file_path,file_size,creation_date,modified_date,last_run_date,fme_geometry{0}&quot;,PublishedParameters,&quot;workspace_id,published_parameter_name,published_parameter_type,published_parameter_default_value,fme_geometry{0}&quot;,ReaderFeatureTypes,&quot;workspace_id,reader_id,feature_type_id,reader_feature_type_qualifier,reader_feature_type_name,reader_feature_type_possible_geometries,reader_feature_type_enabled,fme_geometry{0}&quot;,ReaderHistogram,&quot;workspace_id,reader_type,reader_count,fme_geometry{0}&quot;,ReaderParameters,&quot;workspace_id,reader_id,reader_parameter_name,reader_parameter_value,fme_geometry{0}&quot;,Readers,&quot;workspace_id,reader_id,reader_name,reader_keyword,reader_type,source_dataset,reader_enabled,reader_generate_build_number,fme_geometry{0}&quot;,Statistics,&quot;workspace_id,num_published_parameters,num_annotations,num_bookmarks,num_breakpoints,num_readers,num_reader_feature_types,num_writers,num_writer_feature_types,num_transformers,num_custom_transformers,num_out_of_date_transformers,num_connections,fme_geometry{0}&quot;,TransformerHistogram,&quot;workspace_id,transformer_type,transformer_count,fme_geometry{0}&quot;,TransformerOutputPortAttributes,&quot;workspace_id,transformer_output_port_id,transformer_output_port_attribute_name,transformer_output_port_attribute_constant_value,transformer_output_port_attribute_enabled,fme_geometry{0}&quot;,TransformerOutputPorts,&quot;workspace_id,transformer_id,transformer_output_port_id,transformer_output_port_name,fme_geometry{0}&quot;,TransformerParameters,&quot;workspace_id,transformer_id,transformer_parameter_name,transformer_parameter_value,fme_geometry{0}&quot;,Transformers,&quot;workspace_id,transformer_id,transformer_name,transformer_type,custom_transformer_parent_name,current_transformer_version,max_transformer_version,transformer_enabled,transformer_last_edit_build_number,fme_geometry{0}&quot;,WorkspaceProperties,&quot;workspace_id,workspace_name,workspace_description,modified_build_number,category,usage,history,requirement,requirements_flag,legal,fme_geometry{0}&quot;,WriterFeatureTypes,&quot;workspace_id,writer_id,feature_type_id,writer_feature_type_qualifier,writer_feature_type_name,writer_feature_type_possible_geometries,writer_feature_type_enabled,fme_geometry{0}&quot;,WriterHistogram,&quot;workspace_id,writer_type,writer_count,fme_geometry{0}&quot;,WriterParameters,&quot;workspace_id,writer_id,writer_parameter_name,writer_parameter_value,fme_geometry{0}&quot;,Writers,&quot;workspace_id,writer_id,writer_name,writer_keyword,writer_type,destination_dataset,writer_enabled,writer_generate_build_number,fme_geometry{0}&quot;"/>
+#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
+#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="FMW"/>
+#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
+#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;email_publisher_attachment&lt;opencurly&gt;0&lt;closecurly&gt;&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="135"
-#!   TYPE="Creator"
-#!   VERSION="5"
-#!   POSITION="-411.249 -934.536"
-#!   BOUNDING_RECT="-411.249 -934.536 -1 -1"
+#!   IDENTIFIER="59"
+#!   TYPE="JSONFlattener"
+#!   VERSION="4"
+#!   POSITION="210.502 -320.754"
+#!   BOUNDING_RECT="210.502 -320.754 736.382 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="17259"
 #! >
-#!     <OUTPUT_FEAT NAME="CREATED"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
-#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
-#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
-#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator_2"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="text_line_data" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="email_publisher_attachment{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="FLATTEN_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_DOCUMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;text_line_data&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="INPUT_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RECURSIVE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="NEW_ATTRIBUTES" PARM_VALUE="email_publisher_subject email_publisher_attachment&lt;opencurly&gt;0&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PREFIX_STRING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ERROR_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFlattener"/>
+#!     <XFORM_PARM PARM_NAME="ERROR_LIST_ATTR" PARM_VALUE="_json_error"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="133"
-#!   SOURCE_NODE="129"
-#!   TARGET_NODE="132"
-#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   IDENTIFIER="60"
+#!   SOURCE_NODE="58"
+#!   TARGET_NODE="59"
+#!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -1514,13 +1912,24 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="136"
-#!   SOURCE_NODE="135"
+#!   IDENTIFIER="62"
+#!   SOURCE_NODE="59"
 #!   TARGET_NODE="130"
-#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 INITIATOR"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="63"
+#!   SOURCE_NODE="59"
+#!   TARGET_NODE="132"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
@@ -1756,11 +2165,22 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="118"
+#!   IDENTIFIER="76"
 #!   SOURCE_NODE="130"
-#!   TARGET_NODE="424"
-#!   SOURCE_PORT_DESC="fo 16 FeatureTypeUserAttributes"
-#!   TARGET_PORT_DESC="fi 3 Input:FeatureTypeUserAttributes"
+#!   TARGET_NODE="596"
+#!   SOURCE_PORT_DESC="fo 11 Readers"
+#!   TARGET_PORT_DESC="fi 0 Input:Readers"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="79"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="596"
+#!   SOURCE_PORT_DESC="fo 12 ReaderFeatureTypes"
+#!   TARGET_PORT_DESC="fi 1 Input:ReaderFeatureTypes"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1789,121 +2209,11 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="79"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="596"
-#!   SOURCE_PORT_DESC="fo 12 ReaderFeatureTypes"
-#!   TARGET_PORT_DESC="fi 1 Input:ReaderFeatureTypes"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="106"
+#!   IDENTIFIER="142"
 #!   SOURCE_NODE="130"
 #!   TARGET_NODE="424"
-#!   SOURCE_PORT_DESC="fo 17 ReaderParameters"
-#!   TARGET_PORT_DESC="fi 4 Input:ReaderParameters"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="76"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="596"
-#!   SOURCE_PORT_DESC="fo 11 Readers"
-#!   TARGET_PORT_DESC="fi 0 Input:Readers"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="126"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="863"
-#!   SOURCE_PORT_DESC="fo 22 Statistics"
-#!   TARGET_PORT_DESC="fi 0 Input:Statistics"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="145"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="1044"
-#!   SOURCE_PORT_DESC="fo 21 TransformerHistogram"
-#!   TARGET_PORT_DESC="fi 2 Input:TransformerHistogram"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="67"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="752"
-#!   SOURCE_PORT_DESC="fo 20 TransformerParameters"
-#!   TARGET_PORT_DESC="fi 1 Input:TransformerParameters"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="61"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="1044"
-#!   SOURCE_PORT_DESC="fo 20 TransformerParameters"
-#!   TARGET_PORT_DESC="fi 1 Input:TransformerParameters"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="73"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="424"
-#!   SOURCE_PORT_DESC="fo 19 Transformers"
-#!   TARGET_PORT_DESC="fi 6 Input:Transformers"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="70"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="752"
-#!   SOURCE_PORT_DESC="fo 19 Transformers"
-#!   TARGET_PORT_DESC="fi 0 Input:Transformers"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="1"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="64"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="1044"
-#!   SOURCE_PORT_DESC="fo 19 Transformers"
-#!   TARGET_PORT_DESC="fi 0 Input:Transformers"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="2"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="137"
-#!   SOURCE_NODE="130"
-#!   TARGET_NODE="945"
-#!   SOURCE_PORT_DESC="fo 23 WorkspaceProperties"
-#!   TARGET_PORT_DESC="fi 0 Input:WorkspaceProperties"
+#!   SOURCE_PORT_DESC="fo 14 Writers"
+#!   TARGET_PORT_DESC="fi 1 Input:Writers"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1921,6 +2231,28 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="118"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="424"
+#!   SOURCE_PORT_DESC="fo 16 FeatureTypeUserAttributes"
+#!   TARGET_PORT_DESC="fi 3 Input:FeatureTypeUserAttributes"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="106"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="424"
+#!   SOURCE_PORT_DESC="fo 17 ReaderParameters"
+#!   TARGET_PORT_DESC="fi 4 Input:ReaderParameters"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="105"
 #!   SOURCE_NODE="130"
 #!   TARGET_NODE="424"
@@ -1932,11 +2264,88 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="142"
+#!   IDENTIFIER="64"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="1044"
+#!   SOURCE_PORT_DESC="fo 19 Transformers"
+#!   TARGET_PORT_DESC="fi 0 Input:Transformers"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="70"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="752"
+#!   SOURCE_PORT_DESC="fo 19 Transformers"
+#!   TARGET_PORT_DESC="fi 0 Input:Transformers"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="73"
 #!   SOURCE_NODE="130"
 #!   TARGET_NODE="424"
-#!   SOURCE_PORT_DESC="fo 14 Writers"
-#!   TARGET_PORT_DESC="fi 1 Input:Writers"
+#!   SOURCE_PORT_DESC="fo 19 Transformers"
+#!   TARGET_PORT_DESC="fi 6 Input:Transformers"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="2"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="61"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="1044"
+#!   SOURCE_PORT_DESC="fo 20 TransformerParameters"
+#!   TARGET_PORT_DESC="fi 1 Input:TransformerParameters"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="67"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="752"
+#!   SOURCE_PORT_DESC="fo 20 TransformerParameters"
+#!   TARGET_PORT_DESC="fi 1 Input:TransformerParameters"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="145"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="1044"
+#!   SOURCE_PORT_DESC="fo 21 TransformerHistogram"
+#!   TARGET_PORT_DESC="fi 2 Input:TransformerHistogram"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="126"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="863"
+#!   SOURCE_PORT_DESC="fo 22 Statistics"
+#!   TARGET_PORT_DESC="fi 0 Input:Statistics"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="137"
+#!   SOURCE_NODE="130"
+#!   TARGET_NODE="945"
+#!   SOURCE_PORT_DESC="fo 23 WorkspaceProperties"
+#!   TARGET_PORT_DESC="fi 0 Input:WorkspaceProperties"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1953,21 +2362,18 @@
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
-GUI IGNORE DestDataset_HTML_1
-DEFAULT_MACRO SourceDataset_FMW C:\Users\imark\Google Drive\2016 - Best Practice Analysis\TestingNoTransformers.fmw
-GUI MULTIFILE SourceDataset_FMW FME Workspace file to be analysed:
-DEFAULT_MACRO DestDataset_HTML C:\FMEOutput\WorkspaceReport.html
+GUI IGNORE SourceDataset_TEXTLINE_1,TEXTLINE_IN_READ_WHOLE_FILE_AT_ONCE_TEXTLINE_1,TEXTLINE_IN_READ_BOTTOM_UP_TEXTLINE_1,TEXTLINE_IN_SKIP_LINES_TEXTLINE_1,TEXTLINE_IN_SKIP_FOOTER_TEXTLINE_1,TEXTLINE_IN_ENCODING_TEXTLINE_1,TEXTLINE_IN_EXPOSE_ATTRS_GROUP_TEXTLINE_1,TEXTLINE_IN_NETWORK_AUTHENTICATION_TEXTLINE_1,DestDataset_HTML_1
+DEFAULT_MACRO DestDataset_HTML $(FME_SHAREDRESOURCE_DATA)\BestPractices\WorkspaceReport.html
 GUI FILENAME DestDataset_HTML HTML<space>Files(*.html)|*.html HTML report file:
-DEFAULT_MACRO ReportName Marks Workspace Test
-GUI TEXT ReportName Enter a name for the report:
-INCLUDE [ if {{$(SourceDataset_FMW)} == {}} { puts_real {Parameter 'SourceDataset_FMW' must be given a value.}; exit 1; }; ]
+DEFAULT_MACRO SourceDataset_TEXTLINE C:\Users\imark\Documents\Black Hole\testemail.json
+GUI MULTIFILE SourceDataset_TEXTLINE Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Source Text File(s):
 INCLUDE [ if {{$(DestDataset_HTML)} == {}} { puts_real {Parameter 'DestDataset_HTML' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(ReportName)} == {}} { puts_real {Parameter 'ReportName' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_TEXTLINE)} == {}} { puts_real {Parameter 'SourceDataset_TEXTLINE' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
-READER_TYPE NULL
-READER_KEYWORD NULL_SOURCE
-NULL_SOURCE_DATASET null
+READER_TYPE TEXTLINE
+READER_KEYWORD TEXTLINE_1
+READER_GEN_DIRECTIVES _MERGE_SCHEMAS,YES,ENCODING,,SKIP_FOOTER,0,SKIP_LINES,0,EXPOSE_ATTRS_GROUP,,TEXTLINE_EXPOSE_FORMAT_ATTRS,,READ_WHOLE_FILE_AT_ONCE,YES,READ_BOTTOM_UP,NO
 
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
@@ -1976,6 +2382,56 @@ MULTI_WRITER_TYPE{0} HTML
 MULTI_WRITER_KEYWORD{0} HTML_1
 #! END_WB_HEADER
 
+#! START_WB_HEADER
+MACRO WB_KEYWORD "TEXTLINE_1"
+#! END_WB_HEADER
+#! START_SOURCE_HEADER TEXTLINE TEXTLINE_1
+# =====================================================================
+# The following GUI line prompts for a file to be used as the source
+# TextLine file. The user input is stored in a macro, which is then
+# used to define the dataset to be read.
+# The dataset this mapping file was generated from was:
+#! END_SOURCE_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO SourceDataset
+INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
+ puts {DEFAULT_MACRO SourceDataset_TEXTLINE_1 $(SourceDataset)}     \
+ } ]
+#! END_WB_HEADER
+#! START_SOURCE_HEADER TEXTLINE TEXTLINE_1
+DEFAULT_MACRO SourceDataset_TEXTLINE_1 $(SourceDataset_TEXTLINE)
+GUI MULTIFILE SourceDataset_TEXTLINE_1 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Source Text File(s):
+DEFAULT_MACRO TEXTLINE_IN_READ_WHOLE_FILE_AT_ONCE_TEXTLINE_1 YES
+TEXTLINE_1_READ_WHOLE_FILE_AT_ONCE "$(TEXTLINE_IN_READ_WHOLE_FILE_AT_ONCE_TEXTLINE_1)"
+GUI ACTIVECHOICE TEXTLINE_IN_READ_WHOLE_FILE_AT_ONCE_TEXTLINE_1 YES,TEXTLINE_IN_READ_BOTTOM_UP,TEXTLINE_IN_SKIP_LINES,TEXTLINE_IN_SKIP_FOOTER%NO Read Whole File at Once:
+DEFAULT_MACRO TEXTLINE_IN_READ_BOTTOM_UP_TEXTLINE_1 NO
+TEXTLINE_1_READ_BOTTOM_UP "$(TEXTLINE_IN_READ_BOTTOM_UP_TEXTLINE_1)"
+GUI CHOICE TEXTLINE_IN_READ_BOTTOM_UP_TEXTLINE_1 Yes%No Read Bottom Up:
+DEFAULT_MACRO TEXTLINE_IN_SKIP_LINES_TEXTLINE_1 0
+TEXTLINE_1_SKIP_LINES "$(TEXTLINE_IN_SKIP_LINES_TEXTLINE_1)"
+GUI OPTIONAL INTEGER TEXTLINE_IN_SKIP_LINES_TEXTLINE_1 Number of Lines to Skip:
+DEFAULT_MACRO TEXTLINE_IN_SKIP_FOOTER_TEXTLINE_1 0
+TEXTLINE_1_SKIP_FOOTER "$(TEXTLINE_IN_SKIP_FOOTER_TEXTLINE_1)"
+GUI OPTIONAL INTEGER TEXTLINE_IN_SKIP_FOOTER_TEXTLINE_1 Number of Footer Lines to Skip:
+# =====================================================================
+# Allows to force the encoding of source text file
+DEFAULT_MACRO TEXTLINE_IN_ENCODING_TEXTLINE_1 
+TEXTLINE_1_ENCODING "$(TEXTLINE_IN_ENCODING_TEXTLINE_1)"
+GUI OPTIONAL STRING_OR_ENCODING TEXTLINE_IN_ENCODING_TEXTLINE_1 SYSTEM%* Character Encoding:
+# =====================================================================
+# Allow dynamic exposing of FORMAT ATTRIBUTES on the schema
+DEFAULT_MACRO TEXTLINE_IN_EXPOSE_ATTRS_GROUP_TEXTLINE_1 
+TEXTLINE_1_EXPOSE_ATTRS_GROUP "$(TEXTLINE_IN_EXPOSE_ATTRS_GROUP_TEXTLINE_1)"
+GUI DISCLOSUREGROUP TEXTLINE_IN_EXPOSE_ATTRS_GROUP_TEXTLINE_1 TEXTLINE_EXPOSE_FORMAT_ATTRS Schema Attributes
+# ===========================================================================
+DEFAULT_MACRO TEXTLINE_IN_NETWORK_AUTHENTICATION_TEXTLINE_1 
+TEXTLINE_1_NETWORK_AUTHENTICATION "$(TEXTLINE_IN_NETWORK_AUTHENTICATION_TEXTLINE_1)"
+GUI OPTIONAL AUTHENTICATOR TEXTLINE_IN_NETWORK_AUTHENTICATION_TEXTLINE_1 CONTAINER%GROUP%CONTAINER_TITLE%"Network Authentication"%PROMPT_TYPE%NETWORK Network Authentication
+# ===========================================================================
+DEFAULT_MACRO TEXTLINE_IN_ATTRIBUTE_READING_TEXTLINE_1 ALL
+TEXTLINE_1_ATTRIBUTE_READING "$(TEXTLINE_IN_ATTRIBUTE_READING_TEXTLINE_1)"
+TEXTLINE_1_DATASET "$(SourceDataset_TEXTLINE_1)"
+#! END_SOURCE_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "HTML_1"
 #! END_WB_HEADER
@@ -2045,7 +2501,12 @@ FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
 LOG_TIMINGS YES
 LOG_FILTER_MASK -1
+DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_1 TEXTLINE_1
 DEFAULT_MACRO DATASET_KEYWORD_HTML_1 HTML_1
+# -------------------------------------------------------------------------
+
+TEXTLINE_1_READER_META_ATTRIBUTES fme_feature_type
+
 # -------------------------------------------------------------------------
 
 MULTI_READER_CONTINUE_ON_READER_FAILURE No
@@ -2054,41 +2515,35 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 MACRO WORKSPACE_NAME BestPracticeReportGenerator2017ForServer
 MACRO FME_VIEWER_APP fmedatainspector
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   MULTI_READER_KEYWORD TEXTLINE_1   INPUT FEATURE_TYPE *    ROUTE TEXTLINE TEXTLINE_1::text_line TO FME_GENERIC ::text_line ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+TEXTLINE_1_MERGE_DEF TEXTLINE_1::text_line EXACT text_line
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "text_line (TEXTLINE_1) Splitter"    INPUT FEATURE_TYPE text_line    OUTPUT FEATURE_TYPE text_line_TEXTLINE_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
-Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
-MACRO Creator_XML     NOT_ACTIVATED
-MACRO Creator_CLASSIC NOT_ACTIVATED
-MACRO Creator_2D3D    2D_GEOMETRY
-MACRO Creator_COORDS  <Unused>
-INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
-INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
-INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
-INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
-FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
-FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
-FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_CREATED        @Tcl2(Creator_CoordSysRemover)        @CoordSys()        fme_feature_type Creator
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener    INPUT  FEATURE_TYPE text_line_TEXTLINE_1    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>text_line_data<closeparen>,JSONFlattener)"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_<REJECTED>
 
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 133"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_CREATED Brancher -1 133".BranchingFactory.Count)
+FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONFlattener OUTPUT Splitter"   INPUT FEATURE_TYPE JSONFlattener_OUTPUT   OUTPUT FEATURE_TYPE JSONFlattener_OUTPUT_0_+9+PEXnBeXY=   OUTPUT FEATURE_TYPE JSONFlattener_OUTPUT_1_4N2PDoG7xDU=
+FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONFlattener <REJECTED> Output Nuker"   INPUT FEATURE_TYPE JSONFlattener_<REJECTED>
 # -------------------------------------------------------------------------
 
-Tcl2 proc Creator_2_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
-MACRO Creator_2_XML     NOT_ACTIVATED
-MACRO Creator_2_CLASSIC NOT_ACTIVATED
-MACRO Creator_2_2D3D    2D_GEOMETRY
-MACRO Creator_2_COORDS  <Unused>
-INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_2_XML *} } ]
-INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2_2D3D 2D_GEOMETRY};            puts {MACRO Creator_2_CLASSIC *} } ]
-INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2_2D3D 3D_GEOMETRY};            puts {MACRO Creator_2_CLASSIC *} } ]
-INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator_2: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_2_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2_2D3D 2D_GEOMETRY};            puts {MACRO Creator_2_CLASSIC *} } ]
-FACTORY_DEF $(Creator_2_XML) CreationFactory    FACTORY_NAME Creator_2_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
-FACTORY_DEF $(Creator_2_CLASSIC) CreationFactory    FACTORY_NAME Creator_2_CLASSIC_Creator    $(Creator_2_2D3D) $(Creator_2_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
-FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_2_Cloner    INPUT FEATURE_TYPE _____CREATED______    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_2_CREATED        @Tcl2(Creator_2_CoordSysRemover)        @CoordSys()        fme_feature_type Creator_2
 
-FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_2_CREATED Brancher -1 136"   INPUT FEATURE_TYPE Creator_2_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   OUTPUT PASSED FEATURE_TYPE *     @RemoveAttributes("Creator_2_CREATED Brancher -1 136".BranchingFactory.Count)
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE JSONFlattener_OUTPUT_1_4N2PDoG7xDU=    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportName" "<at>Value<openparen>email_publisher_subject<closeparen>" "SET_TO"     ATTR_ACTION "" "ReportWorkspace" "<at>Value<openparen>email_publisher_attachment<opencurly>0<closecurly><closeparen>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-ReportHeader Input Input Collector"   INPUT FEATURE_TYPE AttributeManager_OUTPUT   OUTPUT FEATURE_TYPE BestPractice-ReportHeader_Input
+MACRO BestPractice-ReportHeader_WORKSPACE_NAME BestPractice-ReportHeader
+MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_XFORMER_NAME BestPractice-ReportHeader
+MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME <at>Value<openparen>ReportName<closeparen>
+MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE <at>Value<openparen>ReportWorkspace<closeparen>
+INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-ReportHeader:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-ReportHeader Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-ReportHeader_Output:Report   OUTPUT FEATURE_TYPE BestPractice-ReportHeader_Output:Report
 # -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED Annotations Bookmarks Breakpoints Connections FeatureTypeFormatAttributes FeatureTypeParameters FeatureTypeUserAttributes FileProperties PublishedParameters ReaderFeatureTypes ReaderHistogram ReaderParameters Readers Statistics TransformerHistogram TransformerOutputPortAttributes TransformerOutputPorts TransformerParameters Transformers WorkspaceProperties WriterFeatureTypes WriterHistogram WriterParameters Writers
 MACRO FeatureReader_DIRECTIVES 
@@ -2097,8 +2552,8 @@ MACRO FeatureReader_DIRECTIVES
 INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
 # Consolidate the attribute merge options to what the factory expects
 DEFAULT_MACRO FeatureReader_COMBINE_ATTRS
-INCLUDE [       if { {RESULT_ONLY} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS <Unused>";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS RESULT_ONLY";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE Creator_2_CREATED    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         FMW    READER_DATASET      "C:<backslash>Users<backslash>imark<backslash>Documents<backslash>Black<space>Hole<backslash>deleteme.fmw"    QUERYFCT_IDS        ""    READER_DIRECTIVES META_MACROS,,METAFILE,FMW    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_DIRECTIVES)    OUTPUT Breakpoints FEATURE_TYPE FeatureReader_Breakpoints    OUTPUT FeatureTypeUserAttributes FEATURE_TYPE FeatureReader_FeatureTypeUserAttributes    OUTPUT PublishedParameters FEATURE_TYPE FeatureReader_PublishedParameters    OUTPUT ReaderFeatureTypes FEATURE_TYPE FeatureReader_ReaderFeatureTypes    OUTPUT ReaderParameters FEATURE_TYPE FeatureReader_ReaderParameters    OUTPUT Readers FEATURE_TYPE FeatureReader_Readers    OUTPUT Statistics FEATURE_TYPE FeatureReader_Statistics    OUTPUT TransformerHistogram FEATURE_TYPE FeatureReader_TransformerHistogram    OUTPUT TransformerParameters FEATURE_TYPE FeatureReader_TransformerParameters    OUTPUT Transformers FEATURE_TYPE FeatureReader_Transformers    OUTPUT WorkspaceProperties FEATURE_TYPE FeatureReader_WorkspaceProperties    OUTPUT WriterFeatureTypes FEATURE_TYPE FeatureReader_WriterFeatureTypes    OUTPUT WriterParameters FEATURE_TYPE FeatureReader_WriterParameters    OUTPUT Writers FEATURE_TYPE FeatureReader_Writers
+INCLUDE [       if { {MERGE} == {MERGE} } {          puts "MACRO FeatureReader_COMBINE_ATTRS PREFER_RESULT";       } else {          puts "MACRO FeatureReader_COMBINE_ATTRS MERGE";       };    ]
+FACTORY_DEF * QueryFactory    FACTORY_NAME FeatureReader    INPUT  FEATURE_TYPE JSONFlattener_OUTPUT_0_+9+PEXnBeXY=    $(FCTQUERY_INTERACTION_LINE)    COMBINE_ATTRIBUTES  $(FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    QUERYFCT_TABLE_SEPARATOR SPACE    READER_TYPE         FMW    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>email_publisher_attachment<opencurly>0<closecurly><closeparen>,FeatureReader)"    QUERYFCT_IDS        ""    READER_DIRECTIVES META_MACROS,,METAFILE,FMW    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    QUERYFCT_RESULT_TAGS $(FeatureReader_OUTPUT_PORTS_ENCODED)    QUERYFCT_SET_FME_FEATURE_TYPE YES    READER_PARAMS_WWJD     $(FeatureReader_DIRECTIVES)    OUTPUT Breakpoints FEATURE_TYPE FeatureReader_Breakpoints    OUTPUT FeatureTypeUserAttributes FEATURE_TYPE FeatureReader_FeatureTypeUserAttributes    OUTPUT PublishedParameters FEATURE_TYPE FeatureReader_PublishedParameters    OUTPUT ReaderFeatureTypes FEATURE_TYPE FeatureReader_ReaderFeatureTypes    OUTPUT ReaderParameters FEATURE_TYPE FeatureReader_ReaderParameters    OUTPUT Readers FEATURE_TYPE FeatureReader_Readers    OUTPUT Statistics FEATURE_TYPE FeatureReader_Statistics    OUTPUT TransformerHistogram FEATURE_TYPE FeatureReader_TransformerHistogram    OUTPUT TransformerParameters FEATURE_TYPE FeatureReader_TransformerParameters    OUTPUT Transformers FEATURE_TYPE FeatureReader_Transformers    OUTPUT WorkspaceProperties FEATURE_TYPE FeatureReader_WorkspaceProperties    OUTPUT WriterFeatureTypes FEATURE_TYPE FeatureReader_WriterFeatureTypes    OUTPUT WriterParameters FEATURE_TYPE FeatureReader_WriterParameters    OUTPUT Writers FEATURE_TYPE FeatureReader_Writers
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader PublishedParameters Splitter"   INPUT FEATURE_TYPE FeatureReader_PublishedParameters   OUTPUT FEATURE_TYPE FeatureReader_PublishedParameters_0_z7Sh8QJnm+8=   OUTPUT FEATURE_TYPE FeatureReader_PublishedParameters_1_kBfdcY1VFOA=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "FeatureReader Transformers Splitter"   INPUT FEATURE_TYPE FeatureReader_Transformers   OUTPUT FEATURE_TYPE FeatureReader_Transformers_0_NzPnCX5P7Lo=   OUTPUT FEATURE_TYPE FeatureReader_Transformers_1_+kfbvfMxn8c=   OUTPUT FEATURE_TYPE FeatureReader_Transformers_2_yCvVsFmc+1I=
@@ -2142,27 +2597,53 @@ INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-StyleAnalysis:1
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-StyleAnalysis Output:Summary Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-StyleAnalysis_Output:Summary   OUTPUT FEATURE_TYPE BestPractice-StyleAnalysis_Output:Summary
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-StyleAnalysis Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-StyleAnalysis_Output:Report   OUTPUT FEATURE_TYPE BestPractice-StyleAnalysis_Output:Report
 # -------------------------------------------------------------------------
-
-
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Creator_CREATED    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportName" "$(ReportName$encode)" "SET_TO"     ATTR_ACTION "" "ReportWorkspace" "$(SourceDataset_FMW$encode)" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Input:TransformerHistogram Input Collector"   INPUT FEATURE_TYPE FeatureReader_TransformerHistogram   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Input:TransformerHistogram
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Input:Transformers Input Collector"   INPUT FEATURE_TYPE FeatureReader_Transformers_0_NzPnCX5P7Lo=   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Input:Transformers
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Input:TransformerParameters Input Collector"   INPUT FEATURE_TYPE FeatureReader_TransformerParameters_0_chikR4G5eRU=   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Input:TransformerParameters
+MACRO BestPractice-TransformerAnalysis_WORKSPACE_NAME BestPractice-TransformerAnalysis
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_XFORMER_NAME BestPractice-TransformerAnalysis
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT <at>Value<openparen>transformer_count<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE <at>Value<openparen>transformer_type<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION <at>Value<openparen>current_transformer_version<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION <at>Value<openparen>max_transformer_version<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED <at>Value<openparen>transformer_enabled<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2 <at>Value<openparen>transformer_type<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME <at>Value<openparen>transformer_name<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME <at>Value<openparen>transformer_parameter_name<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE <at>Value<openparen>transformer_parameter_value<closeparen>
+MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID <at>Value<openparen>transformer_id<closeparen>
+INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-TransformerAnalysis:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Output:Summary Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Summary   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Summary
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Report   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Report
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-ReportHeader Input Input Collector"   INPUT FEATURE_TYPE AttributeManager_OUTPUT   OUTPUT FEATURE_TYPE BestPractice-ReportHeader_Input
-MACRO BestPractice-ReportHeader_WORKSPACE_NAME BestPractice-ReportHeader
-MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_XFORMER_NAME BestPractice-ReportHeader
-MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_TRANSFORMER_GROUP 
-MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
-MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME <at>Value<openparen>ReportName<closeparen>
-MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE <at>Value<openparen>ReportWorkspace<closeparen>
-INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-ReportHeader:1
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-ReportHeader Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-ReportHeader_Output:Report   OUTPUT FEATURE_TYPE BestPractice-ReportHeader_Output:Report
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Input:Transformers Input Collector"   INPUT FEATURE_TYPE FeatureReader_Transformers_1_+kfbvfMxn8c=   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Input:Transformers
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Input:TransformerParameters Input Collector"   INPUT FEATURE_TYPE FeatureReader_TransformerParameters_1_09JlhNgI8yA=   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Input:TransformerParameters
+MACRO BestPractice-PerformanceAnalysis_WORKSPACE_NAME BestPractice-PerformanceAnalysis
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_XFORMER_NAME BestPractice-PerformanceAnalysis
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_GROUP 
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED <at>Value<openparen>transformer_enabled<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_WORKSPACE_ID <at>Value<openparen>workspace_id<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_LAST_EDIT_BUILD_NUMBER <at>Value<openparen>transformer_last_edit_build_number<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION <at>Value<openparen>current_transformer_version<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID <at>Value<openparen>transformer_id<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME <at>Value<openparen>transformer_parameter_name<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE <at>Value<openparen>transformer_parameter_value<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION <at>Value<openparen>max_transformer_version<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE <at>Value<openparen>transformer_type<closeparen>
+MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME <at>Value<openparen>transformer_name<closeparen>
+INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-PerformanceAnalysis:1
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Report   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Report
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Output:Summary Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Summary   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Summary
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:Writers Input Collector"   INPUT FEATURE_TYPE FeatureReader_Writers   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:Writers
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:WriterFeatureTypes Input Collector"   INPUT FEATURE_TYPE FeatureReader_WriterFeatureTypes   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:WriterFeatureTypes
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:FeatureTypeUserAttributes Input Collector"   INPUT FEATURE_TYPE FeatureReader_FeatureTypeUserAttributes   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:FeatureTypeUserAttributes
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:WriterParameters Input Collector"   INPUT FEATURE_TYPE FeatureReader_WriterParameters   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:WriterParameters
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:ReaderParameters Input Collector"   INPUT FEATURE_TYPE FeatureReader_ReaderParameters   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:ReaderParameters
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:Transformers Input Collector"   INPUT FEATURE_TYPE FeatureReader_Transformers_0_NzPnCX5P7Lo=   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:Transformers
+FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:Transformers Input Collector"   INPUT FEATURE_TYPE FeatureReader_Transformers_2_yCvVsFmc+1I=   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:Transformers
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice:WriterAnalysis Input:PublishedParameters Input Collector"   INPUT FEATURE_TYPE FeatureReader_PublishedParameters_1_kBfdcY1VFOA=   OUTPUT FEATURE_TYPE BestPractice:WriterAnalysis_Input:PublishedParameters
 MACRO BestPractice:WriterAnalysis_WORKSPACE_NAME BestPractice:WriterAnalysis
 MACRO $(BestPractice:WriterAnalysis_WORKSPACE_NAME)_XFORMER_NAME BestPractice:WriterAnalysis
@@ -2221,47 +2702,6 @@ MACRO $(BestPractice-ReaderAnalysis_WORKSPACE_NAME)_READER_KEYWORD <at>Value<ope
 INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-ReaderAnalysis:1
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-ReaderAnalysis Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-ReaderAnalysis_Output:Report   OUTPUT FEATURE_TYPE BestPractice-ReaderAnalysis_Output:Report
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-ReaderAnalysis Output:Summary Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-ReaderAnalysis_Output:Summary   OUTPUT FEATURE_TYPE BestPractice-ReaderAnalysis_Output:Summary
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Input:Transformers Input Collector"   INPUT FEATURE_TYPE FeatureReader_Transformers_1_+kfbvfMxn8c=   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Input:Transformers
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Input:TransformerParameters Input Collector"   INPUT FEATURE_TYPE FeatureReader_TransformerParameters_0_chikR4G5eRU=   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Input:TransformerParameters
-MACRO BestPractice-PerformanceAnalysis_WORKSPACE_NAME BestPractice-PerformanceAnalysis
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_XFORMER_NAME BestPractice-PerformanceAnalysis
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_GROUP 
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED <at>Value<openparen>transformer_enabled<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_WORKSPACE_ID <at>Value<openparen>workspace_id<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_LAST_EDIT_BUILD_NUMBER <at>Value<openparen>transformer_last_edit_build_number<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION <at>Value<openparen>current_transformer_version<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID <at>Value<openparen>transformer_id<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME <at>Value<openparen>transformer_parameter_name<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE <at>Value<openparen>transformer_parameter_value<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION <at>Value<openparen>max_transformer_version<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE <at>Value<openparen>transformer_type<closeparen>
-MACRO $(BestPractice-PerformanceAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME <at>Value<openparen>transformer_name<closeparen>
-INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-PerformanceAnalysis:1
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Report   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Report
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-PerformanceAnalysis Output:Summary Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Summary   OUTPUT FEATURE_TYPE BestPractice-PerformanceAnalysis_Output:Summary
-# -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Input:TransformerHistogram Input Collector"   INPUT FEATURE_TYPE FeatureReader_TransformerHistogram   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Input:TransformerHistogram
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Input:Transformers Input Collector"   INPUT FEATURE_TYPE FeatureReader_Transformers_2_yCvVsFmc+1I=   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Input:Transformers
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Input:TransformerParameters Input Collector"   INPUT FEATURE_TYPE FeatureReader_TransformerParameters_1_09JlhNgI8yA=   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Input:TransformerParameters
-MACRO BestPractice-TransformerAnalysis_WORKSPACE_NAME BestPractice-TransformerAnalysis
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_XFORMER_NAME BestPractice-TransformerAnalysis
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_GROUP 
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)___COMPOUND_PARAMETERS 
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_COUNT <at>Value<openparen>transformer_count<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE <at>Value<openparen>transformer_type<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_CURRENT_TRANSFORMER_VERSION <at>Value<openparen>current_transformer_version<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_MAX_TRANSFORMER_VERSION <at>Value<openparen>max_transformer_version<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ENABLED <at>Value<openparen>transformer_enabled<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_TYPE_2 <at>Value<openparen>transformer_type<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_NAME <at>Value<openparen>transformer_name<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_NAME <at>Value<openparen>transformer_parameter_name<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_PARAMETER_VALUE <at>Value<openparen>transformer_parameter_value<closeparen>
-MACRO $(BestPractice-TransformerAnalysis_WORKSPACE_NAME)_TRANSFORMER_ID <at>Value<openparen>transformer_id<closeparen>
-INCLUDE_CUSTOM_TRANSFORMER_VER BestPractice-TransformerAnalysis:1
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Output:Summary Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Summary   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Summary
-FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-TransformerAnalysis Output:Report Output Renamer/Nuker"   INPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Report   OUTPUT FEATURE_TYPE BestPractice-TransformerAnalysis_Output:Report
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "BestPractice-FeatureInspectionAnalysis Input:Breakpoints Input Collector"   INPUT FEATURE_TYPE FeatureReader_Breakpoints   OUTPUT FEATURE_TYPE BestPractice-FeatureInspectionAnalysis_Input:Breakpoints
 MACRO BestPractice-BreakpointAnalysis_WORKSPACE_NAME BestPractice-FeatureInspectionAnalysis
