@@ -4,9 +4,7 @@ Suggestions and reports still to do.
 
 ## Server Implementation ##
 
-- Convert Writer to a FeatureWriter transformer
 - Make output file name related to datetime (to make it unique)
-- Add an Emailer transformer to email the report back to the user
 - Make a webhook(?) for GitHub to trigger upload of updated transformers to Server 
 
 
