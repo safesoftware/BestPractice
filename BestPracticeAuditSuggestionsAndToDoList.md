@@ -4,7 +4,6 @@ Suggestions and reports still to do.
 
 ## Server Implementation ##
 
-- Make output file name related to datetime (to make it unique)
 - Make a webhook(?) for GitHub to trigger upload of updated transformers to Server 
 
 
