@@ -17,13 +17,14 @@ Ways to improve the layout and structure of the HTML report
 	- eg there are StringReplacers in ReportCollation.fmx that might be avoided if ReportGenerators can be improved
 - Include a list of links to the subsections either before or immediately after the header to facilitate navigation
 	- This needs a way to set an ID in a header. Either custom HTML or FME update (Filed PR#77044)
-- Replace the HTML writer with a FeatureWriter transformer - so a report can be streamed back, but the workspace can also make a copy of the report to a backup folder 
+
 
 ## Report 1: HEADER ##
 
 Suggestions and updates for the report header
 
 - Implement other updates from lost contribution on KnowledgeCentre Q+A
+	- File properties, (size, creation date, edit date, last run date)
 
 ## Report 2: WORKSPACE ##
 
@@ -31,6 +32,7 @@ Suggestions and updates for the Workspace report
 
 - Check for a workspace devoid of content (ie no readers, no writers, no transformers): ERROR
 - Check how long it takes to open the project/file size - or some other metric to indicate that the project is too large
+	- File size is often representative of large schemas and doesn't always mean overcomplicated
 - Add a section that checks for startup and shutdown scripts.
 - Check for embedded database connections as a security issue - readers, writers, transformers
 	- Currently we can't tell in the FMW reader what is a db connection and which is embedded
@@ -46,6 +48,9 @@ Suggestions and updates for the Style report
 
 Suggestions and updates for the Breakpoints report
 
+- Make this a general CONNECTIONS report
+- Test for disabled connections
+
 ## Report 5: READERS ##
 
 Suggestions and updates for the Readers report
@@ -57,7 +62,6 @@ Suggestions and updates for the Readers report
 - Information or warning where it would be possible to implement a where clause on a reader 
 	- For instance an empty where clause followed by a Tester after a reader
 - Test connections to databases and file locations using the information in the workspace
-
 
 ## Report 6: WRITERS ##
 
@@ -73,6 +77,7 @@ Suggestions and updates for the Writers report
 
 Suggestions and updates for the Transformers report
 
+- Test for a minimum of (say) 10 transformers before reporting too many of the same type
 - List the most-used transformer category
 	- This would need a lookup table from transformer<->category, since category is not returned by the FMW reader
 - 	Where parameters are set to an attribute value, warn to include error checking to ensure the attribute exists
@@ -90,7 +95,7 @@ Suggestions and updates for the Transformers report
 
 Suggestions and updates for the Performance report
 
-## Report 9999: SUMMARY ##
+## Report SUMMARY ##
 
 Suggestions and updates for the report summary
 
@@ -107,6 +112,10 @@ Suggestions and updates for the report summary
 
 
 ## New Reports or Projects ##
+
+### Customization ###
+
+Maybe we can allow the end user to choose which tests to carry out, rather than doing them all?
 
 ### Screenshotting ###
 

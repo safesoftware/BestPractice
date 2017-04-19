@@ -105,6 +105,12 @@
 	- If there are basic reader parameters still published, WARN that these might not be required.
 	- If there are no basic reader parameters still published, PASS.
 
+**Readers 6: Unconnected Feature Types**
+
+- Check for reader feature types whose name is not a match in the connections list
+	- If there are feature types without a match, WARN that these could affect performance and should be removed
+	- If there are no unconnected feature types, PASS.
+
 ---
 
 ## Report 6: WRITERS ##
