@@ -75,7 +75,6 @@ Suggestions and updates for the Writers report
 
 Suggestions and updates for the Transformers report
 
-- Test for a minimum of (say) 10 transformers before reporting too many of the same type
 - List the most-used transformer category
 	- This would need a lookup table from transformer<->category, since category is not returned by the FMW reader
 - 	Where parameters are set to an attribute value, warn to include error checking to ensure the attribute exists

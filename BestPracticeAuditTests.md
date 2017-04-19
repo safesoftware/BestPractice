@@ -181,7 +181,8 @@
 **Transformers 2: Percentage Check**
 
 - Check percentage of overall count
-	- If >25% are all the same type, WARN that this might not be a good scenario
+	- Check if there are 6 or more transformers (else the test is not worth doing)
+	- If there are >5 transformers and >=25% are all the same type, WARN that this might not be a good scenario
 	
 **Transformers 3: Transformer Version**
 
