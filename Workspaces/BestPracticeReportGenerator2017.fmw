@@ -6,7 +6,7 @@
 #    
 #    
 #    C:\apps\FME2017.0\fme.exe C:\Users\imark\Documents\Training\MaterialsAndData\BestPractice\Workspaces\BestPracticeReportGenerator2017.fmw
-#          --SourceDataset_FMW "C:\Users\imark\Google Drive\2016 - Best Practice Analysis\TestingNoTransformers.fmw"
+#          --SourceDataset_FMW "C:\Users\imark\Google Drive\2016 - Best Practice Analysis\ReaderWriterFTConnectionTest.fmw"
 #          --DestDataset_HTML "C:\FMEOutput\WorkspaceReport.html"
 #          --ReportName "Marks Workspace Test"
 #    
@@ -47,7 +47,7 @@
 #!   MULTI_WRITER_DATASET_ORDER="BY_ID"
 #!   DOC_EXTENTS="6072.25 3599.76"
 #!   LOG_MAX_RECORDED_FEATURES="200"
-#!   LAST_SAVE_DATE="2017-04-19T12:14:06"
+#!   LAST_SAVE_DATE="2017-04-19T13:33:23"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   PYTHON_COMPATIBILITY="27"
@@ -1313,7 +1313,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI MULTIFILE SourceDataset_FMW FME Workspace file to be analysed:"
-#!   DEFAULT_VALUE="C:\Users\imark\Google Drive\2016 - Best Practice Analysis\TestingNoTransformers.fmw"
+#!   DEFAULT_VALUE="C:\Users\imark\Google Drive\2016 - Best Practice Analysis\ReaderWriterFTConnectionTest.fmw"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -3028,7 +3028,7 @@
 #! </WORKSPACE>
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_FMW_1,FMW_IN_NETWORK_AUTHENTICATION_FMW_1,DestDataset_HTML_1
-DEFAULT_MACRO SourceDataset_FMW C:\Users\imark\Google Drive\2016 - Best Practice Analysis\TestingNoTransformers.fmw
+DEFAULT_MACRO SourceDataset_FMW C:\Users\imark\Google Drive\2016 - Best Practice Analysis\ReaderWriterFTConnectionTest.fmw
 GUI MULTIFILE SourceDataset_FMW FME Workspace file to be analysed:
 DEFAULT_MACRO DestDataset_HTML C:\FMEOutput\WorkspaceReport.html
 GUI FILENAME DestDataset_HTML HTML<space>Files(*.html)|*.html HTML report file:

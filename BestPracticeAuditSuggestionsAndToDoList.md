@@ -55,8 +55,6 @@ Suggestions and updates for the Breakpoints report
 
 Suggestions and updates for the Readers report
 
-- Give a warning if Readers/Reader FTs are not connected
-	- 2017 introduced connection info, so this might now be possible
 - Test for all Reader FT's connected to same transformer - where a merge filter could be used
 	- Again, with connection info in 2017 this might be possible
 - Information or warning where it would be possible to implement a where clause on a reader 
