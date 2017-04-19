@@ -24,7 +24,7 @@ Ways to improve the layout and structure of the HTML report
 Suggestions and updates for the report header
 
 - Implement other updates from lost contribution on KnowledgeCentre Q+A
-	- File properties, (size, creation date, edit date, last run date): Sigbjørn: Can still be downloaded from https://knowledge.safe.com/storage/attachments/5971-bestpracticereportgenerator-norkart-sigbj%C3%B8rn.zip 
+	[DONE - Sigbjørn - Norkart]- File properties, (size, creation date, edit date, last run date): Sigbjørn: Can still be downloaded from https://knowledge.safe.com/storage/attachments/5971-bestpracticereportgenerator-norkart-sigbj%C3%B8rn.zip 
 
 ## Report 2: WORKSPACE ##
 
