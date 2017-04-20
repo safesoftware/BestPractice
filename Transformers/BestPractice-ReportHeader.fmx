@@ -1,44 +1,45 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
-# TRANSFORMER_BEGIN BestPractice-ReportHeader,2,BestPractices,0276fa73-5fa2-4c85-9899-f6fd16b9a1cf,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
+# TRANSFORMER_BEGIN BestPractice-ReportHeader,2,BestPractices,88d76233-fc09-49c0-a7f0-fcc685e6e7d2,"Linked by Default",No,NO_PARALLELISM,,No,17259,YES,No,27
 # <p>This transformer creates a Best Practice report that acts as the report header.</p>
+# 
 # TRANSFORMER_END
-#!   HISTORY="19.april&lt;space&gt;2017,Sigbj&lt;u00f8&gt;rn&lt;space&gt;Herstad&lt;space&gt;-&lt;space&gt;Norkart,Added&lt;space&gt;file&lt;space&gt;information,3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
-#!   PYTHON_COMPATIBILITY="27"
-#!   FME_LINKED_TRANSFORMER_VERSION="2"
-#!   WORKSPACE_VERSION="1"
-#!   BLOCKED_LOOPING="No"
-#!   DESCRIPTION="&lt;p&gt;This transformer creates a Best Practice report that acts as the report header.&lt;/p&gt;"
-#!   FMX_INSERT_MODE="Linked by Default"
-#!   ITERATION_COUNT_ATTR=""
-#!   SHOW_ANNOTATIONS="true"
-#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
-#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
-#!   MARKDOWN_DESCRIPTION="This transformer creates a Best Practice report that acts as the report header."
-#!   PASSWORD=""
-#!   FME_PROCESS_COUNT="NO_PARALLELISM"
-#!   FME_DOCUMENT_GUID="0276fa73-5fa2-4c85-9899-f6fd16b9a1cf"
-#!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   TITLE="BestPractice-ReportHeader"
+#!   FME_PROCESS_GROUP_BY=""
+#!   FME_DOCUMENT_PRIORGUID="0276fa73-5fa2-4c85-9899-f6fd16b9a1cf"
+#!   VIEW_POSITION="-1656.27 156.252"
+#!   FME_SERVER_SERVICES=""
+#!   CATEGORY="BestPractices"
 #!   ATTR_TYPE_ENCODING="SDF"
-#!   FME_DOCUMENT_PRIORGUID=""
-#!   ZOOM_SCALE="100"
+#!   USAGE=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="17259"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   SHOW_INFO_NODES="true"
+#!   SHOW_ANNOTATIONS="true"
+#!   MARKDOWN_DESCRIPTION="This transformer creates a Best Practice report that acts as the report header."
 #!   DOC_EXTENTS="3400.4 1450.01"
 #!   MARKDOWN_USAGE=""
-#!   DOC_TOP_LEFT="-1378.14 -1371.88"
-#!   FME_SERVER_SERVICES=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
+#!   WORKSPACE_VERSION="1"
+#!   HISTORY="19.april&lt;space&gt;2017,Sigbj&lt;u00f8&gt;rn&lt;space&gt;Herstad&lt;space&gt;-&lt;space&gt;Norkart,Added&lt;space&gt;file&lt;space&gt;information,3rd&lt;space&gt;April&lt;space&gt;2017,iMark,"
+#!   BLOCKED_LOOPING="No"
+#!   FME_DOCUMENT_GUID="88d76233-fc09-49c0-a7f0-fcc685e6e7d2"
+#!   ITERATION_COUNT_ATTR=""
+#!   ZOOM_SCALE="100"
 #!   USE_MARKDOWN="YES"
-#!   SHOW_INFO_NODES="true"
-#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
+#!   DOC_TOP_LEFT="-1378.14 -1371.88"
 #!   MAX_LOOP_ITERATIONS=""
-#!   USAGE=""
-#!   LAST_SAVE_DATE="2017-04-19T23:02:13"
-#!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   VIEW_POSITION="-1809.39 6.25006"
-#!   FME_BUILD_NUM="17259"
-#!   FME_PROCESS_GROUP_BY=""
+#!   FME_PROCESS_COUNT="NO_PARALLELISM"
+#!   DESCRIPTION="&lt;p&gt;This transformer creates a Best Practice report that acts as the report header.&lt;/p&gt;&#10;"
 #!   XFORM_DEPRECATED="No"
-#!   CATEGORY="BestPractices"
+#!   FME_PROCESS_GROUPS_ORDERED="No"
+#!   LAST_SAVE_DATE="2017-04-20T10:55:58"
+#!   PASSWORD=""
+#!   FMX_INSERT_MODE="Linked by Default"
+#!   FME_LINKED_TRANSFORMER_VERSION="2"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -61,15 +62,45 @@
 #!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspace&lt;closeparen&gt;"
 #!   IS_STAND_ALONE="false"
 #! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR REPORTWORKSPACEFOLDER ReportWorkspaceFolder:"
+#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceFolder&lt;closeparen&gt;"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR REPORTWORKSPACEPATH ReportWorkspacePath:"
+#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspacePath&lt;closeparen&gt;"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR REPORTWORKSPACECREATION ReportWorkspaceCreation:"
+#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceCreation&lt;closeparen&gt;"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR REPORTWORKSPACELASTRUN ReportWorkspaceLastRun:"
+#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceLastRun&lt;closeparen&gt;"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR REPORTWORKSPACEMODIFIED ReportWorkspaceModified:"
+#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceModified&lt;closeparen&gt;"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI TEXT_EDIT_OR_NUM_OR_ATTR REPORTWORKSPACESIZE ReportWorkspaceSize:"
+#!   DEFAULT_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceSize&lt;closeparen&gt;"
+#!   IS_STAND_ALONE="false"
+#! />
 #! </GLOBAL_PARAMETERS>
 #! <COMMENTS>
 #! <COMMENT
 #!   IDENTIFIER="9"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Create Report Header&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="739.051 -477.314"
-#!   TOP_LEFT="739.051 -477.314"
-#!   BOTTOM_RIGHT="738.051 -476.314"
-#!   BOUNDING_RECT="739.051 -477.314 -1 -1"
+#!   POSITION="-380.243 -771.067"
+#!   TOP_LEFT="-380.243 -771.067"
+#!   BOTTOM_RIGHT="-381.243 -770.067"
+#!   BOUNDING_RECT="-380.243 -771.067 -1 -1"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -81,10 +112,10 @@
 #! <COMMENT
 #!   IDENTIFIER="12"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Set Report Header order (top of entire report)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="711.895 -1007.07"
-#!   TOP_LEFT="711.895 -1007.07"
-#!   BOTTOM_RIGHT="1228.14 -1149.57"
-#!   BOUNDING_RECT="711.895 -1007.07 516.242 142.501"
+#!   POSITION="311.891 -688.317"
+#!   TOP_LEFT="311.891 -688.317"
+#!   BOTTOM_RIGHT="828.133 -830.818"
+#!   BOUNDING_RECT="311.891 -688.317 516.242 142.501"
 #!   ORDER="5e+14"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -92,6 +123,21 @@
 #!   SIZE_POLICY="10"
 #!   COMMENT_TYPE="REGULAR"
 #!   ANCHORED_NODE="3"
+#! />
+#! <COMMENT
+#!   IDENTIFIER="15"
+#!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Generate Workspace Details Table&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
+#!   POSITION="-514.63 -158.752"
+#!   TOP_LEFT="-514.63 -158.752"
+#!   BOTTOM_RIGHT="-515.63 -157.752"
+#!   BOUNDING_RECT="-514.63 -158.752 -1 -1"
+#!   ORDER="5e+14"
+#!   FOLLOW_ANCHOR="true"
+#!   INFO_NODE="false"
+#!   COLOUR="1,1,0.784314,0.196078"
+#!   SIZE_POLICY="8"
+#!   COMMENT_TYPE="REGULAR"
+#!   ANCHORED_NODE="14"
 #! />
 #! </COMMENTS>
 #! <CONSTANTS>
@@ -106,18 +152,7 @@
 #!   BOUNDING_RECT="-1378.14 78.1258 2700.03 1450.01"
 #!   STICKY="true"
 #!   COLOUR="1,0.666667,0.666667"
-#!   CONTENTS="4 12 34 28 16 21 8 32 20 29 17 27 14 22 3 9 30 23 24 33 25 "
-#! />
-#! <BOOKMARK
-#!   IDENTIFIER="33"
-#!   NAME="1.1 Gets file information"
-#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-1279.89 -594.566"
-#!   BOTTOM_RIGHT="477.542 -1303.34"
-#!   BOUNDING_RECT="-1279.89 -594.566 1757.43 708.77"
-#!   STICKY="true"
-#!   COLOUR="0.94902,0.886275,0.992157"
-#!   CONTENTS="28 20 30 21 24 25 29 32 22 "
+#!   CONTENTS="17 9 15 4 3 14 8 16 12 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -125,8 +160,8 @@
 #!   IDENTIFIER="3"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="704.506 -829.567"
-#!   BOUNDING_RECT="704.506 -829.567 -1 -1"
+#!   POSITION="304.502 -510.814"
+#!   BOUNDING_RECT="304.502 -510.814 -1 -1"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -136,23 +171,23 @@
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="ReportOrder" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportOrder 1 SET_TO html_content html_content  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="4"
 #!   TYPE="HTMLReportGenerator"
 #!   VERSION="0"
-#!   POSITION="704.506 -632.567"
-#!   BOUNDING_RECT="704.506 -632.567 484.016 71"
+#!   POSITION="-408.005 -563.816"
+#!   BOUNDING_RECT="-408.005 -563.816 484.016 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -161,21 +196,21 @@
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER HEADER HEADER HEADER SEPARATOR TABLE LIST"/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;FME&lt;space&gt;Workspace;HEADER;H1;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;&lt;space&gt;Best&lt;space&gt;Practice&lt;space&gt;Report;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;This&lt;space&gt;report&lt;space&gt;examines&lt;space&gt;best&lt;space&gt;practices&lt;space&gt;for&lt;space&gt;a&lt;space&gt;workspaces&lt;space&gt;that&lt;space&gt;is&lt;space&gt;about&lt;space&gt;to&lt;space&gt;be&lt;space&gt;put&lt;space&gt;into&lt;space&gt;production.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;It&lt;space&gt;is&lt;space&gt;assumed&lt;space&gt;that&lt;space&gt;the&lt;space&gt;version&lt;space&gt;of&lt;space&gt;FME&lt;space&gt;being&lt;space&gt;used&lt;space&gt;to&lt;space&gt;generate&lt;space&gt;this&lt;space&gt;report&lt;space&gt;&lt;openparen&gt;$(FME_BUILD_NUM)&lt;closeparen&gt;&lt;space&gt;is&lt;space&gt;the&lt;space&gt;newest&lt;space&gt;release&lt;space&gt;version&lt;space&gt;available.&lt;space&gt;If&lt;space&gt;not&lt;comma&gt;&lt;space&gt;please&lt;space&gt;contact&lt;space&gt;the&lt;space&gt;administrator&lt;space&gt;of&lt;space&gt;this&lt;space&gt;system.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;Note&lt;space&gt;that&lt;space&gt;this&lt;space&gt;report&lt;space&gt;does&lt;space&gt;not&lt;space&gt;comment&lt;space&gt;upon&lt;space&gt;the&lt;space&gt;suitability&lt;space&gt;of&lt;space&gt;the&lt;space&gt;workspace&lt;space&gt;to&lt;space&gt;produce&lt;space&gt;the&lt;space&gt;desired&lt;space&gt;result&lt;comma&gt;&lt;space&gt;merely&lt;space&gt;the&lt;space&gt;practices&lt;space&gt;by&lt;space&gt;which&lt;space&gt;it&lt;space&gt;has&lt;space&gt;been&lt;space&gt;constructed.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}SEPARATOR{{WIDTH;1;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Separator.fme}}TABLE{{STYLE;DEFAULT;TABLE;ReportName|Report/ReportDateTime|Generated/ReportWorkspace|Workspace;TABLE_GROUP;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Table.fme}}LIST{{ATTR;MajorBuildText;STYLE;NONE;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;BADGE;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;List.fme}}"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
 #!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE="HEADER HEADER SEPARATOR HTML SEPARATOR HEADER HEADER HEADER"/>
+#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE="HEADER{{TEXT;FME&lt;space&gt;Workspace;HEADER;H1;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;&lt;space&gt;Best&lt;space&gt;Practice&lt;space&gt;Report;HEADER;H3;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}SEPARATOR{{WIDTH;1;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Separator.fme}}HTML{{HTML;&lt;at&gt;Value&lt;openparen&gt;ReportFileDetailsHTML&lt;closeparen&gt;;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Custom&lt;space&gt;HTML.fme}}SEPARATOR{{WIDTH;1;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Separator.fme}}HEADER{{TEXT;This&lt;space&gt;report&lt;space&gt;examines&lt;space&gt;best&lt;space&gt;practices&lt;space&gt;for&lt;space&gt;a&lt;space&gt;workspaces&lt;space&gt;that&lt;space&gt;is&lt;space&gt;about&lt;space&gt;to&lt;space&gt;be&lt;space&gt;put&lt;space&gt;into&lt;space&gt;production.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;It&lt;space&gt;is&lt;space&gt;assumed&lt;space&gt;that&lt;space&gt;the&lt;space&gt;version&lt;space&gt;of&lt;space&gt;FME&lt;space&gt;being&lt;space&gt;used&lt;space&gt;to&lt;space&gt;generate&lt;space&gt;this&lt;space&gt;report&lt;space&gt;&lt;openparen&gt;$(FME_BUILD_NUM)&lt;closeparen&gt;&lt;space&gt;is&lt;space&gt;the&lt;space&gt;newest&lt;space&gt;release&lt;space&gt;version&lt;space&gt;available.&lt;space&gt;If&lt;space&gt;not&lt;comma&gt;&lt;space&gt;please&lt;space&gt;contact&lt;space&gt;the&lt;space&gt;administrator&lt;space&gt;of&lt;space&gt;this&lt;space&gt;system.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}HEADER{{TEXT;Note&lt;space&gt;that&lt;space&gt;this&lt;space&gt;report&lt;space&gt;does&lt;space&gt;not&lt;space&gt;comment&lt;space&gt;upon&lt;space&gt;the&lt;space&gt;suitability&lt;space&gt;of&lt;space&gt;the&lt;space&gt;workspace&lt;space&gt;to&lt;space&gt;produce&lt;space&gt;the&lt;space&gt;desired&lt;space&gt;result&lt;comma&gt;&lt;space&gt;merely&lt;space&gt;the&lt;space&gt;practices&lt;space&gt;by&lt;space&gt;which&lt;space&gt;it&lt;space&gt;has&lt;space&gt;been&lt;space&gt;constructed.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0&lt;comma&gt;0&lt;comma&gt;0;FME_CONTROLLER_QUERY_FILE;transformers&lt;backslash&gt;dependencies&lt;backslash&gt;html5&lt;backslash&gt;Header.fme}}"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
 #!   IDENTIFIER="14"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="693.757 -237.502"
-#!   BOUNDING_RECT="693.757 -237.502 494.765 71"
+#!   POSITION="-425.004 -287.503"
+#!   BOUNDING_RECT="-425.004 -287.503 494.765 71"
 #!   ORDER="5e+14"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -186,262 +221,23 @@
 #!     <XFORM_ATTR ATTR_NAME="ReportDateTime" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="MajorBuildText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_created_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_directory_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filesize" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_modified_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_ownername" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_readonly" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceFolder" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspacePath" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceCreation" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceLastRun" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceModified" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceSize" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="ReportFileDetailsHTML" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportDateTime &lt;at&gt;DateTimeFormat&lt;openparen&gt;&lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt;&lt;comma&gt;%H:%M:%S&lt;space&gt;UTC&lt;space&gt;%d-%m-%Y&lt;closeparen&gt; SET_TO ReportName ReportName  NO_OP ReportWorkspace ReportWorkspace  NO_OP ReportWorkspaceFolder ReportWorkspaceFolder  NO_OP ReportWorkspacePath ReportWorkspacePath  NO_OP ReportWorkspaceCreation ReportWorkspaceCreation  NO_OP ReportWorkspaceLastRun ReportWorkspaceLastRun  NO_OP ReportWorkspaceModified ReportWorkspaceModified  NO_OP ReportWorkspaceSize ReportWorkspaceSize  NO_OP  ReportFileDetailsHTML &lt;lt&gt;table&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;quote&gt;&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;strong&lt;gt&gt;Report&lt;space&gt;Name&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;ReportName&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;strong&lt;gt&gt;Report&lt;space&gt;Generated&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;ReportDateTime&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;strong&lt;gt&gt;Workspace&lt;space&gt;Analyzed&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;ReportWorkspacePath&lt;closeparen&gt;&lt;at&gt;Value&lt;openparen&gt;ReportWorkspace&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;strong&lt;gt&gt;Workspace&lt;space&gt;File&lt;space&gt;Size&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceSize&lt;closeparen&gt;&lt;space&gt;kb&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;strong&lt;gt&gt;Workspace&lt;space&gt;Created&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceCreation&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;strong&lt;gt&gt;Workspace&lt;space&gt;Last&lt;space&gt;Modified&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceModified&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;strong&lt;gt&gt;Workspace&lt;space&gt;Last&lt;space&gt;Run&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;td&lt;space&gt;style=&lt;quote&gt;border:&lt;space&gt;1px&lt;space&gt;solid&lt;space&gt;black&lt;semicolon&gt;&lt;space&gt;padding:&lt;space&gt;10px&lt;quote&gt;&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;ReportWorkspaceLastRun&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;td&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;tr&lt;gt&gt;&lt;lf&gt;&lt;lt&gt;&lt;solidus&gt;table&lt;gt&gt; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; ReportDateTime &lt;at&gt;DateTimeFormat&lt;openparen&gt;&lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt;&lt;comma&gt;%H:%M:%S&lt;space&gt;UTC&lt;space&gt;%d-%m-%Y&lt;closeparen&gt; SET_TO ReportName ReportName  NO_OP ReportWorkspace ReportWorkspace  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="20"
-#!   TYPE="FeatureReader"
-#!   VERSION="8"
-#!   POSITION="-1180.42 -911.311"
-#!   BOUNDING_RECT="-1180.42 -911.311 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="16709"
-#! >
-#!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_feature_type_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="attribute{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="attribute{}.fme_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="attribute{}.native_data_type" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_format_short_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="fme_format_long_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;OTHER&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <OUTPUT_FEAT NAME="INITIATOR"/>
-#!     <FEAT_COLLAPSED COLLAPSED="2"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
-#!     <FEAT_COLLAPSED COLLAPSED="3"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_PARM PARM_NAME="WHERE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SUPPORTED_SPATIAL_INTERACTIONS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="PATH_RETRIEVE_FILE_PROPERTIES,&quot;OPTIONAL CHOICE YES%NO&quot;,PATH&lt;space&gt;Retrieve&lt;space&gt;file&lt;space&gt;properties:,PATH_GLOB_PATTERN,&quot;OPTIONAL TEXT_ENCODED&quot;,PATH&lt;space&gt;Path&lt;space&gt;Filter:,PATH_TYPE,&quot;OPTIONAL CHOICE ANY%DIRECTORY%FILE&quot;,PATH&lt;space&gt;Allowed&lt;space&gt;Path&lt;space&gt;Type:"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ENABLE_CACHE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="PATH_RETRIEVE_FILE_PROPERTIES" PARM_VALUE="YES"/>
-#!     <XFORM_PARM PARM_NAME="AVAILABLE_FEATURE_TYPES" PARM_VALUE="_FEATUREREADER_OPTIONAL_FTTR_"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceRETRIEVE_FILE_PROPERTIES&lt;comma&gt;YES&lt;comma&gt;SourceGLOB_PATTERN&lt;comma&gt;&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;_filename&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;SourceTYPE&lt;comma&gt;ANY,METAFILE,PATH"/>
-#!     <XFORM_PARM PARM_NAME="MAX_FEATURES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_DISPLAY" PARM_VALUE="Schema and Data Features"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="READER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_dirpath&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="SINGLE_PORT"/>
-#!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
-#!     <XFORM_PARM PARM_NAME="COMBINE_GEOM" PARM_VALUE="Use Result"/>
-#!     <XFORM_PARM PARM_NAME="READ_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="MERGE_HANDLING_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureReader"/>
-#!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_PREFIX" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_FEATURES_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CACHE_TIMEOUT_HRS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="CONSTRAINTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PATH_GLOB_PATTERN" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_filename&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="PATH"/>
-#!     <XFORM_PARM PARM_NAME="SINGLE_PORT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PORTS_FROM_FTTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
-#!     <XFORM_PARM PARM_NAME="PATH_TYPE" PARM_VALUE="ANY"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="21"
-#!   TYPE="FilenamePartExtractor"
-#!   VERSION="3"
-#!   POSITION="-1179.29 -728.679"
-#!   BOUNDING_RECT="-1179.29 -728.679 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17259"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DIRNAME_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ROOTNAME_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SRC_ATTR" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;ReportWorkspace&lt;closeparen&gt;"/>
-#!     <XFORM_PARM PARM_NAME="EXTENSION_ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DIRPATH_ATTR" PARM_VALUE="_dirpath"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FilenamePartExtractor"/>
-#!     <XFORM_PARM PARM_NAME="FULLNAME_ATTR" PARM_VALUE="_filename"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="22"
-#!   TYPE="AttributeExposer"
-#!   VERSION="0"
-#!   POSITION="-627.598 -924.315"
-#!   BOUNDING_RECT="-627.598 -924.315 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="16709"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_created_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_directory_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filesize" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_modified_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_ownername" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_readonly" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="path_created_date,path_directory_windows,path_filename,path_filesize,path_modified_date,path_ownername,path_readonly"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeExposer"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="23"
-#!   TYPE="TimeStamper"
-#!   VERSION="1"
-#!   POSITION="-684.055 -227.837"
-#!   BOUNDING_RECT="-684.055 -227.837 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="16709"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO DateTime (^Y-^m-^dT^H:^M:^S)"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="TimeStamper"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TIME_ATTR" PARM_VALUE="_timestamp"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="24"
-#!   TYPE="DateFormatter"
-#!   VERSION="5"
-#!   POSITION="-627.598 -1122.32"
-#!   BOUNDING_RECT="-627.598 -1122.32 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="16709"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_created_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_directory_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filesize" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_modified_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_ownername" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_readonly" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SRCFMT" PARM_VALUE="Unknown - Automatic Detection"/>
-#!     <XFORM_PARM PARM_NAME="INVALID_DATE_VALUE" PARM_VALUE="_FME_NO_OP_"/>
-#!     <XFORM_PARM PARM_NAME="FMT" PARM_VALUE="ISO DateTime (%Y-%m-%dT%H:%M:%S)"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateFormatter"/>
-#!     <XFORM_PARM PARM_NAME="DATE_ATTR" PARM_VALUE="path_modified_date,path_created_date"/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="25"
-#!   TYPE="AttributeManager"
-#!   VERSION="1"
-#!   POSITION="-4.10722 -924.315"
-#!   BOUNDING_RECT="-4.10722 -924.315 -1 -1"
-#!   ORDER="5e+14"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="17259"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="MajorBuildText" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_timestamp" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_dirpath" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_created_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_directory_windows" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_filesize" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_modified_date" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_ownername" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="path_readonly" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportName" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="&quot;&quot; MajorBuildText File:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;path_directory_windows&lt;closeparen&gt;&lt;space&gt;&lt;lt&gt;strong&lt;gt&gt;&lt;at&gt;Value&lt;openparen&gt;path_filename&lt;closeparen&gt;&lt;lt&gt;&lt;solidus&gt;strong&lt;gt&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;Size:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;path_filesize&lt;closeparen&gt;&lt;space&gt;kB&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;Created&lt;space&gt;&lt;solidus&gt;&lt;space&gt;modified:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;path_created_date&lt;closeparen&gt;&lt;space&gt;&lt;solidus&gt;&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;path_modified_date&lt;closeparen&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;Owner:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;path_ownername&lt;closeparen&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt;Readonly:&lt;space&gt;&lt;at&gt;Value&lt;openparen&gt;path_readonly&lt;closeparen&gt;&lt;lt&gt;br&lt;gt&gt;&lt;lf&gt; SET_TO _timestamp _timestamp  NO_OP _dirpath _dirpath  NO_OP _filename _filename  NO_OP path_created_date path_created_date  NO_OP path_directory_windows path_directory_windows  NO_OP path_filename path_filename  NO_OP path_filesize path_filesize  NO_OP path_modified_date path_modified_date  NO_OP path_ownername path_ownername  NO_OP path_readonly path_readonly  NO_OP ReportName ReportName  NO_OP ReportWorkspace ReportWorkspace  NO_OP"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_83"/>
-#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <SUBDOCUMENT_IOS>
@@ -459,7 +255,7 @@
 #!   IDENTIFIER="17"
 #!   NAME="Input"
 #!   POSITION="-1279.89 -171.876"
-#!   BOUNDING_RECT="-1279.89 -171.876 495.505 71"
+#!   BOUNDING_RECT="-1279.89 -171.876 611.133 71"
 #!   COLLAPSED="false"
 #!   PUBLISHED="true"
 #!   IS_SOURCE="true"
@@ -467,13 +263,19 @@
 #! >
 #!     <XFORM_ATTR ATTR_NAME="ReportName" ATTR_VALUE="$(REPORTNAME)" />
 #!     <XFORM_ATTR ATTR_NAME="ReportWorkspace" ATTR_VALUE="$(REPORTWORKSPACE)" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceFolder" ATTR_VALUE="$(REPORTWORKSPACEFOLDER)" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspacePath" ATTR_VALUE="$(REPORTWORKSPACEPATH)" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceCreation" ATTR_VALUE="$(REPORTWORKSPACECREATION)" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceLastRun" ATTR_VALUE="$(REPORTWORKSPACELASTRUN)" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceModified" ATTR_VALUE="$(REPORTWORKSPACEMODIFIED)" />
+#!     <XFORM_ATTR ATTR_NAME="ReportWorkspaceSize" ATTR_VALUE="$(REPORTWORKSPACESIZE)" />
 #! </SUBDOCUMENT_IO>
 #! </SUBDOCUMENT_IOS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="34"
+#!   IDENTIFIER="19"
 #!   SOURCE_NODE="17"
-#!   TARGET_NODE="23"
+#!   TARGET_NODE="14"
 #!   SOURCE_PORT_DESC="0"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -514,72 +316,6 @@
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
-#! <FEAT_LINK
-#!   IDENTIFIER="29"
-#!   SOURCE_NODE="21"
-#!   TARGET_NODE="20"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 INITIATOR"
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="28"
-#!   SOURCE_NODE="22"
-#!   TARGET_NODE="24"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="27"
-#!   SOURCE_NODE="23"
-#!   TARGET_NODE="21"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="30"
-#!   SOURCE_NODE="24"
-#!   TARGET_NODE="25"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="36"
-#!   SOURCE_NODE="25"
-#!   TARGET_NODE="14"
-#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
-#! <FEAT_LINK
-#!   IDENTIFIER="32"
-#!   SOURCE_NODE="20"
-#!   TARGET_NODE="22"
-#!   SOURCE_PORT_DESC="fo 1 &lt;lt&gt;OTHER&lt;gt&gt;"
-#!   TARGET_PORT_DESC="fi 0 "
-#!   ENABLED="true"
-#!   EXECUTION_IDX="0"
-#!   HIDDEN="false"
-#!   EXTRA_POINTS=""
-#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -592,6 +328,12 @@
 #! </TRANSFORMER>
 DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME <at>Value<openparen>ReportName<closeparen>
 DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE <at>Value<openparen>ReportWorkspace<closeparen>
+DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEFOLDER <at>Value<openparen>ReportWorkspaceFolder<closeparen>
+DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEPATH <at>Value<openparen>ReportWorkspacePath<closeparen>
+DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACECREATION <at>Value<openparen>ReportWorkspaceCreation<closeparen>
+DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACELASTRUN <at>Value<openparen>ReportWorkspaceLastRun<closeparen>
+DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEMODIFIED <at>Value<openparen>ReportWorkspaceModified<closeparen>
+DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACESIZE <at>Value<openparen>ReportWorkspaceSize<closeparen>
 #! START_HEADER
 #! END_HEADER
 
@@ -600,54 +342,15 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-ReportHeader_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-ReportHeader_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-ReportHeader_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input1492635733 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,ReportName,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME),ReportWorkspace,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE), FEATURE_TYPE)"
-# -------------------------------------------------------------------------
-
-Tcl2 proc $(BestPractice-ReportHeader_WORKSPACE_NAME)_TimeStamper_formatGetter { inVal } {    if { [string compare $inVal {FME Date/Time (^Y^m^d^H^M^S)}] == 0 } {       return {^Y^m^d^H^M^S};    } elseif { [string compare $inVal {FME Date (^Y^m^d)}] == 0} {       return {^Y^m^d};    } elseif { [string compare $inVal {FME Time (^H^M^S)}] == 0} {       return {^H^M^S};    } elseif { [string compare $inVal {ISO Date (^Y-^m-^d)}] == 0} {       return {^Y-^m-^d};    } elseif { [string compare $inVal {ISO DateTime (^Y-^m-^dT^H:^M:^S)}] == 0} {       return {^Y-^m-^dT^H:^M:^S};    } elseif { [string compare $inVal {ISO Time (^H:^M:^S)}] == 0} {       return {^H:^M:^S};    } elseif { [string compare $inVal {Locale Date (^c)}] == 0} {       return {^c};    };    return $inVal; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_TimeStamper    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_TimeStamper_OUTPUT"         @SupplyAttributes(ENCODED, _timestamp, @Timestamp(@Tcl2("$(BestPractice-ReportHeader_WORKSPACE_NAME)_TimeStamper_formatGetter {ISO DateTime (^Y-^m-^dT^H:^M:^S)} ")))
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_FilenamePartExtractor    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_TimeStamper_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_FilenamePartExtractor_OUTPUT"         @SupplyAttributes("_dirpath",@Filenamepart(ENCODED,DIRNAME,"@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>ReportWorkspace<closeparen>,$(BestPractice-ReportHeader_WORKSPACE_NAME)_FilenamePartExtractor)"))         @SupplyAttributes("_filename",@Filenamepart(ENCODED,FILENAME,"@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>ReportWorkspace<closeparen>,$(BestPractice-ReportHeader_WORKSPACE_NAME)_FilenamePartExtractor)"))
-
-# -------------------------------------------------------------------------
-MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_OUTPUT_PORTS_ENCODED 
-MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_DIRECTIVES RETRIEVE_FILE_PROPERTIES,YES,GLOB_PATTERN,<lt>at<gt>Value<lt>openparen<gt>_filename<lt>closeparen<gt>,TYPE,ANY
-
-# Values come in encoded and come out decoded.
-Tcl2 proc $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_findInListElseDefault { valueEncoded defaultValue } {    if { [lsearch [split {$($(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_OUTPUT_PORTS_ENCODED)}] $valueEncoded] >= 0} {       return $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_[FME_DecodeText $valueEncoded]    } else {       return $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_$defaultValue    } }
-# Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
-INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
-# Consolidate the attribute merge options to what the factory expects
-DEFAULT_MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_COMBINE_ATTRS
-INCLUDE [       if { {MERGE} == {MERGE} } {          puts "MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_COMBINE_ATTRS PREFER_RESULT";       } else {          puts "MACRO $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_COMBINE_ATTRS MERGE";       };    ]
-FACTORY_DEF * QueryFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_FilenamePartExtractor_OUTPUT"    $(FCTQUERY_INTERACTION_LINE)    QUERYFCT_TABLE_SEPARATOR SPACE    COMBINE_ATTRIBUTES  $($(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_COMBINE_ATTRS)    QUERYFCT_ATTRIBUTE_PREFIX <Unused>    COMBINE_GEOMETRY    RESULT_ONLY    ENABLE_CACHE        NO    READER_TYPE         PATH    READER_DATASET      "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_dirpath<closeparen>,$(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader)"    QUERYFCT_IDS        ""    READER_DIRECTIVES META_MACROS,SourceRETRIEVE_FILE_PROPERTIES<comma>YES<comma>SourceGLOB_PATTERN<comma><lt>at<gt>Value<lt>openparen<gt>_filename<lt>closeparen<gt><comma>SourceTYPE<comma>ANY,METAFILE,PATH    QUERYFCT_OUTPUT     "BASED_ON_CONNECTIONS"    CONTINUE_ON_READER_ERROR YES    READER_PARAMS_WWJD     $($(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE *         @SupplyAttributes(fme_feature_type,@FeatureType())         @Tcl2("set FME_FeatureType [$(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_findInListElseDefault [FME_EncodeText $FME_FeatureType] {<OTHER>}]")         @Transform(PATH,FME_GENERIC,ALIAS_GEOMETRY)
-
-# -------------------------------------------------------------------------
-
-# Expose all attributes.  This ensures that if you expose fme_dataset, you will get it.
-
-READER_META_ATTRIBUTES fme_feature_type fme_dataset fme_basename
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeExposer    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_FeatureReader_<OTHER>"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeExposer_OUTPUT"
-
-# -------------------------------------------------------------------------
-
-Tcl2 proc $(BestPractice-ReportHeader_WORKSPACE_NAME)_DateFormatter_formatter {invalidValue} {       set dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)};       if { [string compare $dateFormat {FME Date/Time (%Y%m%d%H%M%S)}] == 0 } {          set dateFormat {%Y%m%d%H%M%S};       } elseif { [string compare $dateFormat {FME Date (%Y%m%d)}] == 0} {          set dateFormat {%Y%m%d};       } elseif { [string compare $dateFormat {FME Time (%H%M%S)}] == 0} {          set dateFormat {%H%M%S};       } elseif { [string compare $dateFormat {ISO Date (%Y-%m-%d)}] == 0} {          set dateFormat {%Y-%m-%d};       } elseif { [string compare $dateFormat {ISO DateTime (%Y-%m-%dT%H:%M:%S)}] == 0} {          set dateFormat {%Y-%m-%dT%H:%M:%S};       } elseif { [string compare $dateFormat {ISO Time (%H:%M:%S)}] == 0} {          set dateFormat {%H:%M:%S};       } elseif { [string compare $dateFormat {Locale Date (%c)}] == 0} {          set dateFormat {%c};       };     set attrs [split {path_modified_date,path_created_date} {,}];     foreach attr $attrs {        set date [string trim [FME_GetAttribute $attr]];        set comment { Don't touch NULL or empty attribute values };        if { [string length $date] == 0 } { continue; };        set srcfmt {};        if {{FME_AUTOMATIC} != {FME_AUTOMATIC}} {            set srcfmt {FME_AUTOMATIC};        } else {           set comment { In Automatic mode we ignore the millisecond part };           regexp {^[^.]*} $date date;           set comment { Treat single char as invalid date };           if { [regexp {^.$} $date] } {              set date {};           };        };        set comment { An empty $date at this point is invalid, so don't process further };        set dateLen [string length $date];        if {$dateLen > 0} {           if {[string length $srcfmt] == 0} {              set attrFull $attr;              append attrFull .full;              set fullDate [FME_GetAttribute $attrFull];              if { [string compare -length $dateLen $date $fullDate] == 0 } {                 set extra [string range $fullDate $dateLen end]000000;                 set date [string range \"$date$extra\" 0 13];                 set dateLen 14              };              if {($dateLen == 14) && [regexp {^[0-9]*$} $date]} {                 set srcfmt %Y%m%d%H%M%S;              };           };           set sourceFormatOpt {};           if {[string length $srcfmt] > 0} {              set sourceFormatOpt \"-format {$srcfmt}\";           };           set comment { Compute the output value and catch any errors };           set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt];                              set output [clock format $seconds -format $dateFormat];           }];           set comment { If there was error then we try again by removing digits after last decimal };           if { $error != 0 } {              set index [string last "." $date];              if { $index > 0 } {                 set date [eval string range $date 0 [expr $index-1]];                 set dateLen [string length $date];                 set error [catch { set seconds [eval clock scan "{$date}" $sourceFormatOpt]; set output [clock format $seconds -format $dateFormat]; }];              };           };           if { $error == 0 } {              FME_SetAttribute $attr $output;           };        };        if { (0 == $dateLen) || ($error != 0) } {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };        };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_DateFormatter    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeExposer_OUTPUT"    OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_DateFormatter_OUTPUT"         @Tcl2("$(BestPractice-ReportHeader_WORKSPACE_NAME)_DateFormatter_formatter {_FME_NO_OP_}")
-
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input1492703758 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,ReportName,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME),ReportWorkspace,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE),ReportWorkspaceFolder,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEFOLDER),ReportWorkspacePath,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEPATH),ReportWorkspaceCreation,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACECREATION),ReportWorkspaceLastRun,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACELASTRUN),ReportWorkspaceModified,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEMODIFIED),ReportWorkspaceSize,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACESIZE), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 
 
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_83    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_DateFormatter_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "MajorBuildText" "File:<space><at>Value<openparen>path_directory_windows<closeparen><space><lt>strong<gt><at>Value<openparen>path_filename<closeparen><lt><solidus>strong<gt><lt>br<gt><lf>Size:<space><at>Value<openparen>path_filesize<closeparen><space>kB<lt>br<gt><lf>Created<space><solidus><space>modified:<space><at>Value<openparen>path_created_date<closeparen><space><solidus><space><at>Value<openparen>path_modified_date<closeparen><lt>br<gt><lf>Owner:<space><at>Value<openparen>path_ownername<closeparen><lt>br<gt><lf>Readonly:<space><at>Value<openparen>path_readonly<closeparen><lt>br<gt><lf>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_83_OUTPUT"
+FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportDateTime" "<at>DateTimeFormat<openparen><at>DateTimeNow<openparen><closeparen><comma>%H:%M:%S<space>UTC<space>%d-%m-%Y<closeparen>" "SET_TO"     ATTR_ACTION "" "ReportFileDetailsHTML" "<lt>table<space>style=<quote>border:<space>1px<space>solid<space>black<quote><gt><lf><lt>tr<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><lt>strong<gt>Report<space>Name<lt><solidus>strong<gt><lt><solidus>td<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><at>Value<openparen>ReportName<closeparen><lt><solidus>td<gt><lf><lt><solidus>tr<gt><lf><lt>tr<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><lt>strong<gt>Report<space>Generated<lt><solidus>strong<gt><lt><solidus>td<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><at>Value<openparen>ReportDateTime<closeparen><lt><solidus>td<gt><lf><lt><solidus>tr<gt><lf><lt>tr<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><lt>strong<gt>Workspace<space>Analyzed<lt><solidus>strong<gt><lt><solidus>td<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><at>Value<openparen>ReportWorkspacePath<closeparen><at>Value<openparen>ReportWorkspace<closeparen><lt><solidus>td<gt><lf><lt><solidus>tr<gt><lf><lt>tr<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><lt>strong<gt>Workspace<space>File<space>Size<lt><solidus>strong<gt><lt><solidus>td<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><at>Value<openparen>ReportWorkspaceSize<closeparen><space>kb<lt><solidus>td<gt><lf><lt><solidus>tr<gt><lf><lt>tr<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><lt>strong<gt>Workspace<space>Created<lt><solidus>strong<gt><lt><solidus>td<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><at>Value<openparen>ReportWorkspaceCreation<closeparen><lt><solidus>td<gt><lf><lt><solidus>tr<gt><lf><lt>tr<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><lt>strong<gt>Workspace<space>Last<space>Modified<lt><solidus>strong<gt><lt><solidus>td<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><at>Value<openparen>ReportWorkspaceModified<closeparen><lt><solidus>td<gt><lf><lt><solidus>tr<gt><lf><lt>tr<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><lt>strong<gt>Workspace<space>Last<space>Run<lt><solidus>strong<gt><lt><solidus>td<gt><lf><lt>td<space>style=<quote>border:<space>1px<space>solid<space>black<semicolon><space>padding:<space>10px<quote><gt><at>Value<openparen>ReportWorkspaceLastRun<closeparen><lt><solidus>td<gt><lf><lt><solidus>tr<gt><lf><lt><solidus>table<gt>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"
 
 # -------------------------------------------------------------------------
 
-
-FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_83_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportDateTime" "<at>DateTimeFormat<openparen><at>DateTimeNow<openparen><closeparen><comma>%H:%M:%S<space>UTC<space>%d-%m-%Y<closeparen>" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"
-
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;FME<space>Workspace;HEADER;H1;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;<space>Best<space>Practice<space>Report;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;This<space>report<space>examines<space>best<space>practices<space>for<space>a<space>workspaces<space>that<space>is<space>about<space>to<space>be<space>put<space>into<space>production.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,It<space>is<space>assumed<space>that<space>the<space>version<space>of<space>FME<space>being<space>used<space>to<space>generate<space>this<space>report<space><openparen>$(FME_BUILD_NUM$encode)<closeparen><space>is<space>the<space>newest<space>release<space>version<space>available.<space>If<space>not<comma><space>please<space>contact<space>the<space>administrator<space>of<space>this<space>system.,$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator);HEADER;H5;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;Note<space>that<space>this<space>report<space>does<space>not<space>comment<space>upon<space>the<space>suitability<space>of<space>the<space>workspace<space>to<space>produce<space>the<space>desired<space>result<comma><space>merely<space>the<space>practices<space>by<space>which<space>it<space>has<space>been<space>constructed.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}SEPARATOR{{WIDTH;1}}TABLE{{STYLE;DEFAULT;TABLE;ReportName|Report/ReportDateTime|Generated/ReportWorkspace|Workspace;TABLE_GROUP;}}LIST{{ATTR;MajorBuildText;STYLE;NONE;COLOR;0<comma>0<comma>0;BADGE;"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator"
+FACTORY_DEF * TeeFactory    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_2_OUTPUT"    OUTPUT FEATURE_TYPE $(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED       fme_html5_title ""       fme_html5_config "HEADER{{TEXT;FME<space>Workspace;HEADER;H1;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;<space>Best<space>Practice<space>Report;HEADER;H3;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}SEPARATOR{{WIDTH;1}}HTML{{HTML;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>ReportFileDetailsHTML<closeparen>,$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator)}}SEPARATOR{{WIDTH;1}}HEADER{{TEXT;This<space>report<space>examines<space>best<space>practices<space>for<space>a<space>workspaces<space>that<space>is<space>about<space>to<space>be<space>put<space>into<space>production.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;@EvaluateExpression(FDIV,STRING_ENCODED,It<space>is<space>assumed<space>that<space>the<space>version<space>of<space>FME<space>being<space>used<space>to<space>generate<space>this<space>report<space><openparen>$(FME_BUILD_NUM$encode)<closeparen><space>is<space>the<space>newest<space>release<space>version<space>available.<space>If<space>not<comma><space>please<space>contact<space>the<space>administrator<space>of<space>this<space>system.,$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator);HEADER;H5;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0}}HEADER{{TEXT;Note<space>that<space>this<space>report<space>does<space>not<space>comment<space>upon<space>the<space>suitability<space>of<space>the<space>workspace<space>to<space>produce<space>the<space>desired<space>result<comma><space>merely<space>the<space>practices<space>by<space>which<space>it<space>has<space>been<space>constructed.;HEADER;H5;ALIGNMENT;LEFT;COLOR;0<comma>0<comma>0"       fme_html5_group_by ""       fme_html5_xformer_name "$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator"
 
 
 FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator    INPUT FEATURE_TYPE $(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator_PROCESSED    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler    OUTPUT PYOUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"
@@ -660,7 +363,7 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPAC
 
 FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "1" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report1492635733 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report1492703758 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-ReportHeader_WORKSPACE_NAME))}]
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
@@ -964,4 +667,5 @@ FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPA
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report1492466065 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-ReportHeader_WORKSPACE_NAME))}]
+
 
