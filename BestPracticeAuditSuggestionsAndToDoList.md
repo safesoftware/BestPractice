@@ -4,6 +4,9 @@ Suggestions and reports still to do.
 
 ## Server Implementation ##
 
+- Try to create a single workspace that will work on both server and desktop
+	- ie something with tests that directs data different ways depending on the platform
+	- Maybe a master workspace that calls either ReportDesktop.fmw or ReportServer.fmw????
 - Make a webhook(?) for GitHub to trigger upload of updated transformers to Server 
 
 
