@@ -6,9 +6,9 @@
 
 **Header 2: General Information**
 
+- Logs: Report name, Report datetime, Workspace name, File size, Creation datetime, Modified datetime, Last Run datetime
 - Warnings about the limit of this procedure. 
 - Note current build number.
-- Report name, generation datetime, workspace analyzed
 
 ---
 

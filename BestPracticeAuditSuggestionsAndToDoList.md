@@ -16,6 +16,8 @@ Ways to improve the layout and structure of the HTML report
 
 - Improve the style of the HTML
 	- The report is fairly basic. I'm sure we can do better.
+- I updated the report header to use datetimes from the FileProperties feature type of the FMW reader
+	- Sadly there appears to be a bug in the formatting of these dates. Filed as PR#77159 (and I hope can be fixed for 2017.1)
 - Check whether 'Custom HTML' can now replace some aspects of the 2016.1 implementation
 	- eg there are StringReplacers in ReportCollation.fmx that might be avoided if ReportGenerators can be improved
 - Include a list of links to the subsections either before or immediately after the header to facilitate navigation

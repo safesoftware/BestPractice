@@ -18,7 +18,7 @@
 #!   SHOW_INFO_NODES="true"
 #!   SHOW_ANNOTATIONS="true"
 #!   MARKDOWN_DESCRIPTION="This transformer creates a Best Practice report that acts as the report header."
-#!   DOC_EXTENTS="3400.4 1450.01"
+#!   DOC_EXTENTS="3400.4 1041.44"
 #!   MARKDOWN_USAGE=""
 #!   PYTHON_COMPATIBILITY="27"
 #!   FMX_ATTRIBUTE_PROPOGATION_MODE="AUTO"
@@ -30,13 +30,13 @@
 #!   ZOOM_SCALE="100"
 #!   USE_MARKDOWN="YES"
 #!   LAST_SAVE_BUILD="FME(R) 2017.0.0.0 (20170228 - Build 17259 - WIN32)"
-#!   DOC_TOP_LEFT="-1378.14 -1371.88"
+#!   DOC_TOP_LEFT="-1378.14 -963.315"
 #!   MAX_LOOP_ITERATIONS=""
 #!   FME_PROCESS_COUNT="NO_PARALLELISM"
 #!   DESCRIPTION="&lt;p&gt;This transformer creates a Best Practice report that acts as the report header.&lt;/p&gt;&#10;"
 #!   XFORM_DEPRECATED="No"
 #!   FME_PROCESS_GROUPS_ORDERED="No"
-#!   LAST_SAVE_DATE="2017-04-20T10:55:58"
+#!   LAST_SAVE_DATE="2017-04-20T11:26:42"
 #!   PASSWORD=""
 #!   FMX_INSERT_MODE="Linked by Default"
 #!   FME_LINKED_TRANSFORMER_VERSION="2"
@@ -148,11 +148,11 @@
 #!   NAME="1: Report Header"
 #!   DESCRIPTION="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="-1378.14 78.1258"
-#!   BOTTOM_RIGHT="1321.89 -1371.88"
-#!   BOUNDING_RECT="-1378.14 78.1258 2700.03 1450.01"
+#!   BOTTOM_RIGHT="1321.89 -928.134"
+#!   BOUNDING_RECT="-1378.14 78.1258 2700.03 1006.26"
 #!   STICKY="true"
 #!   COLOUR="1,0.666667,0.666667"
-#!   CONTENTS="17 9 15 4 3 14 8 16 12 "
+#!   CONTENTS="17 9 15 4 3 14 8 16 12 19 "
 #! />
 #! </BOOKMARKS>
 #! <TRANSFORMERS>
@@ -342,7 +342,7 @@ LOG_FILTER_MASK -1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 DEFAULT_MACRO BestPractice-ReportHeader_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(BestPractice-ReportHeader_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(BestPractice-ReportHeader_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input1492703758 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,ReportName,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME),ReportWorkspace,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE),ReportWorkspaceFolder,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEFOLDER),ReportWorkspacePath,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEPATH),ReportWorkspaceCreation,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACECREATION),ReportWorkspaceLastRun,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACELASTRUN),ReportWorkspaceModified,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEMODIFIED),ReportWorkspaceSize,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACESIZE), FEATURE_TYPE)"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input1492705602 Input Splitter"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Input" "@EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,ReportName,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTNAME),ReportWorkspace,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACE),ReportWorkspaceFolder,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEFOLDER),ReportWorkspacePath,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEPATH),ReportWorkspaceCreation,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACECREATION),ReportWorkspaceLastRun,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACELASTRUN),ReportWorkspaceModified,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACEMODIFIED),ReportWorkspaceSize,$($(BestPractice-ReportHeader_WORKSPACE_NAME)_REPORTWORKSPACESIZE), FEATURE_TYPE)"
 # -------------------------------------------------------------------------
 
 
@@ -363,7 +363,7 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPAC
 
 FACTORY_DEF * AttrSetFactory    FACTORY_NAME $(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager    INPUT  FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_HTMLReportGenerator_OUTPUT"    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION "" "ReportOrder" "1" "SET_TO"    OUTPUT OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"
 
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report1492703758 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report1492705602 Output Collector"   INPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_AttributeManager_OUTPUT"   OUTPUT FEATURE_TYPE "$(BestPractice-ReportHeader_WORKSPACE_NAME)_Output:Report"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(BestPractice-ReportHeader_WORKSPACE_NAME))}]
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <TRANSFORMER
