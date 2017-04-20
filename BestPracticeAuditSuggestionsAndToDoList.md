@@ -97,6 +97,12 @@ Suggestions and updates for the Transformers report
 
 Suggestions and updates for the Performance report
 
+- Transformers with Group By and Parallell Processing as attributes: List everyone and red/green based on Parallell is active or not
+- Featuremergers: List everyone and red/green based on if they have Suppliers first or not
+- List all writers and directions that they write in - and let the user know that the first writer should have the largest dataset etc.
+- List all readers and directions that they read in - and let the user know this
+- Check which logging options are enabled (DEBUG etc should be turned off on production)
+
 ## Report SUMMARY ##
 
 Suggestions and updates for the report summary
@@ -119,7 +125,7 @@ Suggestions and updates for the report summary
 
 Maybe we can allow the end user to choose which tests to carry out, rather than doing them all?
 
-### Screenshotting ###
+### Screenshot ###
 
 Can we somehow open a workspace and screenshot it? That way we could add screenshots to the report
 
