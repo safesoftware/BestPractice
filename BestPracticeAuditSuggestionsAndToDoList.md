@@ -16,8 +16,8 @@ Ways to improve the layout and structure of the HTML report
 
 - Improve the style of the HTML
 	- The report is fairly basic. I'm sure we can do better.
-- I updated the report header to use datetimes from the FileProperties feature type of the FMW reader
-	- Sadly there appears to be a bug in the formatting of these dates. Filed as PR#77159 (and I hope can be fixed for 2017.1)
+- The report header datetimes are affected by a bug in the formatting of dates. PR#77159 is fixed in 2017.1 - so when we switch to 2017.1 it will be good
+	- However... in 2017.1 we should add a DateFormatter to give dates a more readable style 
 - Check whether 'Custom HTML' can now replace some aspects of the 2016.1 implementation
 	- eg there are StringReplacers in ReportCollation.fmx that might be avoided if ReportGenerators can be improved
 - Include a list of links to the subsections either before or immediately after the header to facilitate navigation
@@ -29,7 +29,8 @@ Ways to improve the layout and structure of the HTML report
 Suggestions and updates for the report header
 
 - Implement other updates from lost contribution on KnowledgeCentre Q+A
-	[DONE - Sigbjørn - Norkart]- File properties, (size, creation date, edit date, last run date): Sigbjørn: Can still be downloaded from https://knowledge.safe.com/storage/attachments/5971-bestpracticereportgenerator-norkart-sigbj%C3%B8rn.zip 
+	- [DONE - Sigbjørn - Norkart]- File properties, (size, creation date, edit date, last run date): Sigbjørn: Can still be downloaded from https://knowledge.safe.com/storage/attachments/5971-bestpracticereportgenerator-norkart-sigbj%C3%B8rn.zip 
+	- [Mark I] - Made a few updates to use Sigbjorn's style, but using the new FileProperties feature type
 
 ## Report 2: WORKSPACE ##
 
