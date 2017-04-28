@@ -1,5 +1,5 @@
 # BestPractice
-A Best Practices analysis tool for FME Workspaces. 
+A Best Practices analysis tool for FME Workspaces. Related post on FME Knowledge center can be found here: https://knowledge.safe.com/questions/37858/fme-best-practice-validation-project-you-can-help.html
 
 This project includes workspaces and custom transformers that carry out best practice tests. There are (currently) two workspaces in the project. One of them is for use on FME Server, particularly with notifications. The other is for use on FME Desktop.
 
