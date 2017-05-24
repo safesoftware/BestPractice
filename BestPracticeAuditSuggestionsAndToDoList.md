@@ -31,6 +31,7 @@ Suggestions and updates for the report header
 - Implement other updates from lost contribution on KnowledgeCentre Q+A
 	- [DONE - Sigbjørn - Norkart]- File properties, (size, creation date, edit date, last run date): Sigbjørn: Can still be downloaded from https://knowledge.safe.com/storage/attachments/5971-bestpracticereportgenerator-norkart-sigbj%C3%B8rn.zip 
 	- [Mark I] - Made a few updates to use Sigbjorn's style, but using the new FileProperties feature type
+- Maybe add tests for documentation? Color-coding of bookmarks? (Some notes while watching Martin Koch at FMEUC)
 
 ## Report 2: WORKSPACE ##
 
@@ -121,6 +122,8 @@ Suggestions and updates for the report summary
 
 
 ## New Reports or Projects ##
+
+Analyze folder of workspaces (assess relationship between workspaces - which are parent, child, etc)  (Some notes while watching Martin Koch at FMEUC)
 
 ### Customization ###
 
