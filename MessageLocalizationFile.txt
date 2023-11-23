@@ -9,6 +9,13 @@ MessageID|Transformer|Singular,Plural
 08|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark. You may be placing too few bookmarks.|You have a ratio of [VALUE] transformers/bookmark. You may be placing too few bookmarks.
 09|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark. That is a good number.|You have a ratio of [VALUE] transformers/bookmark. That is a good number.
 10|BestPractice-Statistics|You have zero annotation.|You have zero annotation.
-07|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.
-08|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.
-09|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. That is a good number.|You have a ratio of [VALUE] transformers/annotation. That is a good number.
+11|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.
+12|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.
+13|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. That is a good number.|You have a ratio of [VALUE] transformers/annotation. That is a good number.
+14|BestPractice-CustomTransformers|You have [VALUE] unconnected <Rejected> port inside Custom Transformers.|You have [VALUE] unconnected <Rejected> ports inside Custom Transformers.
+15|BestPractice-CustomTransformers|You have [VALUE] Custom Transformer without an external <Rejected> port.|You have [VALUE] Custom Transformers without an external <Rejected> port.
+16|BestPractice-Performance|You have [VALUE] transformer with output Across Output Ports.|You have [VALUE] transformers with output Across Output Ports.
+17|BestPractice-Performance|You have [VALUE] transformer with unused performance-related parameters.|You have [VALUE] transformers with unused performance-related parameters.
+18|BestPractice-Parameters|You have [VALUE] published parameter prompt that is 35+ characters.|You have [VALUE] published parameter prompts that are 35+ characters.
+19|BestPractice-Parameters|You have [VALUE] published parameter prompt that is <5 characters.|You have [VALUE] published parameter prompts that are <5 characters.
+20|BestPractice-Parameters|You have [VALUE] published parameter message that is 100+ characters.|You have [VALUE] published parameter messages that are 100+ characters.
