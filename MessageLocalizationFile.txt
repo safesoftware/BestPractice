@@ -1,25 +1,27 @@
-MessageID|Transformer|Singular,Plural
-01|BestPractice-Transformers|You have [VALUE] out of date transformer.|You have [VALUE] out of date transformers.
-02|BestPractice-Transformers|You have [VALUE] transformer of dubious use.|You have [VALUE] transformers of dubious use.
-03|BestPractice-Transformers|You have [VALUE] debugging transformer.|You have [VALUE] debugging transformers.
-04|BestPractice-Connections|You have [VALUE] disabled connection.|You have [VALUE] disabled connections.
-05|BestPractice-Breakpoints|You have [VALUE] breakpoint.|You have [VALUE] breakpoints.
-06|BestPractice-Statistics|You have zero bookmarks.|You have zero bookmarks.
-07|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark. You may be placing too many bookmarks.|You have a ratio of [VALUE] transformers/bookmark. You may be placing too many bookmarks.
-08|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark. You may be placing too few bookmarks.|You have a ratio of [VALUE] transformers/bookmark. You may be placing too few bookmarks.
-09|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark. That is a good number.|You have a ratio of [VALUE] transformers/bookmark. That is a good number.
-10|BestPractice-Statistics|You have zero annotation.|You have zero annotation.
-11|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.
-12|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.
-13|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. That is a good number.|You have a ratio of [VALUE] transformers/annotation. That is a good number.
-14|BestPractice-CustomTransformers|You have [VALUE] unconnected <Rejected> port inside Custom Transformers.|You have [VALUE] unconnected <Rejected> ports inside Custom Transformers.
-15|BestPractice-CustomTransformers|You have [VALUE] Custom Transformer without an external <Rejected> port.|You have [VALUE] Custom Transformers without an external <Rejected> port.
-16|BestPractice-Performance|You have [VALUE] transformer with output Across Output Ports.|You have [VALUE] transformers with output Across Output Ports.
-17|BestPractice-Performance|You have [VALUE] transformer with unused performance-related parameters.|You have [VALUE] transformers with unused performance-related parameters.
-18|BestPractice-Parameters|You have [VALUE] published parameter prompt that is 35+ characters.|You have [VALUE] published parameter prompts that are 35+ characters.
-19|BestPractice-Parameters|You have [VALUE] published parameter prompt that is <5 characters.|You have [VALUE] published parameter prompts that are <5 characters.
-20|BestPractice-Parameters|You have [VALUE] published parameter message that is 100+ characters.|You have [VALUE] published parameter messages that are 100+ characters.
-21|BestPractice-Parameters|You have [VALUE] published parameter prompt that is all lower case.|You have [VALUE] published parameter prompts that are all lower case.
-22|BestPractice-Parameters|You have [VALUE] published parameter prompt that is all upper case.|You have [VALUE] published parameter prompts that are all upper case.
-23|BestPractice-Canvas|You have [VALUE] bookmark containing only a single transformer.|You have [VALUE] bookmarks containing only a single transformer.
-24|BestPractice-Canvas|You have [VALUE] bookmark containing more than 10 transformers.|You have [VALUE] bookmarks containing more than 10 transformers.
+BestPractice-MessageID|BestPractice-Transformer|BestPractice-Singular-MSG|BestPractice-Plural-MSG
+00|BestPractice-Transformers|You have [VALUE] out of date transformer.|You have [VALUE] out of date transformers.
+01|BestPractice-Transformers|You have [VALUE] transformer of dubious use.|You have [VALUE] transformers of dubious use.
+02|BestPractice-Transformers|You have [VALUE] debugging transformer.|You have [VALUE] debugging transformers.
+03|BestPractice-Connections|You have [VALUE] disabled connection.|You have [VALUE] disabled connections.
+04|BestPractice-Breakpoints|You have [VALUE] breakpoint.|You have [VALUE] breakpoints.
+05|BestPractice-Statistics|You have zero bookmarks.|You have zero bookmarks.
+06|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark. You may be placing too many bookmarks.|You have a ratio of [VALUE] transformers/bookmark. You may be placing too many bookmarks.
+07|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark. You may be placing too few bookmarks.|You have a ratio of [VALUE] transformers/bookmark. You may be placing too few bookmarks.
+08|BestPractice-Statistics|You have a ratio of [VALUE] transformers/bookmark.|You have a ratio of [VALUE] transformers/bookmark.
+09|BestPractice-Statistics|You have zero annotation.|You have zero annotation.
+10|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too much annotation.
+11|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.|You have a ratio of [VALUE] transformers/annotation. You may be placing too little annotation.
+12|BestPractice-Statistics|You have a ratio of [VALUE] transformers/annotation.|You have a ratio of [VALUE] transformers/annotation.
+13|BestPractice-CustomTransformers|You have [VALUE] unconnected <Rejected> port inside Custom Transformers.|You have [VALUE] unconnected <Rejected> ports inside Custom Transformers.
+14|BestPractice-CustomTransformers|You have [VALUE] Custom Transformer without an external <Rejected> port.|You have [VALUE] Custom Transformers without an external <Rejected> port.
+15|BestPractice-Performance|You have [VALUE] transformer with output Across Output Ports.|You have [VALUE] transformers with output Across Output Ports.
+16|BestPractice-Performance|You have [VALUE] transformer with unused performance-related parameters.|You have [VALUE] transformers with unused performance-related parameters.
+17|BestPractice-Parameters|You have [VALUE] published parameter prompt that is 35+ characters.|You have [VALUE] published parameter prompts that are 35+ characters.
+18|BestPractice-Parameters|You have [VALUE] published parameter prompt that is <5 characters.|You have [VALUE] published parameter prompts that are <5 characters.
+19|BestPractice-Parameters|You have [VALUE] published parameter message that is 100+ characters.|You have [VALUE] published parameter messages that are 100+ characters.
+20|BestPractice-Parameters|You have [VALUE] published parameter prompt that is all lower case.|You have [VALUE] published parameter prompts that are all lower case.
+21|BestPractice-Parameters|You have [VALUE] published parameter prompt that is all upper case.|You have [VALUE] published parameter prompts that are all upper case.
+22|BestPractice-Canvas|You have [VALUE] bookmark containing only a single transformer.|You have [VALUE] bookmarks containing only a single transformer.
+23|BestPractice-Canvas|You have [VALUE] bookmark containing more than 10 transformers.|You have [VALUE] bookmarks containing more than 10 transformers.
+24|BestPractice-Parameters|You have [VALUE] published parameter prompt that is just the FME default prompt.|You have [VALUE] published parameter prompts that are just the FME default prompts.
+25|BestPractice-Parameters|You have [VALUE] published parameter name that is just the FME default name.|You have [VALUE] published parameter names that are just the FME default names.
