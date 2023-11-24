@@ -19,3 +19,7 @@ MessageID|Transformer|Singular,Plural
 18|BestPractice-Parameters|You have [VALUE] published parameter prompt that is 35+ characters.|You have [VALUE] published parameter prompts that are 35+ characters.
 19|BestPractice-Parameters|You have [VALUE] published parameter prompt that is <5 characters.|You have [VALUE] published parameter prompts that are <5 characters.
 20|BestPractice-Parameters|You have [VALUE] published parameter message that is 100+ characters.|You have [VALUE] published parameter messages that are 100+ characters.
+21|BestPractice-Parameters|You have [VALUE] published parameter prompt that is all lower case.|You have [VALUE] published parameter prompts that are all lower case.
+22|BestPractice-Parameters|You have [VALUE] published parameter prompt that is all upper case.|You have [VALUE] published parameter prompts that are all upper case.
+23|BestPractice-Canvas|You have [VALUE] bookmark containing only a single transformer.|You have [VALUE] bookmarks containing only a single transformer.
+24|BestPractice-Canvas|You have [VALUE] bookmark containing more than 10 transformers.|You have [VALUE] bookmarks containing more than 10 transformers.
