@@ -1,0 +1,142 @@
+[
+	{
+		"json_featuretype" : "parameters",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 published parameter message that is 100+ characters.",
+		"bestpractice.test.details" : "parameters",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "parameters",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 published parameter prompt that is 35+ characters.",
+		"bestpractice.test.details" : "parameters",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "parameters",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 published parameter prompt that is <5 characters.",
+		"bestpractice.test.details" : "parameters",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "parameters",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 published parameter prompt that is all upper case.",
+		"bestpractice.test.details" : "parameters",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "parameters",
+		"bestpractice.test.status" : "Information",
+		"bestpractice.test.message" : "You have 0 published parameter prompts that are all lower case.",
+		"bestpractice.test.details" : "parameters",
+		"bestpractice.test.statistic" : 0
+	},
+	{
+		"json_featuretype" : "parameters",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 published parameter prompt that is just the FME default prompt.",
+		"bestpractice.test.details" : "parameters",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "parameters",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 published parameter name that is just the FME default name.",
+		"bestpractice.test.details" : "parameters",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "performance",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 3 transformers with unused performance-related parameters.",
+		"bestpractice.test.details" : "performance",
+		"bestpractice.test.statistic" : 3
+	},
+	{
+		"json_featuretype" : "performance",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 transformer with output Across Output Ports.",
+		"bestpractice.test.details" : "performance",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "customtransformer",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 3 Custom Transformers without an external <Rejected> port.",
+		"bestpractice.test.details" : "customtransformer",
+		"bestpractice.test.statistic" : 3
+	},
+	{
+		"json_featuretype" : "customtransformer",
+		"bestpractice.test.status" : "Error",
+		"bestpractice.test.message" : "You have 1 unconnected <Rejected> port inside Custom Transformers.",
+		"bestpractice.test.details" : "customtransformer",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "transformers",
+		"bestpractice.test.status" : "Information",
+		"bestpractice.test.message" : "You have 0 out of date transformers.",
+		"bestpractice.test.details" : "transformers",
+		"bestpractice.test.statistic" : 0
+	},
+	{
+		"json_featuretype" : "transformers",
+		"bestpractice.test.status" : "Error",
+		"bestpractice.test.message" : "You have 4 transformers of dubious use.",
+		"bestpractice.test.details" : "transformers",
+		"bestpractice.test.statistic" : 4
+	},
+	{
+		"json_featuretype" : "debugging",
+		"bestpractice.test.status" : "Error",
+		"bestpractice.test.message" : "You have 7 debugging transformers.",
+		"bestpractice.test.details" : "debugging",
+		"bestpractice.test.statistic" : 7
+	},
+	{
+		"json_featuretype" : "debugging",
+		"bestpractice.test.status" : "Error",
+		"bestpractice.test.message" : "You have 1 breakpoint.",
+		"bestpractice.test.details" : "debugging",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "debugging",
+		"bestpractice.test.status" : "Error",
+		"bestpractice.test.message" : "You have 2 disabled connections.",
+		"bestpractice.test.details" : "debugging",
+		"bestpractice.test.statistic" : 2
+	},
+	{
+		"json_featuretype" : "style",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 bookmark containing only a single transformer.",
+		"bestpractice.test.details" : "style",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "style",
+		"bestpractice.test.status" : "Warning",
+		"bestpractice.test.message" : "You have 1 bookmark containing more than 10 transformers.",
+		"bestpractice.test.details" : "style",
+		"bestpractice.test.statistic" : 1
+	},
+	{
+		"json_featuretype" : "style",
+		"bestpractice.test.status" : "Information",
+		"bestpractice.test.message" : "You have a ratio of 6 transformers/bookmark.",
+		"bestpractice.test.details" : "style",
+		"bestpractice.test.statistic" : 6
+	},
+	{
+		"json_featuretype" : "style",
+		"bestpractice.test.status" : "Information",
+		"bestpractice.test.message" : "You have a ratio of 2.3 transformers/annotation.",
+		"bestpractice.test.details" : "style",
+		"bestpractice.test.statistic" : 2
+	}
+]
