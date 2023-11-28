@@ -1,142 +1,372 @@
-[
-	{
-		"json_featuretype" : "parameters",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 published parameter message that is 100+ characters.",
-		"bestpractice.test.details" : "parameters",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "parameters",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 published parameter prompt that is 35+ characters.",
-		"bestpractice.test.details" : "parameters",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "parameters",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 published parameter prompt that is <5 characters.",
-		"bestpractice.test.details" : "parameters",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "parameters",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 published parameter prompt that is all upper case.",
-		"bestpractice.test.details" : "parameters",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "parameters",
-		"bestpractice.test.status" : "Information",
-		"bestpractice.test.message" : "You have 0 published parameter prompts that are all lower case.",
-		"bestpractice.test.details" : "parameters",
-		"bestpractice.test.statistic" : 0
-	},
-	{
-		"json_featuretype" : "parameters",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 published parameter prompt that is just the FME default prompt.",
-		"bestpractice.test.details" : "parameters",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "parameters",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 published parameter name that is just the FME default name.",
-		"bestpractice.test.details" : "parameters",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "performance",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 3 transformers with unused performance-related parameters.",
-		"bestpractice.test.details" : "performance",
-		"bestpractice.test.statistic" : 3
-	},
-	{
-		"json_featuretype" : "performance",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 transformer with output Across Output Ports.",
-		"bestpractice.test.details" : "performance",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "customtransformer",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 3 Custom Transformers without an external <Rejected> port.",
-		"bestpractice.test.details" : "customtransformer",
-		"bestpractice.test.statistic" : 3
-	},
-	{
-		"json_featuretype" : "customtransformer",
-		"bestpractice.test.status" : "Error",
-		"bestpractice.test.message" : "You have 1 unconnected <Rejected> port inside Custom Transformers.",
-		"bestpractice.test.details" : "customtransformer",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "transformers",
-		"bestpractice.test.status" : "Information",
-		"bestpractice.test.message" : "You have 0 out of date transformers.",
-		"bestpractice.test.details" : "transformers",
-		"bestpractice.test.statistic" : 0
-	},
-	{
-		"json_featuretype" : "transformers",
-		"bestpractice.test.status" : "Error",
-		"bestpractice.test.message" : "You have 4 transformers of dubious use.",
-		"bestpractice.test.details" : "transformers",
-		"bestpractice.test.statistic" : 4
-	},
-	{
-		"json_featuretype" : "debugging",
-		"bestpractice.test.status" : "Error",
-		"bestpractice.test.message" : "You have 7 debugging transformers.",
-		"bestpractice.test.details" : "debugging",
-		"bestpractice.test.statistic" : 7
-	},
-	{
-		"json_featuretype" : "debugging",
-		"bestpractice.test.status" : "Error",
-		"bestpractice.test.message" : "You have 1 breakpoint.",
-		"bestpractice.test.details" : "debugging",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "debugging",
-		"bestpractice.test.status" : "Error",
-		"bestpractice.test.message" : "You have 2 disabled connections.",
-		"bestpractice.test.details" : "debugging",
-		"bestpractice.test.statistic" : 2
-	},
-	{
-		"json_featuretype" : "style",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 bookmark containing only a single transformer.",
-		"bestpractice.test.details" : "style",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "style",
-		"bestpractice.test.status" : "Warning",
-		"bestpractice.test.message" : "You have 1 bookmark containing more than 10 transformers.",
-		"bestpractice.test.details" : "style",
-		"bestpractice.test.statistic" : 1
-	},
-	{
-		"json_featuretype" : "style",
-		"bestpractice.test.status" : "Information",
-		"bestpractice.test.message" : "You have a ratio of 6 transformers/bookmark.",
-		"bestpractice.test.details" : "style",
-		"bestpractice.test.statistic" : 6
-	},
-	{
-		"json_featuretype" : "style",
-		"bestpractice.test.status" : "Information",
-		"bestpractice.test.message" : "You have a ratio of 2.3 transformers/annotation.",
-		"bestpractice.test.details" : "style",
-		"bestpractice.test.statistic" : 2
-	}
-]
+{
+   "workspace" : [
+      {
+         "Test" : "nocategory",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "Your workspace has no category set in the Workspace Parameters."
+      },
+      {
+         "Test" : "currentversion",
+         "Status" : "Information",
+         "Statistic" : 1,
+         "Message" : "Your workspace was built with the current version of FME."
+      },
+      {
+         "Test" : "olderbuild",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "Your workspace was built with an older build of FME."
+      }
+   ],
+   "parameters" : [
+      {
+         "Test" : "longmessage",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 published parameter message that is 100+ characters."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : "MYTEST34"
+            },
+            {
+               "Parameter Name" : "MsgPARAMETER"
+            },
+            {
+               "Parameter Prompt" : "This is a message. It is a long message. Well, it isn't that long, but what the heck. Honestly, is 100 characters a lot?"
+            },
+            {
+               "Prompt Length" : "120"
+            }
+         ]
+      },
+      {
+         "Test" : "longprompt",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 published parameter prompt that is 35+ characters."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : "MYTEST34"
+            },
+            {
+               "Parameter Name" : "MYPARAM"
+            },
+            {
+               "Parameter Prompt" : "What is your name? I mean, if that's not a persenal question. Maybe it is?"
+            },
+            {
+               "Prompt Length" : "74"
+            }
+         ]
+      },
+      {
+         "Test" : "shortprompt",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 published parameter prompt that is <5 characters."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : "MYTEST34"
+            },
+            {
+               "Parameter Name" : "2ndParam"
+            },
+            {
+               "Parameter Prompt" : "Name"
+            },
+            {
+               "Prompt Length" : "4"
+            }
+         ]
+      },
+      {
+         "Test" : "allcaps",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 published parameter prompt that is all upper case."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : "MYTEST34"
+            },
+            {
+               "Parameter Name" : "GAHPARAMETER"
+            },
+            {
+               "Parameter Prompt" : "ENTER DATA NOW!!!!"
+            }
+         ]
+      },
+      {
+         "Test" : "nocaps",
+         "Status" : "Information",
+         "Statistic" : 0,
+         "Message" : "You have 0 published parameter prompts that are all lower case."
+      },
+      {
+         "Test" : "defaultprompts",
+         "Status" : "Warning",
+         "Statistic" : 2,
+         "Message" : "You have 2 published parameter prompts that are just the FME default prompts."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : [ "MYTEST34", "MYTEST34" ]
+            },
+            {
+               "Parameter Name" : [ "TextWithArithmetic", "PARAMETER_2" ]
+            },
+            {
+               "Parameter Prompt" : [ "Enter Text Data", "Enter Numeric Data" ]
+            }
+         ]
+      },
+      {
+         "Test" : "defaultnames",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 published parameter name that is just the FME default name."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : "MYTEST34"
+            },
+            {
+               "Parameter Name" : "PARAMETER_2"
+            }
+         ]
+      },
+      {
+         "Test" : "unnecessaryarithmetic",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 text published parameter that exposes the arithmetic editor."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : "MYTEST34"
+            },
+            {
+               "Parameter Name" : "TextWithArithmetic"
+            },
+            {
+               "Parameter Prompt" : "Enter Text Data"
+            }
+         ]
+      },
+      {
+         "Test" : "unsetrequired",
+         "Status" : "Error",
+         "Statistic" : 3,
+         "Message" : "You have 3 published parameters that require a value but are empty."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : [ "MYTEST34", "MYTEST34", "MYTEST34" ]
+            },
+            {
+               "Parameter Name" : [ "GAHPARAMETER", "TextWithArithmetic", "PARAMETER_2" ]
+            },
+            {
+               "Parameter Prompt" : [ "ENTER DATA NOW!!!!", "Enter Text Data", "Enter Numeric Data" ]
+            }
+         ]
+      }
+   ],
+   "performance" : [
+      {
+         "Test" : "unusedparameters",
+         "Status" : "Warning",
+         "Statistic" : 3,
+         "Message" : "You have 3 transformers with unused performance-related parameters."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : [ "FeatureMerger", "Clipper", "Displacer" ]
+            },
+            {
+               "Transformer Types" : [ "FeatureMerger", "Clipper", "Displacer" ]
+            },
+            {
+               "Transformer Parameter Names" : [ "SUPPLIERS_FIRST", "CLIPPERS_FIRST", "BASE_TYPE" ]
+            },
+            {
+               "Transformer Parameter Values" : [ "No", "NO", "Single Base" ]
+            }
+         ]
+      },
+      {
+         "Test" : "acrossoutputports",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 transformer with output Across Output Ports."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : "TestFilter"
+            },
+            {
+               "Transformer Types" : "TestFilter"
+            }
+         ]
+      }
+   ],
+   "customtransformer" : [
+      {
+         "Test" : "norejectedport",
+         "Status" : "Warning",
+         "Statistic" : 3,
+         "Message" : "You have 3 Custom Transformers without an external <Rejected> port."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : [ "NoFeaturesTester", "NoFeaturesTester_2", "TEST_TRANSFORMER" ]
+            },
+            {
+               "Transformer Types" : [ "ExternalTransformer", "SubDocumentTransformer", "SubDocumentTransformer" ]
+            }
+         ]
+      },
+      {
+         "Test" : "unsetrejectedport",
+         "Status" : "Error",
+         "Statistic" : 1,
+         "Message" : "You have 1 unconnected <Rejected> port inside Custom Transformers."
+      },
+      {
+         "Information" : [
+            {
+               "Parent Custom Transformer" : "NoFeaturesTester"
+            },
+            {
+               "Transformer Names" : "Clipper"
+            },
+            {
+               "Transformer Types" : "Clipper"
+            }
+         ]
+      }
+   ],
+   "transformers" : [
+      {
+         "Test" : "outofdate",
+         "Status" : "Information",
+         "Statistic" : 0,
+         "Message" : "You have 0 out of date transformers."
+      },
+      {
+         "Test" : "dubious",
+         "Status" : "Error",
+         "Statistic" : 4,
+         "Message" : "You have 4 transformers of dubious use."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : [ "FMEFunctionCaller", "FMEFunctionCaller_2", "FMEFunctionCaller_3", "FMEFunctionCaller_4" ]
+            },
+            {
+               "Transformer Types" : [ "FMEFunctionCaller", "FMEFunctionCaller", "FMEFunctionCaller", "FMEFunctionCaller" ]
+            }
+         ]
+      }
+   ],
+   "debugging" : [
+      {
+         "Test" : "transformers",
+         "Status" : "Error",
+         "Statistic" : 7,
+         "Message" : "You have 7 debugging transformers."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : [ "TestFilter_2_Awarded", "TestFilter_2_Already_Has_Badge", "TestFilter_2_Not_Found_404", "TestFilter_2_Unexpected_Error", "TestFilter_2__Unfiltered_", "Logger", "TestFilter_Blog_Post" ]
+            },
+            {
+               "Transformer Types" : [ "Logger", "Logger", "Logger", "Logger", "Logger", "Logger", "Inspector" ]
+            }
+         ]
+      },
+      {
+         "Test" : "breakpoints",
+         "Status" : "Error",
+         "Statistic" : 1,
+         "Message" : "You have 1 breakpoint."
+      },
+      {
+         "Information" : [
+            {
+               "Breakpoint Name" : "TestFilter_3 [TestFilter Version 2] : <Unfiltered> -> JSONFragmenter:Content [JSONFragmenter Version 8] : Input",
+               "Breakpoint Enabled" : "Yes"
+            }
+         ]
+      },
+      {
+         "Test" : "connections",
+         "Status" : "Error",
+         "Statistic" : 2,
+         "Message" : "You have 2 disabled connections."
+      },
+      {
+         "Information" : []
+      }
+   ],
+   "style" : [
+      {
+         "Test" : "lowbmcontent",
+         "Status" : "Warning",
+         "Statistic" : 2,
+         "Message" : "You have 2 bookmarks containing only a single transformer."
+      },
+      {
+         "Information" : [
+            {
+               "Bookmark Name" : [ "Intermediate Logic", "New Bookmark" ],
+               "Bookmark Object Count" : [ "1", "1" ]
+            }
+         ]
+      },
+      {
+         "Test" : "highbmcontent",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 bookmark containing more than 10 transformers."
+      },
+      {
+         "Information" : [
+            {
+               "Bookmark Name" : "Process Data",
+               "Bookmark Object Count" : "11"
+            }
+         ]
+      },
+      {
+         "Test" : "bookmarkratio",
+         "Status" : "Information",
+         "Statistic" : 5.3,
+         "Message" : "You have a ratio of 5.3 transformers/bookmark."
+      },
+      {
+         "Test" : "annotationratio",
+         "Status" : "Information",
+         "Statistic" : 2.3,
+         "Message" : "You have a ratio of 2.3 transformers/annotation."
+      }
+   ]
+}

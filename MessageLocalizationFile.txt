@@ -27,3 +27,12 @@ BestPractice-MessageID|BestPractice-TestDetails|BestPractice-Singular-MSG|BestPr
 25|parameters.defaultnames|You have [VALUE] published parameter name that is just the FME default name.|You have [VALUE] published parameter names that are just the FME default names.
 26|parameters.unnecessaryarithmetic|You have [VALUE] text published parameter that exposes the arithmetic editor.|You have [VALUE] text published parameters that expose the arithmetic editor.
 27|parameters.unsetrequired|You have [VALUE] published parameter that requires a value but is empty.|You have [VALUE] published parameters that require a value but are empty.
+28|workspace.noname|Your workspace has no name set in the Workspace Parameters.|Your workspace has no name set in the Workspace Parameters.
+29|workspace.nodescription|Your workspace has no description set in the Workspace Parameters.|Your workspace has no description set in the Workspace Parameters.
+30|workspace.nocategory|Your workspace has no category set in the Workspace Parameters.|Your workspace has no category set in the Workspace Parameters.
+31|workspace.olderversion|Your workspace was built with an older version of FME (for example, 2022 vs 2023)|Your workspace was built with an older version of FME (for example, 2022 vs 2023)
+32|workspace.newerversion|Your workspace was built with a newer version of FME (for example, 2023 vs 2022)|Your workspace was built with a newer version of FME (for example, 2023 vs 2022)
+33|workspace.currentversion|Your workspace was built with the current version of FME.|Your workspace was built with the current version of FME.
+34|workspace.olderbuild|Your workspace was built with an older build of FME.|Your workspace was built with an older build of FME.
+35|workspace.newerbuild|Your workspace was built with a newer build of FME.|Your workspace was built with a newer build of FME.
+36|workspace.currentbuild|Your workspace was built with the current build of FME.|Your workspace was built with the current build of FME.
