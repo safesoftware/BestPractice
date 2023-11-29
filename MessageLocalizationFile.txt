@@ -36,3 +36,4 @@ BestPractice-MessageID|BestPractice-TestDetails|BestPractice-Singular-MSG|BestPr
 34|workspace.olderbuild|Your workspace was built with an older build of FME.|Your workspace was built with an older build of FME.
 35|workspace.newerbuild|Your workspace was built with a newer build of FME.|Your workspace was built with a newer build of FME.
 36|workspace.currentbuild|Your workspace was built with the current build of FME.|Your workspace was built with the current build of FME.
+37|transformers.featurereader|Your workspace has [VALUE] FeatureReader transformer reading both Data and Schema.|Your workspace has [VALUE] FeatureReader transformers reading both Data and Schema.
