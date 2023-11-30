@@ -1,50 +1,4 @@
 {
-   "transformers" : [
-      {
-         "Test" : "outofdate",
-         "Status" : "Information",
-         "Statistic" : 0,
-         "Message" : "You have 0 out of date transformers."
-      },
-      {
-         "Test" : "dubious",
-         "Status" : "Error",
-         "Statistic" : 4,
-         "Message" : "You have 4 transformers of dubious use."
-      },
-      {
-         "Information" : [
-            {
-               "Transformer Names" : [ "FMEFunctionCaller", "FMEFunctionCaller_2", "FMEFunctionCaller_3", "FMEFunctionCaller_4" ]
-            },
-            {
-               "Transformer Types" : [ "FMEFunctionCaller", "FMEFunctionCaller", "FMEFunctionCaller", "FMEFunctionCaller" ]
-            }
-         ]
-      },
-      {
-         "Test" : "featurereader",
-         "Status" : "Warning",
-         "Statistic" : 1,
-         "Message" : "Your workspace has 1 FeatureReader transformer reading both Data and Schema."
-      },
-      {
-         "Information" : [
-            {
-               "Transformer Names" : "FeatureReader"
-            },
-            {
-               "Transformer Types" : "FeatureReader"
-            },
-            {
-               "Transformer Parameter Names" : "OUTPUT_FEATURES_DISPLAY"
-            },
-            {
-               "Transformer Parameter Values" : "Schema and Data Features"
-            }
-         ]
-      }
-   ],
    "workspace" : [
       {
          "Test" : "nocategory",
@@ -231,6 +185,92 @@
          ]
       }
    ],
+   "performance" : [
+      {
+         "Test" : "unusedparameters",
+         "Status" : "Warning",
+         "Statistic" : 3,
+         "Message" : "You have 3 transformers with unused performance-related parameters."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : [ "FeatureMerger", "Clipper", "Displacer" ]
+            },
+            {
+               "Transformer Types" : [ "FeatureMerger", "Clipper", "Displacer" ]
+            },
+            {
+               "Transformer Parameter Names" : [ "SUPPLIERS_FIRST", "CLIPPERS_FIRST", "BASE_TYPE" ]
+            },
+            {
+               "Transformer Parameter Values" : [ "No", "NO", "Single Base" ]
+            }
+         ]
+      },
+      {
+         "Test" : "acrossoutputports",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "You have 1 transformer with output Across Output Ports."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : "TestFilter"
+            },
+            {
+               "Transformer Types" : "TestFilter"
+            }
+         ]
+      }
+   ],
+   "transformers" : [
+      {
+         "Test" : "featurereader",
+         "Status" : "Warning",
+         "Statistic" : 1,
+         "Message" : "Your workspace has 1 FeatureReader transformer reading both Data and Schema."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : "FeatureReader"
+            },
+            {
+               "Transformer Types" : "FeatureReader"
+            },
+            {
+               "Transformer Parameter Names" : "OUTPUT_FEATURES_DISPLAY"
+            },
+            {
+               "Transformer Parameter Values" : "Schema and Data Features"
+            }
+         ]
+      },
+      {
+         "Test" : "outofdate",
+         "Status" : "Information",
+         "Statistic" : 0,
+         "Message" : "You have 0 out of date transformers."
+      },
+      {
+         "Test" : "dubious",
+         "Status" : "Error",
+         "Statistic" : 4,
+         "Message" : "You have 4 transformers of dubious use."
+      },
+      {
+         "Information" : [
+            {
+               "Transformer Names" : [ "FMEFunctionCaller", "FMEFunctionCaller_2", "FMEFunctionCaller_3", "FMEFunctionCaller_4" ]
+            },
+            {
+               "Transformer Types" : [ "FMEFunctionCaller", "FMEFunctionCaller", "FMEFunctionCaller", "FMEFunctionCaller" ]
+            }
+         ]
+      }
+   ],
    "customtransformer" : [
       {
          "Test" : "norejectedport",
@@ -349,46 +389,6 @@
          "Status" : "Information",
          "Statistic" : 2.4,
          "Message" : "You have a ratio of 2.4 transformers/annotation."
-      }
-   ],
-   "performance" : [
-      {
-         "Test" : "unusedparameters",
-         "Status" : "Warning",
-         "Statistic" : 3,
-         "Message" : "You have 3 transformers with unused performance-related parameters."
-      },
-      {
-         "Information" : [
-            {
-               "Transformer Names" : [ "FeatureMerger", "Clipper", "Displacer" ]
-            },
-            {
-               "Transformer Types" : [ "FeatureMerger", "Clipper", "Displacer" ]
-            },
-            {
-               "Transformer Parameter Names" : [ "SUPPLIERS_FIRST", "CLIPPERS_FIRST", "BASE_TYPE" ]
-            },
-            {
-               "Transformer Parameter Values" : [ "No", "NO", "Single Base" ]
-            }
-         ]
-      },
-      {
-         "Test" : "acrossoutputports",
-         "Status" : "Warning",
-         "Statistic" : 1,
-         "Message" : "You have 1 transformer with output Across Output Ports."
-      },
-      {
-         "Information" : [
-            {
-               "Transformer Names" : "TestFilter"
-            },
-            {
-               "Transformer Types" : "TestFilter"
-            }
-         ]
       }
    ]
 }
